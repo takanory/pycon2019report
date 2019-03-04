@@ -10,11 +10,4 @@ Welcome to PyCon 2019 report's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   apac-pythoned
