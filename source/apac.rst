@@ -11,6 +11,7 @@ PyCon APACとは
 筆者はこのイベントに参加者としてだけでなく、スピーカー、またスポンサーしてブース出展をして来たので、イベントの模様をレポートしたいと思います。
 
 .. figure:: /images/apac-pythoned/apac.png
+   :width: 400
 
    PyCon APAC 22019 Webサイト
 
@@ -24,7 +25,10 @@ PyCon APACとは
 
 キーノート
 ==========
-キーノートはLiew Beng Keat氏によるAPAC地域でのPyConの歴史を語るものでした。
+キーノートはLiew Beng Keat氏による「Back to the Future!」題して、APAC地域でのPyConの歴史を語るものでした。
+
+* スライド: https://drive.google.com/drive/folders/1k_YLMsK5q-WGlgDciUEiYfvHk8XYcK3s
+* ビデオ: https://www.youtube.com/watch?v=G-rVt8OH-40  
 
 氏はPyCon SG(シンガポール)の立ち上げメンバーであり、PyCon APACの元を作った人です。
 トークの前半はPyCon SGを開催するまでについて語られました。
@@ -46,6 +50,7 @@ PyCon APACとは
 私自身、日本の他に台湾、韓国、シンガポールのPyConに参加してAPAC地域のPyCon仲間との交流を楽しんできました。さらにPyConが広がって、今回のフィリピンのように新しい国に訪問して、新しい仲間との出会いを楽しみたいと思います。
 
 .. figure:: /images/apac/bengkeat.jpg
+   :width: 600
 
    Liew Beng Keat氏
 
@@ -61,6 +66,7 @@ botに命令を出して、botがbuild、deployなどを実行している間に
 どこにでもLT芸人はいるんだなーと感心した発表です。
 
 .. figure:: /images/apac/pushups.jpg
+   :width: 600
 
    腕立て伏せをするLTスピーカー
 
@@ -70,6 +76,7 @@ botに命令を出して、botがbuild、deployなどを実行している間に
 堂々とした発表にただただすごいなという感想しか出ませんでした。
 
 .. figure:: /images/apac/lt-girl.jpg
+   :width: 600
 
    最年少スピーカーの発表
 
@@ -100,6 +107,7 @@ PyCon APACでは発表を行ってきました。
 また次の機会があれば、今回の反省を生かして、よりよい英語発表をしてきたいと思います。
 
 .. figure:: /images/apac/takanory.jpg
+   :width: 600
 
    筆者の発表の様子
 
@@ -115,6 +123,7 @@ PyCon APACでは日本で「Python 3 エンジニア認定基礎試験」を運�
 写真はブースの様子で、右側の人はブースに話を聞きに来てくれた参加者です。
 
 .. figure:: /images/apac-pythoned/booth.jpg
+   :width: 600
 
    PythonEDブースの様子
 
@@ -127,6 +136,7 @@ PyCon APACでは日本で「Python 3 エンジニア認定基礎試験」を運�
 席が空いている場合はその横の人が当たり、みたいにすることによりそれほどダレることもなく、サクサクとプレゼント抽選が行われ、なかなか盛り上がりました。
 
 .. figure:: /images/apac-pythoned/random.jpg
+   :width: 600
 
    random.cohice() で当選者を決めるコード
 
@@ -140,10 +150,36 @@ PyCon APAC 1日目の夜は、スタッフとスピーカーのディナーに�
 Python Phillipinesの主催者の方や
 
 .. figure:: /images/apac/dinner.jpg
+   :width: 600
+
+   ディナーでの集合写真
+
+.. figure:: /images/apac/spektral.jpg
+   :width: 600
 
    ディナーでの集合写真
 
 2日目の夜は、日本から参加したメンバーで一緒にディナーをしようということで、フィリピン料理で有名なお店に行きました。
+
+.. figure:: /images/apac/yohei.jpg
+   :width: 600
+
+   Yohei Onishi
+
+.. figure:: /images/apac/team-japan.jpg
+   :width: 600
+
+   Team Japan
+
+.. figure:: /images/apac/meat.jpg
+   :width: 600
+
+   Team Japan
+
+.. figure:: /images/apac/perfectpint.jpg
+   :width: 600
+
+   Team Japan
 
 まとめ
 ======
