@@ -78,7 +78,7 @@ botに命令を出して、botがbuild、deployなどを実行している間に
 .. figure:: /images/apac/lt-girl.jpg
    :width: 600
 
-   最年少スピーカーの発表
+   最年少スピーカーによる発表
 
 自身の発表
 ==========
@@ -147,43 +147,71 @@ PyCon参加の醍醐味はPyConそのものだけでなく、そこに参加す�
 最近は世界的なクラフトビールブームもあり、ご当地クラフトビールが飲めて非常に楽しいです。
 
 PyCon APAC 1日目の夜は、スタッフとスピーカーのディナーに招待されたので、参加してきました。
-Python Phillipinesの主催者の方や
+イベントの主催者、ボランティアのみなさん、各国から集まったスピーカーで楽しく現地の料理をいただきました。
+お酒がなくて、マンゴー、メロン、すいかシェイクしか選べないのは誤算でしたが...
 
 .. figure:: /images/apac/dinner.jpg
    :width: 600
 
    ディナーでの集合写真
 
+ディナーの後は「ビールに行こうぜ!!」と声をかけて歩いてすぐのビアラウンジ `Spektral <https://www.zomato.com/manila/spektral-beer-lounge-legaspi-village-makati-city>`_ へ移動。
+25TAP（25種類の生ビールが提供されていること）あり、国内や輸入もののさまざまなビールがあるいい感じのお店でした。
+カウンターをPyCon APAC一行で占領して楽しくビールを飲みました。
+私は2日目の発表の準備がまだ終わっていないこともあり、2杯飲んだところで非常に残念なことに先に店を後にしました。
+
 .. figure:: /images/apac/spektral.jpg
    :width: 600
 
-   ディナーでの集合写真
+   ビールを飲みながら談笑
 
-2日目の夜は、日本から参加したメンバーで一緒にディナーをしようということで、フィリピン料理で有名なお店に行きました。
+2日目は日本から来たメンバーで集まって写真を撮りました。
+ここで初めて会う人もいたりして面白いです。
+PyCon APACのスピーカーに「Yohei Onishi」という日本人っぽい名前があり、会って話してみると日本出身の方ですが現在はシンガポールで働いているそうです。
+2日目の発表直後に飛行機の都合で移動しないといけないとこのことだったので「私がシンガポールに行ったときには、また会いましょう」という話をして別れました。
 
 .. figure:: /images/apac/yohei.jpg
    :width: 600
 
-   Yohei Onishi
+   左がYohei Onishiさん
+
+次の写真はカンファレンス終了後に集まって写真を撮ったところです。
+左から2人目の `nobnov <https://twitter.com/nobnov>`_ さんは、 `Python mini Hack-a-thon 雪山合宿 2019 <https://pyhack.connpass.com/event/104809/>`_ で初めて会ったんですが、そこでPyCon APACのことを知って参加したそうです。
+中央の `taxfree <https://twitter.com/taxfree_python>`_ さんは完全に初対面。
+話を聞いてみると `PyCon Kyushu in Okinawa 2019 <https://kyushu.pycon.jp/2019/>`_ のスタッフをやっていて、PyConに参加したことがないので体験するためにPyCon APACに来たそうです。
+すごいガッツだなと思いました。
 
 .. figure:: /images/apac/team-japan.jpg
    :width: 600
 
-   Team Japan
+   日本から来た
+
+2日目の夜は、日本から参加したメンバーで一緒にディナーをしようということで、 `Sentro 1771 <http://sentro1771.com/>`_ というモダンなフィリピン料理で有名なお店に行きました。
+色々おいしかったですが、メニューの名前からはどういう料理かまったく想像ができないですね。
 
 .. figure:: /images/apac/meat.jpg
    :width: 600
 
-   Team Japan
+   ガーリックステーキ、とてもおいしい
 
+ディナーを食べた後は、台湾のNoah、韓国のYounggunとかに「私はディナーに行くので、あとでここで飲もう」と伝えていた `The Perfect Pint <https://www.zomato.com/manila/the-perfect-pint-greenbelt-makati-city>`_ に移動しました。
+3〜4人で飲んでいるのかなーと思っていたら、フィリピンメンバーとかもして15人くらいで飲んでいてびっくりしました。
+メンツを聞いてみるとフィリピン以外は台湾、韓国、インドネシア、インド、タイと国際色豊かでまさにPyCon APACという感じです。
+インドの人に「日本のこいつ知っているか?」と写真を見せられたのですが、それがPyCon APAC 2018のときのもので「日本人は全員知っているし、そもそもこの店選んだの私だから」という話をしました。世間は狭い（`「PyCon APAC 2018 in Singapore」参加レポート の懇親会の写真と同じものです <https://gihyo.jp/news/report/01/pycon-apac2018/0002?page=3>`_）。
+
+気がつくとフィリピン勢は全員帰っており（まぁ、スタッフで疲れてますよね）、最後まで残ったメンバー（韓国、台湾、タイ、インド、日本）で写真を撮りました。
+**GREAT TIMES START HERE** の文字をバックに、ここでの出会いから新しいすてきなことがはじまりそうです。
+           
 .. figure:: /images/apac/perfectpint.jpg
    :width: 600
 
-   Team Japan
+   Great Times Start Here
 
 まとめ
 ======
+初めてのフィリピンでのPyCon APACは、私にとっても英語でのトーク、ブース出展など初めての体験がたくさんありました。
 
 .. figure:: /images/apac/group-photo.jpg
+   :width: 600
 
-   集合写真  
+   PyCon APACの参加者集合写真  
