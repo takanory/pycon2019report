@@ -11,7 +11,7 @@ PyCon APACとは
 筆者はこのイベントに参加者としてだけでなく、スピーカー、またスポンサーしてブース出展をして来たので、イベントの模様をレポートしたいと思います。
 
 .. figure:: /images/apac-pythoned/apac.png
-   :width: 400
+   :width: 600
 
    PyCon APAC 22019 Webサイト
 
