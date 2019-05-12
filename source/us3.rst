@@ -1,0 +1,174 @@
+==============================
+ US PyCon 2019レポート: 第3回
+==============================
+
+Fun Run
+=======
+* [ ] Day 3: Fan Run(se-lina)
+
+ライトニングトーク
+==================
+* 朝8:40から開始...
+* 高校生の発表
+
+  * Code Our dreamsをシカゴで始めた
+  * codeourdreams.org
+
+* learn to program with minecraft
+
+  * つなげられるけどone-way
+  * websocketでつなぐ(へー
+  * まだコンセプト段階らしい
+
+* PySlackers
+
+  * オープンコミュニティ
+  * https://pyslackers.com/
+  * 21352 members, 79 channels
+  * メッセージライフタイムが一週間(うける
+
+* conda-forge
+
+  * conda-press: conda -> wheel
+  * https://github.com/regro/conda-press
+
+* Regional Python Conferences!
+
+  * PyCon Africaの人もいた
+  * terapyonがJPについて発表してた
+
+Keynote: Python Steering Council
+================================
+* Ewaが司会
+* Barry, Brett, Carol, Guido, Nick
+* Berry
+
+  * 最初のPython workshopは20名の参加者
+  * 25年ですごくでかくなった
+* Brett
+
+  * VSCodeの開発者
+* Carol
+
+  * 2016にフィリピンでキーノートやった
+  * Pythonは科学、データサイエンス、組み込み、Webとかいろいろ使えるよね
+* Guido
+
+  * I was a programmer
+  * 去年燃え尽きた
+  * I nominated myself for steering committee
+* Nick
+
+  * ハードウェアとC++使ってた
+
+* governance が変わってPythonは変化し続けていける?
+
+  * Guido: PEPにyes/no, A/Bを選ぶのはちょっとストレスフルだった。steering councilによる投票は...PEP-13でguidelineをきめている。将来的には
+
+* ewa: ここ3年でデータサイエンスとPythonはできあくなっている。科学コミュニティとの関係は?
+
+  * Carol:
+
+* EWA: PEP581 Mariattaがauthor。
+
+  * Brett: bugs.python.orgに入った
+  * https://www.python.org/dev/peps/pep-0581/
+  * PEP-588 になっていく
+
+* EWA: packaging workshopはmozillaからサポートを受けた。次のアクションは?
+
+  * Nick: 
+
+* EWA: PEP-1のPEPプロセスを変える?
+
+  * PEPsは決定するためのプロセス
+  * BDFL delegatesがあるよ
+  * next generation of Python leaders
+  * keep Python and community healty
+  * next 25年
+
+* Python全体を見ていく?
+
+  * Guido: Pythonのインプリメンテーションを見ていく
+
+* Python 2使っている人→結構手が上がる→思ったよりは少ない
+* なにかプランはありますか?
+
+  * Guido: パーティーしよう
+  * Nick: 商用ベンダーPython 2を2020以降もサポートすると思う
+  * Carol: Instagramが2から3に移行したキーノートがあった
+
+* Ewa: diversityをひろげるのになにか考えはある?
+
+  * Carol: Mariattaは最初の女性のcore開発者。楽しかったらSprintにも参加してね。
+  * Barry: Paul Everett。彼はコミュニティでいろんな人をメンターした。
+
+* pycon.us/panel: sli.doで質問を受け付け
+* What is your favorite PEP?
+
+  * Barry: 401
+  * Brett 3100
+  * Crarol 500
+  * GUido: 343
+
+* We hear a lot about burnout of core developers. Does the council have any plan to improve this? Is there anything that the community can d?o
+
+  * Brett: PEP-581, 去年の私のキーノートをPoster
+  
+Poster Session
+==============
+* あとで書く
+* いろんな人が話をきいてくれたよ
+* Guidoもきてくれたよ
+* Paulとも再開
+
+Jobs Fair
+=========
+* [ ] Day 3: Jobs Fair(Kagesawa)
+
+Python Software Foundation Community Report and Community Service Awards
+========================================================================
+* ewa
+* いろんなコミュニティがあって、いろんな機会があるよ
+* python.org/psf/annual-report/2019/
+* PSFはいろんなコミュニティをサポートするよ
+* PSFのサポートも尾根阿木
+
+  * pycon.us/pbf からdonate
+  * PyCharmのライセンスを買ってPSFに渡す?
+* PSFチームの紹介。いつからPSFにいてなにやっているかとか。最近入った人もいれば、PSFで20年活動人とかもいる。
+* Community Service Award Winners
+
+  * Mario Corchero: Spain, Latin America UKでオーガナイザー
+  * Chukwudi Nwachukwu: ナイジェリアのコミュニティ
+  * Alex Gaynor: PSF Director, PyPIの移行とか
+  * Mariatta Wijaya: CPythonとか
+  * Mayela Snachez Miranda: PyCon Chalas 2018 Chair, PyCon Mexico, Django Girls Puebla
+  * John Roa: founda and PyCon Colombia Chair
+  * Stefan Behnel: CPython, XMLのmaintenar
+  * Eric Ma: PyCon program member several year
+
+Keynote - Nina Zakharenko
+=========================
+* 中にはいっているボードのプログラムの仕方
+* ギャル電っぽい
+* カメラで動作を見せながらやっていた
+* printでデバッグ
+
+Final Remarks and Conference Close
+==================================
+* 3200名が参加
+* Developer surbeyは100以上の国から8000名
+* pycon.org
+* pycon.us/regional
+* 2020, 2021のChair Emilyの紹介
+
+Dinner Party
+============
+
+開発Sprint
+==========
+* Development Sprints
+* Packaging Summitに参加
+* https://twitter.com/EWDurbin/status/1125414881363148800
+* https://files.slack.com/files-pri/T02PZGMUG-FJH75G9JB/image_from_ios.jpg
