@@ -13,7 +13,7 @@ PyCon APACとは
 .. figure:: /images/apac-pythoned/apac.png
    :width: 600
 
-   PyCon APAC 22019 Webサイト
+   PyCon APAC 2019 Webサイト
 
 以下はPyCon APAC 2019の開催概要です。
 
