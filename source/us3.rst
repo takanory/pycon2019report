@@ -8,6 +8,7 @@ Fun Run
 
 ライトニングトーク
 ==================
+* ビデオ: https://www.youtube.com/watch?v=bnxxoTx9Sko
 * 朝8:40から開始...
 * 高校生の発表
 
@@ -39,6 +40,7 @@ Fun Run
 
 Keynote: Python Steering Council
 ================================
+* ビデオ: https://www.youtube.com/watch?v=8dDp-UHBJ_A
 * Ewaが司会
 * Barry, Brett, Carol, Guido, Nick
 * Berry
@@ -128,6 +130,7 @@ Jobs Fair
 
 Python Software Foundation Community Report and Community Service Awards
 ========================================================================
+* ビデオ: https://www.youtube.com/watch?v=P4IfFLAX9hY
 * ewa
 * いろんなコミュニティがあって、いろんな機会があるよ
 * python.org/psf/annual-report/2019/
@@ -150,6 +153,7 @@ Python Software Foundation Community Report and Community Service Awards
 
 Keynote - Nina Zakharenko
 =========================
+* ビデオ: https://www.youtube.com/watch?v=35mXD40SvXM
 * 中にはいっているボードのプログラムの仕方
 * ギャル電っぽい
 * カメラで動作を見せながらやっていた
@@ -157,6 +161,7 @@ Keynote - Nina Zakharenko
 
 Final Remarks and Conference Close
 ==================================
+* ビデオ: https://www.youtube.com/watch?v=ADutU_sFXXA
 * 3200名が参加
 * Developer surbeyは100以上の国から8000名
 * pycon.org
