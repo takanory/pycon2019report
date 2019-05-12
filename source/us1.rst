@@ -7,7 +7,7 @@ US PyCon とは
 `PyCon <https://www.pycon.org/>`_ はプログラミング言語Pythonに関する国際カンファレンスです。
 アメリカで開催されるUS PyConや日本で開催されるPyCon JPを含め世界中で開催されています。
 
-今回レポートするPyConの発祥であり世界最大のもので、今回は約3,500人が参加しました。
+今回レポートするPyConの発祥であり世界最大のもので、今回は約3,200人が参加しました。
 筆者はこのイベントに初めての参加者としてだけでなく、Posterセッションのスピーカーとして参加してきました。
 各国のPyConに参加したことがありますが、USにはまた他とは異なる面白い部分がありました。
 そういったところを中心にレポートしていきたいと思います。
@@ -25,8 +25,8 @@ US PyCon とは
    - 2019年5月3日(金)~5日(日): カンファレンス
    - 2019年5月6日(月)~9日(木): 開発スプリント
 :場所: オハイオ州クリーブランド
-:会場: Huntington Convention Center
-:参加費: XXXドル(約XXX円)
+:会場: `Huntington Convention Center <https://www.clevelandconventions.com/>`_
+:参加費: 個人400ドル(学生125ドル、企業700ドル)
 :主催: `Python Software Foundation <https://python.org/psf>`_
 
 会場とカンファレンス全体像
@@ -58,7 +58,7 @@ US PyCon とは
 ===================
 
 オープニング
-------------
+============
 * Thank Yous
 * pycon.us/conduct
 * しゃべっている内容がテキストになるのすごい!!!
@@ -83,7 +83,7 @@ US PyCon とは
 * 写真に写りたくない人はネームタグに赤いリボンをつける(へー
 
 Keynote: Russel Keith-Magee
----------------------------
+===========================
 * Survata: Data science company
 * Django
 * Pythonは28年でコミュニティが育ってきた
@@ -116,6 +116,9 @@ Keynote: Russel Keith-Magee
 
     * psf, django, numfocusなどにdonateする
   * 5. Contribute.
+
+発表から
+========
 
 API
 ---
@@ -208,14 +211,14 @@ Making music with supercollider
 * ライブでコーディングして曲を作っていく
 
 ライトニングトーク
-------------------
+==================
 * 毎日ライトニングトークがある
 * ボードに24名までサインアップできて、選ばれた10名程度に連絡がいくらしい
 * 日本から参加したHirataさんがLT発表した
 * [ ] Day 1: Lightning Talksで発表した(hirata)
 
 まとめ
-------
+======
 * 規模のでかさにびっくりした
 * 日本から見知らぬ参加者がいた
 * クラフトビールがたくさんある

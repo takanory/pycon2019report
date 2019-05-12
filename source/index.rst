@@ -12,4 +12,6 @@ Welcome to PyCon 2019 report's documentation!
 
    apac-pythoned
    apac
-   us*
+   us1
+   us2
+   us3
