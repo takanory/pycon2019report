@@ -15,7 +15,7 @@ US PyCon とは
 キーノートなどの発表を中心にしつつ、個人的に面白いなと思った部分についてもレポートしていきたいと思います。
 
 .. figure:: /images/us/website.png
-   :width: 600
+   :width: 500
 
    US PyCon 2019 Webサイト
 
@@ -39,7 +39,7 @@ US PyConはHuntington Convention Centerという会場で開催されました�
 企業ブース、ランチ会場などがあるメイン会場は幕張メッセのホールみたいな感じで、その横にキーノートやライトニングトークが行われる2,000人とかは入りそうなホールがあります。
 
 .. figure:: /images/us/hall.jpg
-   :width: 600
+   :width: 500
 
    メイン会場のホールB, C
 
@@ -67,7 +67,7 @@ US PyConはHuntington Convention Centerという会場で開催されました�
 乗り継ぎもあるしバッキバキになってないか心配だったんですが、空港のターンテーブルで無事なポスターを見てほっと一安心しました。
 
 .. figure:: /images/us/poster-in-turntable.jpg
-   :width: 450
+   :width: 400
 
    ポスターが折れずにちゃんと届いた
 
@@ -76,9 +76,28 @@ US PyConはHuntington Convention Centerという会場で開催されました�
 当然ですがアジア人の旅行者なんて誰も乗っていません(というか旅行者も私含めて3名くらいしか乗っていない)。
 周りと目を合わさずに目的の駅に無事到着し、10分ほど歩いてホテルに到着しました。
 
-受付してnewcomers参加
----------------------
-* どんなイベントがあるかを詳細に説明
+この日は同じ部屋に泊まる寺田さん(`@terapyon <https://twitter.com/terapyon>`_)や韓国のYounngun(`@scari_net <https://twitter.com/scari_net/>`_)、シカゴ在住で日本に住んでいたときに友達になったJason(`@jason_wirth <https://twitter.com/jason_wirth>`_)などとクリーブランドのクラフトビールとピザを食べに行きました。
+
+.. figure:: /images/us/masthead.jpg
+   :width: 500
+
+   ピザがおいしかった(当然ビールも)
+
+受付としてオリエンテーションに参加
+----------------------------------
+カンファレンス前日はまずは受付をすませておきました。
+受付に行って受付票のバーコードをカメラで読み取ると、プリンターから名札とTシャツ、パーティーなどあらかじめ申し込んだオプションのチケットが1枚の紙に印刷され、それを切り取って使います。すごい効率的で便利そうです。
+
+パンフレットは会場全体図と、トークのタイムテーブルのみが印刷された、4ページ両面のシンプルなものです。詳細な情報は `guidebook <https://guidebook.com/g/pycon2019/>_` というスマートフォンのアプリで見てね、というスタンスのようです。
+たしかにトークの数もイベントの数も大量にあるので、紙だと大変なことになりそうで納得です。
+
+.. figure:: /images/us/nametag.jpg
+   :width: 500
+
+   名札とパンフレット
+
+夕方からNewcomer Orientationというイベントがあるので、USのPyConは初めてなので参加してみました。
+内容としてはPyConの中でどんなイベントがあるかということを詳しく紹介するというものでした。
 
 Opening Reception
 -----------------
@@ -289,7 +308,7 @@ Making Music with Python, SuperCollider and FoxDot
    いざ、ステージに上がるとみんなが温かい目でトークを聞いてくれている感覚があり、思っていた以上に緊張せずに話しきることができました。
 
    .. figure:: /images/us/hiratas-lt.jpg
-      :width: 600
+      :width: 500
    
       Hirataさんの発表の様子
 
@@ -303,7 +322,7 @@ Making Music with Python, SuperCollider and FoxDot
    この多様性を受け入れる姿勢、この言語化できないような感覚は日本でもチームワークを上手く進める上で忘れずにコアな考えとして大事にしていきたいと思います。
 
    .. figure:: /images/us/hirata-and-guido.jpg
-      :width: 600
+      :width: 500
    
       HirataさんとGuido氏
 
