@@ -72,6 +72,7 @@ Keynote: Jessica Mackeller
 
 PSF Directorへのインタビュー
 ============================
+https://docs.google.com/document/d/1PdcQnpl7hFKAvNDMGXb1JWs_3dt7wP_NnO-Gp6nsoco
 
 PyLadies Auction
 ================

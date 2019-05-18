@@ -5,6 +5,7 @@
 Fun Run
 =======
 * [ ] Day 3: Fan Run(se-lina)
+* https://docs.google.com/document/d/1fmjgxNvYfnDd-RNQTFFEC0iCJx2wnuXM30-ZEtVVvEU/edit?usp=sharing  
 
 ライトニングトーク
 ==================
@@ -127,6 +128,7 @@ Poster Session
 Jobs Fair
 =========
 * [ ] Day 3: Jobs Fair(Kagesawa)
+* https://docs.google.com/document/d/19LfDGT-wO3oE3ha1B1n273M5v8DYKMVrOBm2wuqKw0s/edit?usp=sharing
 
 Python Software Foundation Community Report and Community Service Awards
 ========================================================================
@@ -177,3 +179,4 @@ Dinner Party
 * Packaging Summitに参加
 * https://twitter.com/EWDurbin/status/1125414881363148800
 * https://files.slack.com/files-pri/T02PZGMUG-FJH75G9JB/image_from_ios.jpg
+* https://docs.google.com/document/d/19LfDGT-wO3oE3ha1B1n273M5v8DYKMVrOBm2wuqKw0s/edit?usp=sharing
