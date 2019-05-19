@@ -1,0 +1,405 @@
+==========
+ US PyCon
+==========
+
+.. contents::
+   local
+
+TODO
+====
+* 追加コンテンツ
+* [ ] Day 1: Lightning Talksで発表した(hirata)
+* [ ] Day 2: Ewaへのインタビュー(kanan)
+* [ ] Day 3: Fan Run(se-lina)
+* [ ] Day 3: LTでPyCon JPを宣伝(terapyon)
+* [ ] Day 3: Jobs Fair(Kagesawa)
+
+May 2
+=====
+* 受付
+* newcomers
+* reception  
+
+May 3
+=====
+
+Opeining
+--------
+* Thank Yous
+* pycon.us/conduct
+* しゃべっている内容がテキストになるのすごい!!!
+* 基本的な説明はしている感じ
+* 会場とかごはんとかブースとか
+* スポンサーの数がすごい
+* 5 talk tracks 95 sessisons
+* Open Spaces pycon.us/os
+* PyCon Hatchery: PyConを育てるためのアイデア
+
+  * Las PyCon Charlas: スペイン
+  * The Art of Python
+  * Maintainers Summit
+  * Menters Sprints
+* Think Pac-Man
+* Gender Neutral Restrooms
+* Mother's Rooms
+* Swag Bags
+
+  * Digi-Key
+  * T-shirts
+* 写真に写りたくない人はネームタグに赤いリボンをつける(へー
+
+Keynote: Russel Keith-Magee
+---------------------------
+* Survata: Data science company
+* Django
+* Pythonは28年でコミュニティが育ってきた
+* このでかいカンファレンスがクリーブランドで開催されている
+* Where do you see Python in 10 years?
+* Black Swan events
+* Python's Black Swan
+
+  * Black Swan 1: Everyone uses laptop
+  * Black Swan 2: Python can stay on the server
+  * Black Swan 3: Installation is ...
+  * Black Swan 4: Code distributuin doesn't matter
+* BeeWareプロジェクト
+
+  * https://beeware.org/
+  * Mac, Linux, Win, iOS, Android, Djangoで動くらしい
+    
+* Burn out
+
+  * 誰かがすごいプレッシャーをかけて燃え尽きちゃう
+  * この人もDjangoプロジェクトで燃え尽きたらしい
+  * The (hidden human cost of FLOSS
+
+* 5 calls to action
+
+  * 1. Start thinking about Black swans.
+  * 2. Improve resourcinf of maintenance and R&D efforts.
+  * 3. Value contributors and their contributions.
+  * 4. Get out your wallets.
+
+    * psf, django, numfocusなどにdonateする
+  * 5. Contribute.
+
+API
+---
+* APIを拡張するとキメラになってく
+* Pytno 2, bool(datetime.time(0, 0)) == False
+* Pytno 3, bool(datetime.time(0, 0)) == True
+* Aboid Bad Features
+* Minimisze Features
+* Make Expreimental Features "Provisional"
+* Whether to Delelte a Feature
+
+  * Pros/Cons
+* Delete Feature Gently
+
+  * warinigでdeprecateメッセージを出す
+  * PyChamrとかだと打ち消し線が出る→へー
+
+* Maintain a Change Log
+* Semantic Versioning(PEP 440)
+* Write an Upgrade Guide
+* Change a Behabior
+
+  * without API changes
+
+Migrating Piterest from Python 2 to Python 3
+--------------------------------------------
+* スライドごとに入れ替わってしゃべるスタイル(ちょっと面白い
+* Approach
+* Django, 250 million monthly active users
+* 2.6 million of code
+* 10 years
+* 3,500 changes montyhy, 452 developers
+
+* Gradual Py3 Rollout
+
+  * Make Py3 available
+  * Test under Py2 and Py3
+  * Migrate
+  * Drop Py2
+  * add Py3 features
+
+* Upgrade requirements
+
+  * https://github.com/brettcannon/caniusepython3
+* Python Future
+
+  * Easy, clean, reliable Python 2/3 compatibility
+
+* Dependency Graph
+
+  * __import__() にmonky patch
+  * Buld a list of modules that run under Py3
+
+* The Good
+
+  * lib2to3.fixes.fix_print
+  * lib2to3.fixes.fix_except
+  * lib2to3.fixes.fix_metaclass
+  * lib2to3.fixes.fix_absoulte_import
+
+* The Bad
+
+  * Numbers
+
+    * 割り算, round()
+    * None > 1, 01
+
+  * Bytes
+
+    * Py2, 3で動作が違う
+
+  * string
+
+    * string.letters
+
+  * Scopes
+  * Dictionaries
+
+    * 3.6+ で順番が維持される
+    * keys() がリストじゃない
+
+  * Unicode, StringIO
+
+* Pythonコードクイズみたいになってきた
+
+Making music with supercollider
+-------------------------------
+* https://ja.wikipedia.org/wiki/SuperCollider
+* http://foxdot.org/
+* ライブでコーディングして曲を作っていく
+
+May 4
+=====
+Keynote: Sha
+------------
+* 中学生の時に銃を運んでた?
+* おばさんが薬のディーラー
+* 3歳上の兄がギャングで薬の売人
+* 兄がつかまった
+* 14歳ですべてが変わった
+* 兄が死んだ(殺された
+* 刑務所でオーディオとビデオについて学んだ
+* Podcastやった
+* TEDx やった
+* 2017にJessicaからPythonを学んだ
+* 刑務所にTimオライリーがタブレットをプレゼント
+* 2017年8月17日、出所した?
+
+Keynote: Jessica Mackeller
+--------------------------
+* San Wuentinでの1年前の写真
+* Goalは監獄に入る人を減らすことと、再度はいる人を減らす
+* 技術者は仕事とスキルとお金を持っている
+* 個人として
+
+  * お金やものの支援
+  * トレーニングと社会復帰、刑務所の中でも外でも
+  * Political 
+* Prison Programs
+
+  * Prison University Project
+* コンピューターとか携帯の使い方を教える
+* As technologists: 技術者として
+
+  * Teck-focused job training ant re-entry
+
+    * Last Mile: changing lives through tech
+    * https://thelastmile.org/
+  * Bootcamps
+  * Tech support for local reform organizations
+
+    * pro bono
+* As employers
+
+  * Hire poeple with records
+  * 逮捕されたことがあると就職率が低い→黒人の方がさらに低い
+
+    * Background checks
+    * Entry-level roles
+    * Active outreach
+
+* Pilotの中でサポートするスペシャリストがいるの。すごい
+
+  * Last MileプログラムでHTML, CSS, JavaScriptをまなんだ
+  * その後Boot Campに参加
+
+* Taking Action
+
+  * Vote in and get our family and fire
+  * Ask our employers and schools how they
+  * By PyCon 2020, help someone who got out f prison recently get a job
+
+* gofundmeで募金の呼びかけ
+
+  * https://www.gofundme.com/antwan-williams
+  * あっという間にお金が集まったらしい
+
+PyLadies Auction
+----------------
+    
+May 5
+=====
+Lightning Talks
+---------------
+* 朝8:40から開始...
+* 高校生の発表
+
+  * Code Our dreamsをシカゴで始めた
+  * codeourdreams.org
+
+* learn to program with minecraft
+
+  * つなげられるけどone-way
+  * websocketでつなぐ(へー
+  * まだコンセプト段階らしい
+
+* PySlackers
+
+  * オープンコミュニティ
+  * https://pyslackers.com/
+  * 21352 members, 79 channels
+  * メッセージライフタイムが一週間(うける
+
+* conda-forge
+
+  * conda-press: conda -> wheel
+  * https://github.com/regro/conda-press
+
+* Regional Python Conferences!
+
+  * PyCon Africaの人もいた
+  * terapyonがJPについて発表してた
+
+Keynote: Python Steering Council
+--------------------------------
+* Ewaが司会
+* Barry, Brett, Carol, Guido, Nick
+* Berry
+
+  * 最初のPython workshopは20名の参加者
+  * 25年ですごくでかくなった
+* Brett
+
+  * VSCodeの開発者
+* Carol
+
+  * 2016にフィリピンでキーノートやった
+  * Pythonは科学、データサイエンス、組み込み、Webとかいろいろ使えるよね
+* Guido
+
+  * I was a programmer
+  * 去年燃え尽きた
+  * I nominated myself for steering committee
+* Nick
+
+  * ハードウェアとC++使ってた
+
+* governance が変わってPythonは変化し続けていける?
+
+  * Guido: PEPにyes/no, A/Bを選ぶのはちょっとストレスフルだった。steering councilによる投票は...PEP-13でguidelineをきめている。将来的には
+
+* ewa: ここ3年でデータサイエンスとPythonはできあくなっている。科学コミュニティとの関係は?
+
+  * Carol:
+
+* EWA: PEP581 Mariattaがauthor。
+
+  * Brett: bugs.python.orgに入った
+  * https://www.python.org/dev/peps/pep-0581/
+  * PEP-588 になっていく
+
+* EWA: packaging workshopはmozillaからサポートを受けた。次のアクションは?
+
+  * Nick: 
+
+* EWA: PEP-1のPEPプロセスを変える?
+
+  * PEPsは決定するためのプロセス
+  * BDFL delegatesがあるよ
+  * next generation of Python leaders
+  * keep Python and community healty
+  * next 25年
+
+* Python全体を見ていく?
+
+  * Guido: Pythonのインプリメンテーションを見ていく
+
+* Python 2使っている人→結構手が上がる→思ったよりは少ない
+* なにかプランはありますか?
+
+  * Guido: パーティーしよう
+  * Nick: 商用ベンダーPython 2を2020以降もサポートすると思う
+  * Carol: Instagramが2から3に移行したキーノートがあった
+
+* Ewa: diversityをひろげるのになにか考えはある?
+
+  * Carol: Mariattaは最初の女性のcore開発者。楽しかったらSprintにも参加してね。
+  * Barry: Paul Everett。彼はコミュニティでいろんな人をメンターした。
+
+* pycon.us/panel: sli.doで質問を受け付け
+* What is your favorite PEP?
+
+  * Barry: 401
+  * Brett 3100
+  * Crarol 500
+  * GUido: 343
+
+* We hear a lot about burnout of core developers. Does the council have any plan to improve this? Is there anything that the community can d?o
+
+  * Brett: PEP-581, 去年の私のキーノートをPoster
+  
+見てね Session & Jobs Fair
+--------------------------
+* あとで書く
+* いろんな人が話をきいてくれたよ
+* Guidoもきてくれたよ
+* Paulとも再開
+
+Python Software Foundation Community Report and Community Service Awards
+------------------------------------------------------------------------
+* ewa
+* いろんなコミュニティがあって、いろんな機会があるよ
+* python.org/psf/annual-report/2019/
+* PSFはいろんなコミュニティをサポートするよ
+* PSFのサポートも尾根阿木
+
+  * pycon.us/pbf からdonate
+  * PyCharmのライセンスを買ってPSFに渡す?
+* PSFチームの紹介。いつからPSFにいてなにやっているかとか。最近入った人もいれば、PSFで20年活動人とかもいる。
+* Community Service Award Winners
+
+  * Mario Corchero: Spain, Latin America UKでオーガナイザー
+  * Chukwudi Nwachukwu: ナイジェリアのコミュニティ
+  * Alex Gaynor: PSF Director, PyPIの移行とか
+  * Mariatta Wijaya: CPythonとか
+  * Mayela Snachez Miranda: PyCon Chalas 2018 Chair, PyCon Mexico, Django Girls Puebla
+  * John Roa: founda and PyCon Colombia Chair
+  * Stefan Behnel: CPython, XMLのmaintenar
+  * Eric Ma: PyCon program member several year
+
+Keynote - Nina Zakharenko
+-------------------------
+* 中にはいっているボードのプログラムの仕方
+* ギャル電っぽい
+* カメラで動作を見せながらやっていた
+* printでデバッグ
+
+Final Remarks and Conference Close
+----------------------------------
+* 3200名参加
+* Developer surbeyは100以上の国から8000名
+* pycon.org
+* pycon.us/regional
+* 2020, 2021のChair Emilyの紹介
+
+May 6
+=====
+* Development Sprints
+* Packaging Summitに参加
+* https://twitter.com/EWDurbin/status/1125414881363148800
+* https://files.slack.com/files-pri/T02PZGMUG-FJH75G9JB/image_from_ios.jpg

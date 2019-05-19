@@ -109,175 +109,196 @@ Orientationが終わると、そのまま隣のメイン会場に移動してOpe
 企業ブースの準備も終わっているので、ビール片手にブースを見て回ったり、参加者同士で交流したりとカジュアルで楽しいイベントでした。
 このタイミングでブースを回りまくってTシャツなどのグッズを集める人もいるようです。
 
+.. figure:: /images/us/booth1.jpg
+   :width: 300
+
+   ビール片手にブースを回る
+
 ブース自体は写真のように本格的ですが、カジュアルに会話をしていていい感じだなと重いました。
 名札のバーコードで参加すると情報が管理されていました。
 
-(TODO: ブースの写真)
+.. figure:: /images/us/booth2.jpg
+   :width: 500
 
-カンファレンス1日目
-===================
+   企業ブースの様子(GoogleとSlackは2番目に大きいブース)
+
+.. figure:: /images/us/booth3.jpg
+   :width: 500
+
+   企業ブースの様子(MicrosoftとFacebook+Instagramが1番大きいブース)
 
 オープニング
 ============
 * ビデオ: https://www.youtube.com/watch?v=iyV1NUaSt0k
 * Thank Yous
-* pycon.us/conduct
-* しゃべっている内容がテキストになるのすごい!!!
-* 基本的な説明はしている感じ
-* 会場とかごはんとかブースとか
-* スポンサーの数がすごい
-* 5 talk tracks 95 sessisons
-* Open Spaces pycon.us/os
-* PyCon Hatchery: PyConを育てるためのアイデア
 
-  * Las PyCon Charlas: スペイン
-  * The Art of Python
-  * Maintainers Summit
-  * Menters Sprints
-* Think Pac-Man
-* Gender Neutral Restrooms
-* Mother's Rooms
-* Swag Bags
+いよいよ5月3日となってカンファレンスが開始しました。
+オープニングはConference ChairのErnest W. Durbin IIIさん(`@ewdurbin <https://twitter.com/ewdurbin>`_)さんの進行ですすめられました。
+最初に「Welcome」で参加者にようこそと伝えて、「Thank Yous」というタイトルで関係者へのお礼などを言っていく感じです。
+3番目の話が「Code of Conduct(行動規範)」の話でした。
+Code of Conductについてはは毎日オープニングでも触れられていて、重要に感得ていると感じました。
+また、Code of Conductがあるだけではなく、なにかあったら連絡をちょうだいと「電話番号とメールアドレス」が用意してあるのはよいなと思いました。
+いきなりSNSに書き込まれて炎上することは誰にもメリットがないと思うので、連絡先を明記するのは大事だなと思いました。
+  
+.. figure:: /images/us/opening1.jpg
+   :width: 500
 
-  * Digi-Key
-  * T-shirts
-* 写真に写りたくない人はネームタグに赤いリボンをつける(へー
+   Conference ChairのDurbin氏によるオープニング
 
-Keynote: Russel Keith-Magee
-===========================
+あとは会場案内や食事やスポンサー、5トラック95セッション(すごい数ですね)あること、Open Spacesなどの案内がありました。
+また「PyCon Hatchery」という名前でいくつかの新しい試みの紹介がされていました。スペイン語トラックのLas PyCon Charlas、The Art of Python、Maintainers Summitなどです。他にはパックマンルールといって、輪になって話をするときには人が入れるスペースを作ろうって話などがありました。
+写真に写りたくない人はネームタグに専用の赤いリボンをつけてくださいというアナウンスも、感心しました。
+
+そしてなにより驚いたのが、このオープニングをはじめすべてのキーノート、トークに英語の字幕がリアルタイムに付いていると言うことです。
+おそらくリアルタイムでプロの方が入力していると思うのですが、すごいです。
+耳が聞こえにくい人だけでなく、私のように英語を聞き取る能力が低い人にとっても「なにについてしゃべっているかわかる!!」となるので、とてもありがたいなと感じました。
+
+.. figure:: /images/us/opening2.jpg
+   :width: 500
+
+   トークに字幕がついてわかりやすい!
+
+キーノート: Russel Keith-Magee
+==============================
 * ビデオ: https://www.youtube.com/watch?v=ftP5BQh1-YM
-* Survata: Data science company
-* Django
-* Pythonは28年でコミュニティが育ってきた
-* このでかいカンファレンスがクリーブランドで開催されている
-* Where do you see Python in 10 years?
-* Black Swan events
-* Python's Black Swan
+* スピーカーによるブログ: https://cecinestpasun.com/entries/where-do-you-see-python-in-10-years/
 
-  * Black Swan 1: Everyone uses laptop
-  * Black Swan 2: Python can stay on the server
-  * Black Swan 3: Installation is ...
-  * Black Swan 4: Code distributuin doesn't matter
-* BeeWareプロジェクト
+.. figure:: /images/us/russel.jpg
+   :width: 500
 
-  * https://beeware.org/
-  * Mac, Linux, Win, iOS, Android, Djangoで動くらしい
-    
-* Burn out
+   Russel Keith-Magee氏
 
-  * 誰かがすごいプレッシャーをかけて燃え尽きちゃう
-  * この人もDjangoプロジェクトで燃え尽きたらしい
-  * The (hidden human cost of FLOSS
+オープニングに続いて1日目のキーノートであるRussel Keith-Magee氏の発表が始まりました。
+ビデオとスピーカー自身によるテキストの書き起こし(ありがたい)が上記ブログから参照できます。
 
-* 5 calls to action
+氏はDjangoのコアデベロッパーであり、世界中のPyConやDjangoConで発表してきたそうです。
+Djangoは2006年からコアチームに入っているが、オーストラリアの西海岸にあるパースに住んでいることもあり、2008年まで他のコアメンバーには会っていなかったそうです。
 
-  * 1. Start thinking about Black swans.
-  * 2. Improve resourcinf of maintenance and R&D efforts.
-  * 3. Value contributors and their contributions.
-  * 4. Get out your wallets.
+まず最初に `ブラック・スワン理論 <https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B9%E3%83%AF%E3%83%B3%E7%90%86%E8%AB%96>`_ になぞらえて、Pythonで過去10年間に発生したブラック・スワンな(予測できない)できごとについて語りました。それは以下の4つです。
 
-    * psf, django, numfocusなどにdonateする
-  * 5. Contribute.
+* ブラックスワン1: 誰もがノートPCを使っている
+
+  * 以前はデスクトップやサーバーしかなかった。10年間で誰でもノートPCやタブレットでプログラミングができるようになった。
+* ブラックスワン2: Pythonはサーバーにとどまる
+
+  * すべてのPythonがノートPCで動作するわけではなく、Webアプリケーションを書くためにもPythonを使用できる
+* ブラックスワン3: インストールは解決済みの問題
+
+  * `xkcd: Python Environment <https://xkcd.com/1987/>`_ でPythonのパッケージ管理について複雑であるというマンガがありますが、現在はその問題は解決しています。
+ 
+* ブラックスワン4: コード配布は問題にならない
+
+  * 作成したPythonのコードをどのように配布するかの方法は統一されていないが、そこは問題にはならない
+
+続けて現在氏は `BeeWare <https://beeware.org/>`_ プロジェクトで活動しているという話がありました。
+このプロジェクトは1つのコードからLinux、Windows、macOS、Android、iOS、ブラウザ(Django)で動作するアプリーケーションを作成するというものです。
+現在は概念実証(Proof of Concept)の状態だそうです。
+
+後半はアメリカズカップ(ヨットの国際大会)で、1983年にはじめてアメリカ以外のチーム(オーストラリアのパース)が優勝した話になぞらえて、チームの重要性などの話がありました。
+個人的に印象的だったのは、バーンアウト(燃え尽き)についての話です。
+氏は15年間Djangoのメンテナーをしているそうですが、2015年初頭にDjangoコミュニティでの自身の貢献に対して大きなプレッシャーがあり、燃え尽きたそうです。
+現在もコミュニティの一員ではあるが、少し距離を置いているそうです。
+
+最後にコミュニティを健全に進めていくために、以下のようなアクションをとろうという提案がありました。
+
+* アクション1: ブラックスワンについて考えはじめる
+* アクション2: 維持管理とR&Dのためのリソースを改善する
+* アクション3: 貢献者とその貢献を評価する
+* アクション4: 寄付をする
+* アクション5: 貢献する
+
+私自身、コミュニティの継続性や燃え尽きなどについては考えさせられる部分がありました。
+自分がとれるアクションをしていきたいなと感じました。
 
 発表から
 ========
+1日目のトークからいくつか紹介します。
 
 API Evolution the Right Way
 ---------------------------
 * スピーカー: A Jesse Jiryu Davis
 * ビデオ: https://www.youtube.com/watch?v=dqDnB6jKzcE
-* APIを拡張するとキメラになってく
-* Pytno 2, bool(datetime.time(0, 0)) == False
-* Pytno 3, bool(datetime.time(0, 0)) == True
-* Aboid Bad Features
-* Minimisze Features
-* Make Expreimental Features "Provisional"
-* Whether to Delelte a Feature
+* スピーカーによるブログ: https://emptysqua.re/blog/api-evolution-the-right-way/
 
-  * Pros/Cons
-* Delete Feature Gently
+このトークはライブラリをメンテナンスしていく上で、APIを考えなしに拡張していくとキメラになっていくので、気をつけようという話です。
+オライリーの表紙っぽい蛇とかキメラの絵が気になるプレゼン資料でした。
+内容としては、以下のXつの約束が提案されていました。
 
-  * warinigでdeprecateメッセージを出す
-  * PyChamrとかだと打ち消し線が出る→へー
+* 第1の約束: 悪い機能を避ける
+* 第2の約束: 機能を最小限にする
+* 第3の約束: 機能の範囲を狭くする
+* 第4の約束: 実験的な機能に「Provisional」と印をつける
+* 第5の約束: 機能を丁寧に削除する
+* 第6の約束: Changelogをメンテナンスする
+* 第7の約束: バージョン番号の付け方を選択する
+* 第8の約束: アップグレードガイドを書く
+* 第9の約束: 互換性があるようにパラメータを追加する
+* 第10の約束: 徐々に動作を変える
 
-* Maintain a Change Log
-* Semantic Versioning(PEP 440)
-* Write an Upgrade Guide
-* Change a Behabior
-
-  * without API changes
+私自身はライブラリのメンテナンスなどはしていませんが、自分が書いているコードや社内のコードでも活かせる部分がありそうな、参考になる発表でした。
 
 Migrating Piterest from Python 2 to Python 3
 --------------------------------------------
 * スピーカー: Jordan Adler, Joe Gordon
 * ビデオ: https://www.youtube.com/watch?v=e1vqfBEAkNA
 * スライド: https://speakerdeck.com/pycon2019/jordan-adler-joe-gordon-migrating-pinterest-from-python2-to-python3
-* スライドごとに入れ替わってしゃべるスタイル(ちょっと面白い
-* Approach
-* Django, 250 million monthly active users
-* 2.6 million of code
-* 10 years
-* 3,500 changes montyhy, 452 developers
 
-* Gradual Py3 Rollout
+このトークはタイトルの通りPiterestのコードをPython 2から3に移行した話です。
+2人のスピーカーがスライドごとに入れ替わって話をするスタイルでした(卓球のダブルスみたいだなーと思いながら見ていました)。
 
-  * Make Py3 available
-  * Test under Py2 and Py3
-  * Migrate
-  * Drop Py2
-  * add Py3 features
+PiterestのWebサイトはDjangoベースでできている巨大なコードベースです。
 
-* Upgrade requirements
+* 2,600万行のコード
+* 10年間で1000人以上がメンテナンス
+* 450人以上の開発者で毎月に3,500の変更
 
-  * https://github.com/brettcannon/caniusepython3
-* Python Future
+Python3への移行は以下のようにゆるやかに進めたそうです。
 
-  * Easy, clean, reliable Python 2/3 compatibility
+1. コードをPython 3でも動くようにする
+2. 依存パッケージをアップグレードする
+3. コードベースをFuturizeする
+4. Pytnon 2とPython 3でテストする
+5. 本番環境をPython 3に移行する
+6. Python 2サポートを削除する
+7. Python 3のみの機能を追加する
 
-* Dependency Graph
+依存パッケージのアップグレードでは依存関係グラフの下の方(他に依存していないもの)から進めていきます。
+`caniusepython3 <https://github.com/brettcannon/caniusepython3>`_ というツールも使ったそうです。
 
-  * __import__() にmonky patch
-  * Buld a list of modules that run under Py3
+Python 3化での移行で、よかった点として `libfuturize <https://github.com/PythonCharmers/python-future>`_ と `lib2to3 <https://docs.python.org/ja/3.7/library/2to3.html>`_ があげられていました。
+どちらもソースコードを書き換えて、Python 2と3両方で動くようなコードにするものです。
+具体的にどういう変更が行われるかを、コードの差分を交えて解説が行われました。
 
-* The Good
+逆によくなかった点として、数値やバイト列、文字列に関するPython 2と3で動作が違い箇所があげられていました。
+数値だと `/` 演算子での割り算がPython 2ではintとなるが3ではfloatとなることや、丸め処理をする `round()` 関数の動作の違いなどがあげられていました。
+このあたりは地道にコードを修正していくしかなさそうなので、テストで見つけては修正していくという感じなのかなと思われます。
 
-  * lib2to3.fixes.fix_print
-  * lib2to3.fixes.fix_except
-  * lib2to3.fixes.fix_metaclass
-  * lib2to3.fixes.fix_absoulte_import
+実際のプレゼンテーションでは「Python 2ではこういう出力だけど、Python 3だとどうなる?」と質問をして、会場から答えるという感じで、さながらPythonクイズのようになっていました。
 
-* The Bad
-
-  * Numbers
-
-    * 割り算, round()
-    * None > 1, 01
-
-  * Bytes
-
-    * Py2, 3で動作が違う
-
-  * string
-
-    * string.letters
-
-  * Scopes
-  * Dictionaries
-
-    * 3.6+ で順番が維持される
-    * keys() がリストじゃない
-
-  * Unicode, StringIO
-
-* Pythonコードクイズみたいになってきた
+2020年でサポートが切れるため、Python 2から3へ移行しているプロジェクトは世界中に存在すると思います。
+このプレゼンテーションの内容が進め方の参考になるかも知れないので、是非参照してみてください。
 
 Making Music with Python, SuperCollider and FoxDot
 --------------------------------------------------
 * スピーカー: Jessica Garson
 * ビデオ: https://www.youtube.com/watch?v=YUIPcXduR8E
-* https://ja.wikipedia.org/wiki/SuperCollider
-* http://foxdot.org/
-* ライブでコーディングして曲を作っていく
+* スライド: http://pycon-making-music.glitch.me/
+
+このトークはぜひビデオを見てほしいのですが、SuperColliderとFoxDotを使ってリアルタイムで音楽を作っているというプレゼンテーションです。
+
+私は詳しくないのですが `SuperCollider <https://sourceforge.net/projects/supercollider/>`_ というのは音響合成用のプログラミング環境とプログラミング言語で、ただ言語が独自なためさまざまなプログラミング言語から実行するラッパーが存在するようです。
+その1つがPythonラッパーの `FoxDot <http://foxdot.org/>`_ で、実際にライブでコーディングしながら音楽を作っていました。
+
+面白いというかPythonの言語仕様を奪っている感じなので、以下のようなコードが書かれてなんとなくなにやっているかはわかるけど、Python的になんでこういう書き方するんだ?という感じになっています。
+
+.. code-block:: python
+
+   print(SynthDefs)
+   p1 >> noise()
+   p1 >> noise([2, 5, 8])
+   di >> play('Hello PyCon')
+
+ぜんぜんついて行けませんでしたが、Atomでコードを書いて保存するとどんどん音楽が変わっていく感じは見ているだけでも面白いものでした。
 
 ライトニングトーク
 ==================
@@ -334,8 +355,35 @@ Making Music with Python, SuperCollider and FoxDot
    
       HirataさんとGuido氏
 
+Squareのパーティ
+================
+この日の夜はどこに飲みに行こうかなと思っていたところ、Jasonから「Square主催のパーティーあるから申し込んで行こう」というメッセージが来ました。
+このように、PyCon開催中には企業主催のパーティーも何カ所かで行われているようです(。
+なんとLyft(配車サービス)のクーポンコードも提供してくれるという大盤振る舞いです。
+
+会場は `Punch Bowl Social <https://www.punchbowlsocial.com/location/cleveland>`_ という、ボウリングや古いアーケードゲーム、でかいジェンガとかがおいてある謎の店です。
+ディナーはなかなかおいしかったし、地元クリーブランドなどのクラフトビールを扱っていていいお店です。
+
+.. figure:: /images/us/square1.jpg
+   :width: 500
+   
+   Squareのパーティー
+
+7時過ぎから飲み始めて、10時にパーティーは終わったんですが、そのあともここで飲み続けて遊んでいました。
+すると地元の黒人の人(Ericさん)が来てなぜか「4目並べて対戦しようぜ」と声をかけられて、対戦。結果は2勝1敗で勝つことができました。めちゃめちゃくやしがっていて、リアクションがとても面白い人でした。
+そのあと「じゃあダブルスやろうぜ」となって、私とEricさんペア、ymotngpooとJasonペアで対戦しましたが、負けてしまいました。
+こういう謎な交流があることも醍醐味ですね。
+   
+.. figure:: /images/us/square2.jpg
+   :width: 500
+   
+   4目並べをダブルスで対戦
+
 まとめ
 ======
-* 規模のでかさにびっくりした
-* 日本から見知らぬ参加者がいた
-* クラフトビールがたくさんある
+1日目のレポートは以上です。
+
+初参加でまずは規模の大きさにびっくりしつつも、楽しく過ごすことができたPyCon初日まででした。
+クリーブランドはローカルのクラフトビールもたくさんあって(私にとっては)いいところだなーと感じました。
+
+次回レポートではカンファレンス2日目の衝撃のキーノートやPSF Directorへのインタビュー、PyLadiesオークションなどの様子をお伝えします。
