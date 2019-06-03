@@ -29,7 +29,8 @@ Keynote: Shadeed "Sha" Wallace-Stepter
 兄はSha氏の肩にもたれて、氏はその最後の吐息を聞いたそうです(兄はまだ17歳のはずです)。
 
 そして、自身も18歳のときに犯した罪により27年間の実刑判決を受け、服役することとなります。
-氏は2009年にSan Quentin刑務所に移送されましたが、そこは教育プログラムを受けることができる刑務所でした。
+氏は模範囚として服役し、2009年にSan Quentin刑務所に移送されました。
+San Quentinは `Prison University Project <https://prisonuniversityproject.org/>`_ という教育プログラムを受けることができる刑務所です。
 そこでオーディオとビデオについて学び、起業家精神が目覚めたそうです。
 
 その後2011年から(服役中に)San Quentinテレビでコンテンツ制作者として仕事を始めたり、Podcastを行ったりしたそうです。
@@ -104,9 +105,9 @@ Keynote: Jessica Mackeller
 
    2人のキーノートスピーカー
 
-このトーク、 `Jessicaさんのツイート <https://twitter.com/jessicamckellar/status/1127639822640660482>`_ によると非常に残念なことに録画に失敗していたそうです。
+この2つのキーノートですが、非常に残念なことに `Jessicaさんのツイート <https://twitter.com/jessicamckellar/status/1127639822640660482>`_ によると録画に失敗していたそうです。
 現在再録画にむけて動いているそうで、ビデオが作成されることを私も心待ちにしています。
-また、トークの概要について上記のツイートへの返答の形でJessicaさんが書いてくれているので、そちらも読んでみてください。
+また、トークの概要について上記のツイートへの返答の形でJessicaさんが書いてくれているので、そちらもぜひ読んでみてください。
 
 .. admonition:: コラム: PSF Executive Directorへのインタビュー
 
