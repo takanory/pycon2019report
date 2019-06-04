@@ -2,10 +2,7 @@
  US PyCon 2019レポート: 第3回
 ==============================
 
-Fun Run
-=======
-* [ ] Day 3: Fan Run(se-lina)
-* https://docs.google.com/document/d/1fmjgxNvYfnDd-RNQTFFEC0iCJx2wnuXM30-ZEtVVvEU/edit?usp=sharing  
+* 3回目の書き出し的なやつ。
 
 ライトニングトーク
 ==================
@@ -39,6 +36,50 @@ Fun Run
   * PyCon Africaの人もいた
   * terapyonがJPについて発表してた
 
+.. admonition:: 5k Fun Run/Walk
+
+   * Lina Katayose(`@selina787b <https://twitter.com/selina787b>`_)
+
+   `5k Fun Run/Walk <https://us.pycon.org/2019/5k/>`_ はタイトルの通り、5kmを楽しく走るイベントです。
+   いつかやってみたいと思っていたのですが、今年参加できました。
+
+   参加者は朝6時にカンファレンス会場近くの集合場所に集まり、スクールバスでEdgewater Parkに移動し、公園内でレースをします。
+   Fun Run開催時はとても寒く、11℃くらいだったと思います。
+   朝早く起きて、寒い中に何でこんなことするんだと自問自答しながらも、レース会場に向かっていました。
+   十分な防寒対策などはなく、レギンスとPyLadies Tシャツのみ。
+   レース開催までガクガク震えながら待っていました。
+
+   レース参加者はどうやら、受付で参加チケットを渡してレースTシャツとゼッケンを渡されているようでしたが、私の英語理解不足で、Tシャツとゼッケンを交換できていなく、当日、スクールバスの中で交換をしました。
+   そのスクールバスもアメリカ映画で見た黄色のスクールバス、初めて乗りました。
+
+   .. figure:: /images/us/schoolbus.jpg
+      :width: 300
+
+      黄色スクールバス
+
+   バスの中では、隣に座った方とお話しました。いろいろ話しているうちにレース会場に着き、簡単な準備運動をしていました。レース会場は簡易的なものかと思いきや、設備もしっかりとしていて驚きました。
+
+   .. figure:: /images/us/selina.jpg
+      :width: 200
+
+      PyLadies Tシャツ
+
+   そして、レースが始まりました。はじめ私は先頭集団に何とかついていきましたが、途中から急激なペースダウン。筋トレはしていたものの走る練習をしていなかったため、ぜんぜんダメでした。それでも自分自身のはせっかく来たのだから走り切れという気持ちが働き、走り切りました。
+
+   にしても疲れた！けど、走り切った！
+
+   結果、私の記録は34分34秒。女性の部で5位(9人中)、全体では48位(62人中)でした。
+   5kmレース自体も初めてだったので、自分なりには良いかな。と思っています。次回は23分を目指したい！
+
+   詳細はこちらをご覧ください
+
+   * `PyCon 5k Fun Runの結果 <https://www.hermescleveland.com/roadracing/results/2019/PYCON.htm>`_
+
+     
+* [ ] Day 3: Fan Run(se-lina)
+* https://docs.google.com/document/d/1fmjgxNvYfnDd-RNQTFFEC0iCJx2wnuXM30-ZEtVVvEU/edit?usp=sharing  
+
+    
 Keynote: Python Steering Council
 ================================
 * ビデオ: https://www.youtube.com/watch?v=8dDp-UHBJ_A
