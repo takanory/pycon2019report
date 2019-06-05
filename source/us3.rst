@@ -36,7 +36,7 @@
   * PyCon Africaの人もいた
   * terapyonがJPについて発表してた
 
-.. admonition:: 5k Fun Run/Walk
+.. admonition:: コラム: 5k Fun Run/Walk
 
    * Lina Katayose(`@selina787b <https://twitter.com/selina787b>`_)
 
@@ -166,10 +166,37 @@ Poster Session
 * Guidoもきてくれたよ
 * Paulとも再開
 
-Jobs Fair
-=========
-* [ ] Day 3: Jobs Fair(Kagesawa)
-* https://docs.google.com/document/d/19LfDGT-wO3oE3ha1B1n273M5v8DYKMVrOBm2wuqKw0s/edit?usp=sharing
+.. admonition:: コラム: Job Fair
+
+   * Masaki Kagesawa (影澤 正輝: `@Masakikage <https://twitter.com/Masakikage>`_)
+
+   僕にとって最大の収穫はJob Fairでした。普通アメリカで大学生が行くJob Fairは各企業にリクルーターが１〜２人来て、人気企業は話すだけで３０分待ちになるのが普通。
+
+   PyConの参加者の多くは仕事探しをしているわけではないのでJob Fairは混んでなく、各ブースでエンジニアとリクルーターの両方からしっかりと話を聞けました。
+
+   アメリカでの就職はオンラインでアプリケーション（日本のエントリーシートの様なもの）を提出するだけではなかなかインタビューすらしてもらえません。よっぽど優れてなければ人事は数秒目を通すだけで落とされます。PyConでは人事としっかり話して、名刺をゲットしたのでオンラインではなく直接メールして応募する予定です。１５社くらい連絡先を入手したので就活にはものすごく役にたちました。
+
+   .. figure:: /images/us/jobfair1.jpg
+      :width: 300
+
+      Job Fair参加企業リスト
+
+
+   .. figure:: /images/us/jobfair2.jpg
+      :width: 400
+
+      Job Fairブースの様子
+
+   .. figure:: /images/us/jobfair3.jpg
+      :width: 400
+
+      Kenshoブース
+
+   .. figure:: /images/us/jobfair4.jpg
+      :width: 400
+
+      Citadelブース
+
 
 Python Software Foundation Community Report and Community Service Awards
 ========================================================================
@@ -221,3 +248,29 @@ Dinner Party
 * https://twitter.com/EWDurbin/status/1125414881363148800
 * https://files.slack.com/files-pri/T02PZGMUG-FJH75G9JB/image_from_ios.jpg
 * https://docs.google.com/document/d/19LfDGT-wO3oE3ha1B1n273M5v8DYKMVrOBm2wuqKw0s/edit?usp=sharing
+
+.. admonition:: コラム: 初めてのSprint
+
+   * Masaki Kagesawa (影澤 正輝: `@Masakikage <https://twitter.com/Masakikage>`_)
+
+   僕は今までOpen Sourceに貢献したことがなく今回が初めてでした。最初はFlaskに参加しようと思いましたけど“Good First Issue”タグが付いたIssueがほぼなく、初心者歓迎で多くの人が使ってるpipチームに参加しました。メンターはなんと自分と同い年、インドの大学に通ってる学生でした。世界中のみんなに使われてるpipのコアメインテナーが２１歳とはびっくりしました。
+
+   初日はコードのリファクタをしてPRを開きました。次の日マージされてると思ったらコミットのコメントがガイドと合ってないと注意されてました。git rebase後もう一度PRを開いてしっかりとマージしてくれました。
+
+   今後も貢献したいならPRをテストして欲しいとメンターから言われ、言われてみればpipは８０個以上もPRが開いてました。貢献者はたくさんいてコードを書いてくれるけどメンテナーは人数少ないからなかなかPRをテストしてマージする時間がないと。
+
+   自分でもコードを書くよりテストをしてマージに貢献する方がインパクトあるなと思いました。今後は週末など時間があるときにオープンソースやります。
+
+
+   .. figure:: /images/us/packaging-summit.jpg
+      :width: 400
+
+      Sprint中PyPIチームはミニカンファレンスを実施した
+
+   .. figure:: /images/us/sprints.jpg
+      :width: 400
+
+      Sprint会場の様子
+         
+まとめ
+======
