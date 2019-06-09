@@ -10,34 +10,55 @@
 ライトニングトーク
 ==================
 * ビデオ: https://www.youtube.com/watch?v=bnxxoTx9Sko
-* 朝8:40から開始...
-* 高校生の発表
 
-  * Code Our dreamsをシカゴで始めた
-  * codeourdreams.org
+3日目は朝8:40からライトニングトークです。早い...
+いくつかピックアップして紹介します。
+
+* Code Our Dreams
+  
+  最初は高校生の発表でした。シカゴの高校生で、 `Code Our Dreams <codeourdreams.org>`_ というXXXXについてのプロジェクトをすすめているそうです。
+  高校生がこのPyCon場で堂々と発表してすごいなーと感じました。
+
+.. figure:: /images/us/codeourdreams.jpg
+   :width: 400
+
+   Code Our Dreamsについての発表
 
 * learn to program with minecraft
 
-  * つなげられるけどone-way
-  * websocketでつなぐ(へー
-  * まだコンセプト段階らしい
+  PythonからMinecraftにつなげられるシステムはありますが、現状は片方向(Python→Minecraft)しかやりとりができません。
+  それをWebSocketを使用して双方向でやりとりできる仕組みを開発中とのことです。
+  現在はコンセプト段階とのことです。
 
 * PySlackers
 
-  * オープンコミュニティ
-  * https://pyslackers.com/
-  * 21352 members, 79 channels
-  * メッセージライフタイムが一週間(うける
+  Pythonユーザーが集まっているSlack上のオープンコミュニティの紹介です。
+  https://pyslackers.com/ から参加できます。
+  現在21,352のメンバーがおり、79のチャンネルがあるそうです。
+  無料版のSlackは参照できるメッセージ数に上限があり、現在は一週間くらいで過去のメッセージが見れなくなるそうです。
 
 * conda-forge
 
-  * conda-press: conda -> wheel
-  * https://github.com/regro/conda-press
+  Anacoda用のパッケージをwheelに変換するライブラリの紹介です。
+  `conda-press <https://github.com/regro/conda-press>`_ を使うと変換できるそうです。
 
 * Regional Python Conferences!
 
-  * PyCon Africaの人もいた
-  * terapyonがJPについて発表してた
+  各地域、各国のPython関連のカンファレンスを紹介するLTです。
+  1イベント30秒くらいでテンポ良くつないでいきます。
+  PyCon Africa(今年初めて開催される、アフリカ全域のPyCon)や、PyCon JPの紹介もありました。
+
+  スライドはあっても発表する人がいないときに、その前のイベントの人が「このイベントのことはよく知らないけどー」とか言いながら、適当に説明するのが個人的には面白かったです。
+    
+.. figure:: /images/us/pycon-africa.jpg
+   :width: 400
+
+   PyCon Africaはガーナで8月に開催
+
+.. figure:: /images/us/pycon-jp.jpg
+   :width: 400
+
+   寺田さん(`@terapyon <https://twitter.com/terapyon>`_)によるPyCon JPの紹介
 
 .. admonition:: コラム: 5k Fun Run/Walk
 
