@@ -3,9 +3,12 @@
 ==============================
 
 カンファレンス3日目と開発スプリントなど様子をお伝えします。
-3日目のPython Steering Councilによるキーノートや私が発表したポスターセッションなどについてレポートします。
+PyCon3日目のPython Steering Councilによるキーノートや私が発表したポスターセッションなどについてレポートします。
 
 他にも、Fun Run、Job Fairなどにさまざまなトピックついてレポートします。
+
+.. contents:: 目次
+   :local:
 
 ライトニングトーク
 ==================
@@ -119,7 +122,7 @@ Pythonの言語仕様の策定は、Guido氏が `BDFL <https://ja.wikipedia.org/
 
    Python Steering Council
 
-* 最初はメンバーそれぞれ簡単な自己紹介からはじまりました。
+* Ewa: 質問: まずは自己紹介をお願いします。
 
   * Berry Warsaw: 最初のPython workshopは20名の参加者だったけど、25年ですごく大きくなった。
   * Brett Cannon: VSCodeの開発者です。
@@ -131,21 +134,17 @@ Pythonの言語仕様の策定は、Guido氏が `BDFL <https://ja.wikipedia.org/
 
   * Guido: PEP(Pythonの拡張提案)に対してyes/no、A/Bを選ぶのはちょっとストレスフルだった。Steering Councilによる投票は...。PEP-13でguidelineをきめている。将来的には...
 
-* ewa: ここ3年でデータサイエンスとPythonは大きくなっている。科学コミュニティとの関係は?
-
-  * Carol:
-
-* EWA: PEP581 Mariattaがauthor。
+* Ewa: PEP581 Mariattaがauthor。
 
   * Brett: bugs.python.orgに入った
   * https://www.python.org/dev/peps/pep-0581/
   * PEP-588 になっていく
 
-* EWA: packaging workshopはmozillaからサポートを受けた。次のアクションは?
+* Ewa: packaging workshopはmozillaからサポートを受けた。次のアクションは?
 
   * Nick: 
 
-* EWA: PEP-1のPEPプロセスを変える?
+* Ewa: PEP-1のPEPプロセスを変える?
 
   * PEPsは決定するためのプロセス
   * BDFL delegatesがあるよ
@@ -153,31 +152,31 @@ Pythonの言語仕様の策定は、Guido氏が `BDFL <https://ja.wikipedia.org/
   * keep Python and community healty
   * next 25年
 
-* Python全体を見ていく?
+* Ewa: Python全体を見ていく予定ですか?
 
-  * Guido: Pythonのインプリメンテーションを見ていく
+  * Guido: Pythonのインプリメンテーションを見ていく。
 
-* 質問: Python2のサポートが2020年1月1日で終了予定ですが、何かプランはありますか?
+* Ewa: Python2のサポートが2020年1月1日で終了予定ですが、何かプランはありますか?
 
   * ここで会場に対して「Python 2を使っている人」と質問して手が上がりました。「思ったよりは少ない」とのコメントでした。
   * Guido: パーティーしよう。
   * Nick: 商用ベンダーはPython 2を2020以降もサポートすると思う。
   * Carol: 去年のPyCconでInstagramが2から3に移行したキーノートがあったでの、参考にするとよさそう。
 
-* Ewa: diversityをひろげるのになにか考えはありますか?
+* Ewa: Diversity(多様性)をひろげるのになにか考えはありますか?
 
   * Carol: Mariattaは最初の女性のcore開発者。楽しかったらSprintにも参加してね。
   * Barry: Paul Everett。彼はコミュニティでいろんな人をメンターした。
 
 * ここで、sli.doを使って会場からの質問を受け付けました。
-* 好きなPEPはなに?
+* 質問: 好きなPEPはなに?
 
   * Barry: `PEP 401 -- BDFL Retirement <https://www.python.org/dev/peps/pep-0401/>`_ (エイプリルフールのジョークPEPです)
   * Brett: `PEP 3100 -- Miscellaneous Python 3.0 Plans <https://www.python.org/dev/peps/pep-3100/>`_
   * Crarol: `PEP 500 -- A protocol for delegating datetime methods to their tzinfo implementations <https://www.python.org/dev/peps/pep-0500/>`_
   * Guido: `PEP 343 -- The "with" Statement <https://www.python.org/dev/peps/pep-0343/>`_
 
-* We hear a lot about burnout of core developers. Does the council have any plan to improve this? Is there anything that the community can d?o
+* 質問: We hear a lot about burnout of core developers. Does the council have any plan to improve this? Is there anything that the community can d?o
 
   * Brett: PEP-581, 去年の私のキーノートをPoster
   
@@ -231,42 +230,72 @@ Poster Session
 Python Software Foundation Community Report and Community Service Awards
 ========================================================================
 * ビデオ: https://www.youtube.com/watch?v=P4IfFLAX9hY
-* ewa
-* いろんなコミュニティがあって、いろんな機会があるよ
-* python.org/psf/annual-report/2019/
-* PSFはいろんなコミュニティをサポートするよ
-* PSFのサポートも尾根阿木
 
-  * pycon.us/pbf からdonate
-  * PyCharmのライセンスを買ってPSFに渡す?
-* PSFチームの紹介。いつからPSFにいてなにやっているかとか。最近入った人もいれば、PSFで20年活動人とかもいる。
-* Community Service Award Winners
+ここではEwa Jodlowska氏により、PSF(Python Software Foundation)の報告と、Community Service Awardsの表彰が行われました。
 
-  * Mario Corchero: Spain, Latin America UKでオーガナイザー
-  * Chukwudi Nwachukwu: ナイジェリアのコミュニティ
-  * Alex Gaynor: PSF Director, PyPIの移行とか
-  * Mariatta Wijaya: CPythonとか
-  * Mayela Snachez Miranda: PyCon Chalas 2018 Chair, PyCon Mexico, Django Girls Puebla
-  * John Roa: founda and PyCon Colombia Chair
-  * Stefan Behnel: CPython, XMLのmaintenar
-  * Eric Ma: PyCon program member several year
+Python関連の様々なコミュニティが世界中にあり、いろいろな機会が提供されているという説明がありました。
+そして https://python.org/psf/annual-report/2019/ に年次事業報告書が公開されているという説明がありました。
+PSFはさまざまなコミュニティをサポートしているということ、また、PSFもサポートをお願いしてるという説明がありました。PSFをサポートするには以下の方法があります。
 
-Keynote - Nina Zakharenko
-=========================
-* ビデオ: https://www.youtube.com/watch?v=35mXD40SvXM
-* 中にはいっているボードのプログラムの仕方
-* ギャル電っぽい
-* カメラで動作を見せながらやっていた
-* printでデバッグ
+* https://pycon.us/pbf から寄付する方法
+* PyCharmのライセンスを購入すると、その一部がPSFに寄付されること
+  
+次にPSFチームの紹介がありました。現在PSFチームとしては8名のメンバーがフルタイムで活動しているようです。最近PSFに入った人もいれば、20年間活動している方もいらっしゃるそうです。
+
+.. figure:: /images/us/psf-team.jpg
+   :width: 400
+
+   PSFチーム
+
+   
+最後に `PSF Community Service Awards <https://www.python.org/community/awards/psf-awards/>`_ の表彰が行われました。
+複数のコミュニティのオーガナイザーや、PyPIの移行作業を行った人、複数年PyConのプログラムメンバーを務めた方などが表彰されていました。
+
+いろいろな人に支えられて、PSFを中心としたPythonコミュニティが拡がっていることを感じました。表彰されたのは以下の方々です。
+
+* Mario Corchero: PyCon ES、PyLondinium、2018年のPyCon Charlas(スペイン語)トラックの主催者
+* Chukwudi Nwachukwu: ナイジェリアのPythonコミュニティの拡大
+* Alex Gaynor: 2015-22016のPSF Director。PyPIの移行などを行う
+* Mariatta Wijaya: CPythonのコントリビューター。PyCascadesのCo-Chair
+* Maricela Sánchez Miranda: 2019のPyCon Chalas ChairやPyCon Day Mexico、Django Girls Pueblaの主催
+* John Roa: PyCon Colombiaの創始者であり主催者
+* Stefan Behnel: Cythonとlxmlのメンテナー
+* Eric Ma: 複数年のFinancial AidのCo-ChairやPyConプログラム委員会のメンバー
 
 Final Remarks and Conference Close
 ==================================
 * ビデオ: https://www.youtube.com/watch?v=ADutU_sFXXA
-* 3200名が参加
-* Developer surbeyは100以上の国から8000名
-* pycon.org
-* pycon.us/regional
-* 2020, 2021のChair Emilyの紹介
+
+カンファレンスの最後はクロージングです。
+Closing Dinnerの案内や次の日から行われる開発Spritの説明などが行われました。
+
+そして、ここで昨夜行われたPyLadiesオークションの収益金について報告がありました。
+毎年寄付金額が増えており、今年はなんと41,000ドルでした。すごい金額です!!
+
+.. figure:: /images/us/auction-result.jpg
+   :width: 400
+
+   寄付金額は41,000ドル!(約450万円)
+
+また、各地域のPyConの情報をまとめた https://pycon.org/ をリリースしたので、各地域PyConの主催者は情報を更新してほしいという案内がありました。
+筆者も `リポジトリ <https://github.com/python-organizers/conferences>`_ のコミット権をもらったので、更新する予定です。
+
+今回のPyConには約3,200名が参加したそうです。
+参加者に対して、自分の近くのPythonコミュニティに参加したり、開催をサポートしたり、主催してほしいというコメントがありました。
+
+次に2020, 2021のPyConのChairである、Emily Morehouse-Valcarcel氏(`@emilyemorehouse <https://twitter.com/emilyemorehouse>`_)が紹介されました。
+開催地はピッツバーグで日程は決まっており、2020年4月15日から23日、2021年5月12日から20日に開催されます。
+
+最後にThanksというスライドでPyConを作ってきた人たちを会場全体で拍手で讃えました。
+呼ばれた人は立ち上がって参加者からの感謝の拍手を受けます。
+最初は各スタッフ、次いで、当日ボランティアなどが紹介されました。
+筆者もポスタースピーカーと言われたときに立ち上がって、拍手を受けてこのコミュニティの一員になったような気がしました。
+そして最後に会場の全員に対して感謝を述べて「2020年にピッツバーグで会いましょう」と締めくくってカンファレンスは終了しました。
+
+.. figure:: /images/us/pittsburgh.jpg
+   :width: 400
+
+   PyCon 2020、2021の開催地はピッツバーグ
 
 Dinner Party
 ============
