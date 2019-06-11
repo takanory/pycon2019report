@@ -299,27 +299,64 @@ Closing Dinnerの案内や次の日から行われる開発Spritの説明など�
 
 Dinner Party
 ============
+カンファレンス最終日の夜はDinner Partyがあります。
+会場は `Great Lakes Science Center <http://greatscience.com/>`_ という科学館です。
+
+.. figure:: /images/us/greatscience.jpg
+   :width: 400
+
+   Great Lakes Science Center
+
+科学館の見学とかもできるので楽しみだったんですが、少し仮眠するつもりがパーティー終了1時間前くらいに目が覚めてしまい(起きれてよかった)、料理をひととり食べて缶ビールを2缶飲むのがせいいっぱいでした。
+
+.. figure:: /images/us/party.jpg
+   :width: 400
+
+   パーティーはすでに宴たけなわ
+
+パーティー終了後は当然飲み足りなかったので、 `Noble Beast Beer <https://www.noblebeastbeer.com/>`_ に飲みに行きました。
+クリーブランドのブルワリーは、どこもデカい建物の中にバーと醸造所が併設してあり、できたてが飲めてとてもよいなと思いました。
+この店は、塾生用と思われる大きな樽があることが特徴的でした。
+
+.. figure:: /images/us/noblebeast.jpg
+   :width: 400
+
+   Noble Beastのバカでかい樽
 
 開発Sprint
 ==========
-* Development Sprints
-* Packaging Summitに参加
-* https://twitter.com/EWDurbin/status/1125414881363148800
-* https://files.slack.com/files-pri/T02PZGMUG-FJH75G9JB/image_from_ios.jpg
-* https://docs.google.com/document/d/19LfDGT-wO3oE3ha1B1n273M5v8DYKMVrOBm2wuqKw0s/edit?usp=sharing
+カンファレンスの次の日からは開発Sprintです。
+開発Sprintは集まってチームごとに開発を進めるイベントで、US PyConでは5月6日から9日までの4日間開催されます。
+コアな開発者が一堂に会するため、ここでさまざまな開発が一気に進みます。
 
+さまざまな部屋でいろいろなチームが開発などをしており、毎日ボードに「どこで何をやっているか」が案内されていました。
+
+.. figure:: /images/us/sprint-board.jpg
+   :width: 200
+
+   Sprintの案内ボード
+
+筆者は自分の作業を進めたりしつつ、Packaging Summit(Pythonのパッケージングについてのミーティング)に参加してみたりしましたが、内容が難しいことと英語力の問題もあり、全然ついていけませんでした。
+Packaging Summitで議論された内容に興味のある方は、以下のツイートを参照してみてください。
+
+* `ernest w. durbin iii on Twitter: "Topics for the @ThePyPA Packaging Summit at #PyCon2019 Sprints… " <https://twitter.com/EWDurbin/status/1125414881363148800>`_
+  
 .. admonition:: コラム: 初めてのSprint
 
    * Masaki Kagesawa (影澤 正輝: `@Masakikage <https://twitter.com/Masakikage>`_)
 
-   僕は今までOpen Sourceに貢献したことがなく今回が初めてでした。最初はFlaskに参加しようと思いましたけど“Good First Issue”タグが付いたIssueがほぼなく、初心者歓迎で多くの人が使ってるpipチームに参加しました。メンターはなんと自分と同い年、インドの大学に通ってる学生でした。世界中のみんなに使われてるpipのコアメインテナーが２１歳とはびっくりしました。
+   僕は今までOpen Sourceに貢献したことがなく、今回が初めての貢献でした。
+   最初はFlaskのSprintに参加しようと思いましたが、"Good First Issue" タグが付いたIssueがほとんどなかったため、初心者歓迎で多くの人が使ってる **pip** チームのSprintに参加しました。
+   メンターはなんと自分と同い年、インドの大学に通ってる学生でした。世界中のみんなに使われてるpipのコアメンテナーが21歳ということにびっくりしました。
 
-   初日はコードのリファクタをしてPRを開きました。次の日マージされてると思ったらコミットのコメントがガイドと合ってないと注意されてました。git rebase後もう一度PRを開いてしっかりとマージしてくれました。
+   初日はコードのリファクタリングをしてPull Requestを作成しました。
+   次の日にmergeされていると思っていましたが、コミットメッセージがガイドと合っていないという指摘を受けました。git rebase後もう一度Pull Requestを更新し、mergeしてもらいました。
 
-   今後も貢献したいならPRをテストして欲しいとメンターから言われ、言われてみればpipは８０個以上もPRが開いてました。貢献者はたくさんいてコードを書いてくれるけどメンテナーは人数少ないからなかなかPRをテストしてマージする時間がないと。
+   * `Outdated cleanup by MKagesawa · Pull Request #6462 · pypa/pip <https://github.com/pypa/pip/pull/6462>`_
 
-   自分でもコードを書くよりテストをしてマージに貢献する方がインパクトあるなと思いました。今後は週末など時間があるときにオープンソースやります。
+   その後「今後もpipに貢献をしたいならPull Requestをテストして欲しい」とメンターから言われました。言われてみれば、pipは80個以上のPull Requestがオープン状態でした。貢献者はたくさんいてコードを書いてくれるけど、メンテナーは人数少ないからなかなかPull Requestをテストしてマージする時間がないとのことです。
 
+   自分でもコードを書くよりも、テストをしてmergeに貢献する方がインパクトあるなと思いました。今後は週末など時間があるときにオープンソース活動を継続していきたいと思います。
 
    .. figure:: /images/us/packaging-summit.jpg
       :width: 400
