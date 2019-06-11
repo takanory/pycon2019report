@@ -336,10 +336,25 @@ Dinner Party
 
    Sprintの案内ボード
 
-筆者は自分の作業を進めたりしつつ、Packaging Summit(Pythonのパッケージングについてのミーティング)に参加してみたりしましたが、内容が難しいことと英語力の問題もあり、全然ついていけませんでした。
+筆者は1日しかSprintには参加しませんでしたが、自分の作業を進めたり、Packaging Summit(Pythonのパッケージングについてのミーティング)に参加してみたりしました。
+このSummitが、内容が難しいことと私の英語力の問題もあり、全然ついていけませんでした。
 Packaging Summitで議論された内容に興味のある方は、以下のツイートを参照してみてください。
 
 * `ernest w. durbin iii on Twitter: "Topics for the @ThePyPA Packaging Summit at #PyCon2019 Sprints… " <https://twitter.com/EWDurbin/status/1125414881363148800>`_
+
+次の日に移動するメンバーも多いので、Sprint 1日目の夜に日本メンバー全員でディナーに行きました。
+ちょっといいお店でステーキが食べたい!!ということで、ホテルで紹介してもらった
+`Blue Point Grille: Fine Dining Seafood <http://www.bluepointgrille.com/>`_ に行きました(かなりいいお店はドレスコード的に無理でした)。
+
+.. figure:: /images/us/blue-point.jpg
+   :width: 400
+
+   Blue Point Grilleの店内
+  
+.. figure:: /images/us/steak.jpg
+   :width: 400
+
+   ステーキおいしかったけどイモが多い...
   
 .. admonition:: コラム: 初めてのSprint
 
