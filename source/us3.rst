@@ -2,10 +2,8 @@
  US PyCon 2019レポート: 第3回
 ==============================
 
-カンファレンス3日目と開発スプリントなど様子をお伝えします。
-PyCon3日目のPython Steering Councilによるキーノートや私が発表したポスターセッションなどについてレポートします。
-
-他にも、Fun Run、Job Fairなどにさまざまなトピックついてレポートします。
+レポートの最終回は、カンファレンス3日目と開発スプリントの様子をお伝えします。
+Python Steering Councilによるキーノートや私が発表したポスターセッション、Fun Run、Job Fairなどのさまざまなトピックついてレポートします。
 
 .. contents:: 目次
    :local:
@@ -19,7 +17,7 @@ PyCon3日目のPython Steering Councilによるキーノートや私が発表し
 
 * Code Our Dreams
   
-  最初は高校生の発表でした。シカゴの高校生で、 `Code Our Dreams <codeourdreams.org>`_ というXXXXについてのプロジェクトをすすめているそうです。
+  最初は高校生の発表でした。シカゴの高校生で、 `Code Your Dreams <https://www.codeyourdreams.org/>`_ というXXXXについてのプロジェクトをすすめているそうです。
   高校生がこのPyCon場で堂々と発表してすごいなーと感じました。
 
 .. figure:: /images/us/codeourdreams.jpg
@@ -368,6 +366,10 @@ Guido氏はスマートフォンでUDONPyのロゴを撮影していました。
 
    Guido氏とPython Boot Campチーム
 
+なお、ポスターのデータは以下のURLで公開しています。ぜひ見てみてください。
+
+* https://www.dropbox.com/s/cgve0tcipoeqsge/pycon-poster-pythonbootcamp.pdf
+
 .. admonition:: コラム: Job Fair
 
    * Masaki Kagesawa (影澤 正輝: `@Masakikage <https://twitter.com/Masakikage>`_)
@@ -561,9 +563,29 @@ Packaging Summitで議論された内容に興味のある方は、以下のツ�
          
 まとめ
 ======
-* Jasonの写真を入れる
+以上でクリーブランドで開催されたPyCon 2019のレポートは終了です。
+非常に刺激的であり、規模などに圧倒されつつも、楽しくビールがおいしい7日間でした。
+日本からたくさんのメンバーが参加したこともあり、私が参加していないイベントの情報交換やこのレポートでもコラムを執筆してもらったりと、より幅広くPyConを知ることがでとてもよかったです。
 
-.. image:: /images/us/team-japan.jpg 
+.. figure:: /images/us/team-japan.jpg 
    :width: 400
 
-   日本からの参加メンバーの集合写真
+   日本からの参加メンバーで集合写真
+
+また、日本のPython mini Hack-a-thonで友達になったJasonが、いろいろな人とつなげたり、PyConの楽しみ方を教えてくれたのはとてもありがたかったです。
+本当にありがとう。
+
+.. figure:: /images/us/jason-family.jpg 
+   :width: 400
+
+   Jasonとゆきちゃんとけいちゃん(約2ヶ月)
+
+しかし、せっかくいろいろな人と知り合っても、一回だけだとすぐに忘れてしまいます。
+来年もUS PyConに参加して、より深くグローバルなPythonコミュニティとの関係を築いていきたいなと強く思いました。
+ピッツバーグにはどんなクラフトビールがあるのかなぁ?
+
+.. figure:: /images/us/bridge.jpg 
+   :width: 400
+
+   クリーブランドのMain Avenue Bridge
+   
