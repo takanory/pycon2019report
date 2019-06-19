@@ -201,7 +201,7 @@ Pythonの言語仕様の策定は、Guido氏が `BDFL <https://ja.wikipedia.org/
    朝のライトニングトーク前にポスター掲示をしたところ
 
 PyCon 2019のポスターセッションでは全部で30の発表がありました。
-私は23番ブースで「Python Boot Camp: Introduction of efforts to spread Python all over Japan」というタイトルで、一般社団法人PyCon JPの活動である `Python Boot Camp <https://www.pycon.jp/XXX>`_ についての成果や工夫などについて発表しました。
+私は23番ブースで「Python Boot Camp: Introduction of efforts to spread Python all over Japan」というタイトルで、一般社団法人PyCon JPの活動である `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_ についての成果や工夫などについて発表しました。
 
 .. figure:: /images/us/poster2.jpg
    :width: 300
@@ -213,37 +213,49 @@ PyCon 2019のポスターセッションでは全部で30の発表がありま�
 実際の発表の前に、ポスターの準備について少し説明します。
 ポスターのサイズについては横4フィート(約1.2メートル)x縦3フィート(約0.9)メートルとの連絡がありました。
 これは日本でポスターを作る場合にはA0くらいで大丈夫そうです。
-私はポスターなど作ったことがないし、まずはどんな内容のポスターにするかのネタだしをしないといけません。
-Google Docsに「こういうネタがよさそうかな」と私がざっと書いたものをベースに、以下のメンバーとオンラインでディスカッションしてネタ出しをしました。
+私はポスターなど作ったことがないし、まずはどんな内容のポスターにするかのアイデア出しをしないといけません。
+Google Docsに「こういうネタがよさそうかな」と私がざっと書いたものをベースに、以下のメンバーとオンラインでディスカッションしてアイデア出しをしました。
 
-* つついさん: Python Boot Campコアスタッフ
-* こばとも: Python Boot Campコアスタッフ
-* 寺田さん: Python Boot Camp講師、US現地での発表も手伝ってもらった
-* selinaさん: Python Boot Camp現地スタッフ、US現地での発表も手伝ってもらった
+* 寺田 学(`@terapyon <https://twitter.com/terapyon>`_): Python Boot Camp講師、US現地での発表も手伝ってもらった
+* Lina Katayose(`@selina787b <https://twitter.com/selina787b/>`__): Python Boot Camp現地スタッフ、US現地での発表も手伝ってもらった
+* 筒井 隆次(`@ryu22e <https://twitter.com/ryu22e>`_): Python Boot Campコアスタッフ
+* 小林 智博(`@kobatomo3H <https://twitter.com/kobatomo3H>`_): Python Boot Campコアスタッフ
+* 清水川 貴之(`@shimizukawa <https://twitter.com/shiizukawa>`_): Python Boot Camp講師
 
-.. todo:: ネタだし議事録イメージ
+.. figure:: /images/us/poster-idea.png
+   :width: 400
+
+   ポスターのアイデア出し議事録
 
 次にポスターをまずは日本語でざっくり作ります。
 ポスターの原稿作成にはMacのKeynoteを使用しました。
 ネットで調べた情報ですが、スライドのサイズを3370pts×2383ptsという巨大なものにします。そしてフォントサイズはタイトルが80pt、セクションタイトルが44pt、通常のテキストは26ptなどとしました。
 そしてざっくり作成したKeynoteからPDFを生成し、Dropboxで共有してコメントをもらいました。
 
-.. todo:: PDFにコメントしているイメージ
+* 参考: `A0ポスター用のKeynoteの設定 <http://jfujimo.to/memo/PosterPresentation/>`_
+
+.. figure:: /images/us/poster-dropbox.png
+   :width: 400
+
+   Dropboxでのレビュー
 
 ひととおりネタがまとまったら次は英文の作成です。
 これは日本語と英語を書いたGoogle Docsを作成し、ドキュメントにコメントをもらう形で英文を修正していきました。
-この段階ですでにスケジュールがだいぶやばくなってきており、社内の英語ができるメンバーに協力を仰いだところ、 `james <https://twitter.com/XXXXX>`_ がたくさん添削やよりよい英文の提案をしてくれました。本当に助かりました。
+この段階ですでにスケジュールがだいぶやばくなってきており、社内の英語ができるメンバーに協力を仰いだところ、 `James <https://twitter.com/jamesvandyne>`_ がたくさん添削やよりよい英文の提案をしてくれました。本当に助かりました。
 
-.. todo:: 英文添削議事録イメージ
+.. figure:: /images/us/poster-text.png
+   :width: 400
 
-英文ができあがったらところで、英語バージョンのポスターを作成します。
+   ポスターのテキストの添削
+
+英文ができあがったところで、英語バージョンのポスターを作成します。
 これはKeynoteでもう1スライド作って埋めていくだけなので、ある意味単純作業です。
 英語バージョンのポスターができたらいよいよ印刷です。
-ポスターの印刷は筒井さんに教えてもらったXXXXを使用しました。
-ここは、ポスター印刷時にInDesign上でデータが問題ないかのチェックができるツールを提供しており、印刷イメージが確認できてとても便利でした。
+ポスターの印刷は筒井さんに教えてもらった `グラフィック <https://www.graphic.jp/>`_ を使用しました。
+こちらの業者は、ポスター印刷時にInDesign上でデータが問題ないかのチェックができるツールを提供しており、印刷イメージが確認できてとても便利でした。
 Adobe CCに登録して初めてInDesignをインストールし、Keynoteファイルを取り込んで見よう見まねでなんとか入稿用のデータを作成しました。
 PyCon出発時に手元にポスターがないとだめなので、かなりの個人炎上案件でした。
-最終的に、XX月YY日の夜中の3時に無事入稿しました。
+最終的に、4月23日(火)の夜中1時に無事入稿しました。
 その後、ゴールデンウィーク初日の4月27日(土)に無事ポスターが届きました(出発は5月1日)。
 
 .. figure:: /images/us/poster3.jpg
@@ -262,12 +274,99 @@ PyCon出発時に手元にポスターがないとだめなので、かなりの
 ポスターセッション当日
 ----------------------
 さて、話をPyConに戻してポスターセッション当日です。
+10時となってポスターセッションが開始になりました。
+といっても明確ななにかがあるわけではありません。
 
+ポスターセッションは私一人では非常に心細かったのですが、アイデア出しなどにも参加してた寺田さん、Selinaさんが手伝ってくれたので非常に助かりました。
+揃いのPython Boot Camp Tシャツがあることも、チームっぽい感じがしてとてもよかったと思っています。
+ぽつぽつとポスターを見ていく人が現れ、いろいろな方にPython Boot Campについて説明したり、質問に答えたりしたりしました。
 
-* あとで書く
-* いろんな人が話をきいてくれたよ
-* Guidoもきてくれたよ
-* Paulとも再開
+.. figure:: /images/us/poster5.jpg
+   :width: 400
+
+   参加者に説明しているところ(奥が筆者)
+
+.. figure:: /images/us/poster7.jpg
+   :width: 400
+
+   参加者とディスカッションする筆者
+
+.. figure:: /images/us/poster6.jpg
+   :width: 400
+
+   ポスターに興味を持って撮影する参加者
+
+よく質問された内容は以下のようなものでした。
+
+* 日本では何カ所くらいで開催したのか?
+
+  * 32回開催して、29の都道府県で開催済みです。47都道府県を制覇しようとしています
+* どんな内容でどのくらいの時間で実施しているの?
+
+  * 4時間でPythonの入門からWebスクレイピングの体験までをサポートしています
+* 運営資金はどうしているの?
+
+  * 年に一回PyCon JPイベントを開催しているので、そこのスポンサー収入を一部残して資金と使用しています
+* 何人くらいが参加しているの?
+
+  * 1回について20人前後が参加しています。のべ人数だと800人以上がこのイベントに関わってきました
+
+ポスター発表をしていると、本当にさまざまな国からPyConに参加している人が来てくれて、とても面白かったです。
+特にアフリカやアジアなどから参加している、(おそらく)まだそれほどPythonが自国で広まっていない人は、この活動に深く興味を持っているようでした。
+もしかしたら数年後にどこかの国で同じような活動が起こるかも知れません。
+韓国からの参加者は「 https://pycamp.pycon.jp/ のテキストを韓国語に翻訳したい」と言っていました。
+
+他にも、過去にPyCon JPなどで会った方との再会や、はじめて出会う人がいたこともとてもよかったです。以下のような人たちと出会うことができました。
+
+* 彼女が日本人で、日本語を少ししゃべれる方
+* 娘が日本で空手を習っているという方
+* スペインからの参加者で、彼はPyCon JP 2018のキーノートのManuel Kaufmann(`@reydelhumo <https://twitter.com/reydelhumo>`_)と友達だそうです
+* 日本人の方で、現在はアメリカの金融系の会社に勤めている方(毎年Job Fairで参加しているそうです)
+* Pyshon Software FoundationのChair PersonのNaomi Ceder氏
+* MailmanのCore Developerで筑波在住の方。3年前くらいはPyCon JPにも来てくれてました(名前なんだっけ...)
+
+また、PyCon night Tokyo/Osakaで2016年に発表してくれた、DisneyのPaul Hildebrandt (`@paulhildebrandt <https://twitter.com/paulhildebrandt>`_)氏とも再会できました。
+このときはSponserとしてPyConに参加していたGoogleの `@ymotongpoo <https://twitter./com/ymotongpoo>`_ も、一緒にPython Boot Campなどについての説明を手伝ってくれました。ありがとう。
+
+* 参考: `PyCon JP Blog: PyCon night Tokyo/Osaka 2016.06 を開催しました <https://pyconjp.blogspot.com/2016/06/pycon-night-tokyoosaka-201606.html>`_  
+
+.. figure:: /images/us/poster8.jpg
+   :width: 400
+
+   Paul Hildebrandt氏
+
+そして、私のポスターセッションに、なんとPython作者のGuido van Rossum氏も来てくれました!!!
+Guido氏はポスターを興味を持って見てくれて、筆者は日本各地でで開催していることや、このイベントをきっかけに日本各地でコミュニティが立ち上がったといったことを説明しました。
+
+.. figure:: /images/us/poster9.jpg
+   :width: 400
+
+   ポスターを眺めるGuido氏と筆者
+
+Guido氏が「へー、いろんなコミュニティがあるんだねー」とか言いながらポスター右下のコミュニティの地図を見たときに「UDONPy!!?ブワッハハハハハ!!!」とめちゃくちゃウケていました。
+Guido氏は麺類が好きらしく、うどんもご存じのようでした。
+私は「 `UDONPy <https://udonpy.connpass.com/>`_ 香川県のPythonコミュニティで、Python Boot Campがきっかけで誕生したものですよ。」といった説明をしました。
+Guido氏はスマートフォンでUDONPyのロゴを撮影していました。UDONPyの世界デビューも間近です。
+
+.. figure:: /images/us/python-community-map.png
+   :width: 400
+
+   Python Boot Campがきっかけで生まれたコミュニティの地図
+
+そして、ひととおり会話が終わったところでGuido氏から「一緒に写真撮る?」という申し出がありました。
+これは私にとってはとてもうれしい申し出でした。
+
+今回USでのPyConに初参加することで、Guido氏を目にすることはあるだろうと思っていましたし、実際に会場内やPyLadiesオークションなどで何度か見かけました。
+そしてGuido氏は当然有名人なので、いろんな人に声をかけられて2ショットでの写真撮影に快く応じていました。
+ただ、私自身は「Guido氏はそこまで快く思っていないかも知れないし、それは違うな」と思っていたので、自分から「2ショット撮ってもらえますか?」のように声をかけることはしないと決めていました(遠くから盗撮はしましたw)。
+
+そう心に決めていた私に対して、Guido氏からの「写真撮る?」という申し出があったそのとき、私は平静を装って「はい、ぜひ!」と応えましたが心の中では超大きなガッツポーズをしていました。
+いろいろな参加者との交流だけでなく、Guido氏とも交流しこの写真が撮れたことで「PyConのポスターセッションでおれはやったな。完全にやってやったな。」と自らを褒め称えました。
+   
+.. figure:: /images/us/poster10.jpg
+   :width: 400
+
+   Guido氏とPython Boot Campチーム
 
 .. admonition:: コラム: Job Fair
 
@@ -463,4 +562,8 @@ Packaging Summitで議論された内容に興味のある方は、以下のツ�
 まとめ
 ======
 * Jasonの写真を入れる
-* 日本メンバーの写真を入れる
+
+.. image:: /images/us/team-japan.jpg 
+   :width: 400
+
+   日本からの参加メンバーの集合写真
