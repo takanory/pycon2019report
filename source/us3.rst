@@ -107,15 +107,15 @@ Python Steering Councilによるキーノートや私が発表したポスター
 * ビデオ: https://www.youtube.com/watch?v=8dDp-UHBJ_A
 
 ライトニングトークに続けてPython Steering Councilによるキーノートがありました。
-Python Steering Councilとは
+Python Steering CouncilとはPythonの言語仕様を策定する委員会の名前です。
 
-Pythonの言語仕様の策定は、Guido氏が `BDFL <https://ja.wikipedia.org/wiki/%E5%84%AA%E3%81%97%E3%81%84%E7%B5%82%E8%BA%AB%E3%81%AE%E7%8B%AC%E8%A3%81%E8%80%85>`_ として最終決定を行ってきていました。
+今まで、Pythonの言語仕様の策定は、Guido氏が `BDFL <https://ja.wikipedia.org/wiki/%E5%84%AA%E3%81%97%E3%81%84%E7%B5%82%E8%BA%AB%E3%81%AE%E7%8B%AC%E8%A3%81%E8%80%85>`_ として最終決定を行ってきていました。
 しかし、Guido氏が2018年7月12日にBDFLからの引退を表明したため、今後の仕様策定をどう決めていくかという議論があり、 `PEP 13 -- Python Language Governance <https://www.python.org/dev/peps/pep-0013/>`_ でPython Steering Councilという5名の組織で決定していくこととなりました。
-その後、 `PEP 8100 -- January 2019 steering council election <https://www.python.org/dev/peps/pep-8100/>`_ で投票が行われ、メンバーが決定しました。
+その後、 `PEP 8100 -- January 2019 steering council election <https://www.python.org/dev/peps/pep-8100/>`_ で投票が行われ、Councilのメンバーが決定しました。
 
 * 参考: 引退を表明したメール `[python-committers] Transfer of power <https://mail.python.org/pipermail/python-committers/2018-July/005664.html>`_
 
-このキーノートでは、2日目のレポートのインタビューにも出ていた、PSF(Python Software Foundation)のExexutive DirectorのEwa Jodlowska氏が司会進行し、それに対して5名のCouncilメンバーが答える形で進行しました。
+このキーノートでは、2日目のレポートのインタビューにも出ていた、PSF(Python Software Foundation) Exexutive DirectorのEwa Jodlowska氏が司会進行し、それに対してCouncilメンバーが質問に回答する形で進行しました。
 
 .. figure:: /images/us/council.jpg
    :width: 400
@@ -124,61 +124,79 @@ Pythonの言語仕様の策定は、Guido氏が `BDFL <https://ja.wikipedia.org/
 
 * Ewa: 質問: まずは自己紹介をお願いします。
 
-  * Berry Warsaw: 最初のPython workshopは20名の参加者だったけど、25年ですごく大きくなった。
-  * Brett Cannon: VSCodeの開発者です。
-  * Carol Willing: 2016にフィリピンでキーノートをやった。Pythonは科学、データサイエンス、組み込み、Webとかいろいろ使えるよね。
-  * Guido van Rossum: 私はプログラマーです。去年燃え尽きたけど、自分でSteering Councilに立候補した。
-  * Nick Coghian: 昔はハードウェアとC++を使ってた。
+  * Berry Warsaw: LickedInで働いていて、Python Foundationチームにも在籍しています。1994年にGuidoと出会って、それからPythonとGuidoが好きです。最初のPython workshopは20名の参加者だったけど、25年でものすごい参加者となってびっくりしている。
+  * Brett Cannon: MicrosoftのVSCodeのPython拡張の開発マネージャーをしています。大学でPythonと出会いPython devメーリングリストでさまざまなやりとりをしたりPRを送ったりしていた。
+  * Carol Willing: 2016にフィリピンのキーノートでPythonが人々のプログラミング言語であるという話をしました。2012年にPythonのプログラミングをはじめ、Jupyter Notebookはとても便利なツールだと感じた。そしてこのコミュニティの一員になりたいと思った。
+  * Guido van Rossum: 私はプログラマーでした。好きなプログラミング言語がなかったのでPythonを作りました。Pythonはオープンソースと残りはコミュニティです(拍手)。BDLとして30年間PEPでの仕様の採択をしてきました。
 
-* 質問: governance(組織運営)が変わってPythonは変化し続けていける?
+    論争を呼んだPEP(注: `PEP 572 <https://www.python.org/dev/peps/pep-0572/>`_)を採択した次の日の朝、私はもうBDLをやりたくないと思いました。そこで20分かけてコア開発者に対して自分たちで今後は進めてほしいというメールを送りました。コア開発者は委員を立ち上げるという方向に消えました。それは正しいやり方でとても安心しました。
 
-  * Guido: PEP(Pythonの拡張提案)に対してyes/no、A/Bを選ぶのはちょっとストレスフルだった。Steering Councilによる投票は...。PEP-13でguidelineをきめている。将来的には...
+    みなさんは子どもを大学生まで育てたことはありますか?直接関わることはほとんどなくなりますが、気にかけることをやめることはありません。私はそのような感覚を今Pythonに対して感じています(拍手)。それが、私が自分でSteering Councilに立候補して、イマココにいる理由です。
+  * Nick Coghlan: ハードウェアとC++から、Pythonを使うようになった。Pythonを使うようになったのは、シグナルプロセッシングとunit testがあること、waveモジュールがあることやSWIGを使ってC++のモジュールをラップして使えるからです。Pythonを使ってハードウェアと通信するシステムを作成した。Pythonを使うことによって現実世界の面倒な部分を無視して、開発できるようになった。
 
-* Ewa: PEP581 Mariattaがauthor。
+* 質問: ガバナンス(組織運営)がBDFLからSteering Councilに変わって、Pythonはどのように変化し続けると思いますか?
 
-  * Brett: bugs.python.orgに入った
-  * https://www.python.org/dev/peps/pep-0581/
-  * PEP-588 になっていく
+  * Guido: BDFLだったころ、PEP(Pythonの拡張提案)に対して最終的にyes/noやA/Bを選ぶことは責任があり、かなりストレスが大きかった。そのストレスがCouncilの5人に分散されるようになる。
+    Python言語の組織運営については `PEP 13 <https://www.python.org/dev/peps/pep-0013/>`_ に記載した規定に則って運営することになります。
+    もっと重要な決定は、決定のためにコア開発者や外部の協力者に決定を委任することです。
+    まだ数ヶ月しか経っていませんが、このやり方はうまくいくと思います。
+    今後のCouncilはできるだけ決定を委任していこうと思います。
+    
+* 質問: Pythonとデータサイエンスは継続して成長しています。CarolはJupyterのSteering Councilメンバーでもありますが、科学系のPythonコミュニティの強さについて教えてください。
 
-* Ewa: packaging workshopはmozillaからサポートを受けた。次のアクションは?
+  * Carol: 新しいアイデアをコミュニティの全エリアから聞くことが大事です。Web、組み込み、教育、科学、データ分析などそれぞれ異なる要望があります。Steering Councilにさまざまなバックグランドのメンバーがいることにより、よりより選択をできると思います。
 
-  * Nick: 
+* 質問: Brett、たくさんのインフラ関係の作業を管理してきました。Mariattaが作成した `PEP 581 <https://www.python.org/dev/peps/pep-0581/>`_ でバグチケットを bugs.python.org からGitHubに移動する予定ですが、現在はどのような状況でしか?
 
-* Ewa: PEP-1のPEPプロセスを変える?
+  * Brett: まず最初にPEP 581について議論し、私たちはそれを受諾しました。そして実際の移行作業を `PEP 588 <https://www.python.org/dev/peps/pep-0588/>`_ にまとめています。language summitでもこの件について議論しフィードバックをもらいました。大きな問題はないので進めていく予定です。
 
-  * PEPsは決定するためのプロセス
-  * BDFL delegatesがあるよ
-  * next generation of Python leaders
-  * keep Python and community healty
-  * next 25年
+* Ewa: Packagingワークグループはmozillaから支援を受けた。次のアクションは?
 
-* Ewa: Python全体を見ていく予定ですか?
+  * Nick: パッケージ関連ではPython Packaging Authority(PyPA)とPackaging workgroupがあります。これはPSFとコア開発者の関係と似ています。PyPIの利用者の使い勝手は向上してきたが、パッケージ作成者にとっては異なるプラットフォーム、異なるPythonバージョン用のパッケージを作成するなど複雑になっています。そこをよりよくしたいです。
+  * 開発Sprintでパッケージについて議論するので、そこでもアイデアが出てくるでしょう。
 
-  * Guido: Pythonのインプリメンテーションを見ていく。
+* Ewa: 新しいガバナンスモデルでは `PEP 1 <https://www.python.org/dev/peps/pep-0001/>`_ (注: PEPのガイドライン)を変更しますか?
 
-* Ewa: Python2のサポートが2020年1月1日で終了予定ですが、何かプランはありますか?
+  * Brett: PEPはRFCなどのアイデアからきています。現在のプロセスは必要十分だと思います。PEPは意思決定するためのプロセスで、BDFL delegateという決定を他のエキスパートに委譲する仕組みがあります。Pythonコミュニティは大きくなったので、次の世代のリーダーは言語についての重要な決定をする機会があります。リーダーにはコミュニティとPython言語を健全な状態で、次の25年を活気にあふれたものにしてほしいです。そのためにも積極的に権限を委譲していこうと思います。
+    
+* Ewa: Python言語の実装か言語そのものどこを見ていこうと思っていますか?
 
-  * ここで会場に対して「Python 2を使っている人」と質問して手が上がりました。「思ったよりは少ない」とのコメントでした。
-  * Guido: パーティーしよう。
-  * Nick: 商用ベンダーはPython 2を2020以降もサポートすると思う。
-  * Carol: 去年のPyCconでInstagramが2から3に移行したキーノートがあったでの、参考にするとよさそう。
+  * Guido: 私たちはPythonの実装を見ています。私たちはPython言語とその実装をどのように進めていくかについて議論しています。
 
-* Ewa: Diversity(多様性)をひろげるのになにか考えはありますか?
+* ここで会場に対して「Python 2を使っている人」と質問して挙手を求めました。「思ったよりは少ない」とのコメントでした。
+* Ewa: Python2のサポートが2020年1月1日で終了します。あと8ヶ月ですが、何かプランはありますか?
 
-  * Carol: Mariattaは最初の女性のcore開発者。楽しかったらSprintにも参加してね。
-  * Barry: Paul Everett。彼はコミュニティでいろんな人をメンターした。
+  * Guido: パーティー?(拍手)
+  * Nick: 数年前のPyCon AustraliaでPython 3についてのよい発表があった。その中で商用ベンダーはPython 2を2020以降もサポートするオプションを紹介していた。
+  * Carol: 科学者はPython 3を長い間使用しています。過去のPyConでInstagramが2から3に移行した素晴らしいキーノートがあったでの、参考になります。
+
+* 参考: `Pycon2017 instagram keynote <https://www.slideshare.net/LisaGuo4/pycon2017-instagram-keynote>`_    
+
+* Ewa: コア開発者のDiversity(多様性)を継続、ひろげるのためになにか考えはありますか?
+
+  * Carol: 2017年にMariattaが最初の女性コア開発者となりました。楽しかったら開発Sprintにも参加してください。
+  * Barry: Paul Everettについて触れておきたいです。彼はコミュニティでいろんな人をメンターした。
 
 * ここで、sli.doを使って会場からの質問を受け付けました。
-* 質問: 好きなPEPはなに?
+* 質問: 一番好きなPEPはなに?
 
   * Barry: `PEP 401 -- BDFL Retirement <https://www.python.org/dev/peps/pep-0401/>`_ (エイプリルフールのジョークPEPです)
   * Brett: `PEP 3100 -- Miscellaneous Python 3.0 Plans <https://www.python.org/dev/peps/pep-3100/>`_
-  * Crarol: `PEP 500 -- A protocol for delegating datetime methods to their tzinfo implementations <https://www.python.org/dev/peps/pep-0500/>`_
-  * Guido: `PEP 343 -- The "with" Statement <https://www.python.org/dev/peps/pep-0343/>`_
+  * Crarol: `PEP 581 -- Using GitHub Issues for CPython <https://www.python.org/dev/peps/pep-0581/>`_
+  * Guido: `PEP 484 -- Type Hints <https://www.python.org/dev/peps/pep-0484/>`_
+  * Nick: `PEP 343 -- The "with" Statement <https://www.python.org/dev/peps/pep-0343/>`_
 
-* 質問: We hear a lot about burnout of core developers. Does the council have any plan to improve this? Is there anything that the community can d?o
+* 質問: Pythonのコア開発者になるための最初のステップはなんですか?
 
-  * Brett: PEP-581, 去年の私のキーノートをPoster
+  * Brett: `Python Developer's Guidee <https://devguide.python.org/>`_ を見てください。そこに開発をはじめるためのアイデアなどのドキュメントがまとまっています。
+
+* コア開発者が燃え尽きたという話をよく聞きます。Councilにはそれを改善する計画はありますか?コミュニティになにかできることはありますか?
+
+  * Brett: PEP-581でコア開発者はより作業がやりやすくなると思います。また昨年のキーノートでこのことについて話しました。私たちが下した決定にたいしてソーシャルメディアなどの反応をよく見ています。建設的なフィードバックは歓迎ですし、否定的なフィードバックも排除すると言うことはありません。オンライン上でのやりとりがちょうどよいものであることは、燃え尽きることを防ぐ助けにとてもなります(拍手)。
+  * 参考: `PyCon 2018のBrettによるキーノート <https://youtu.be/tzFWz5fiVKU?t=2969>`_
+  * Nick: 
+
+* Ewa: 最後によい補足をありがとうございます。 
   
 .. figure:: /images/us/council2.jpg
    :width: 400
