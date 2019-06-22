@@ -122,7 +122,7 @@ Python Steering CouncilとはPythonの言語仕様を策定する委員会の名
 
    Python Steering Council
 
-* Ewa: 質問: まずは自己紹介をお願いします。
+* Ewa: まずは自己紹介をお願いします。
 
   * Berry Warsaw: LickedInで働いていて、Python Foundationチームにも在籍しています。1994年にGuidoと出会って、それからPythonとGuidoが好きです。最初のPython workshopは20名の参加者だったけど、25年でものすごい参加者となってびっくりしている。
   * Brett Cannon: MicrosoftのVSCodeのPython拡張の開発マネージャーをしています。大学でPythonと出会いPython devメーリングリストでさまざまなやりとりをしたりPRを送ったりしていた。
@@ -134,7 +134,7 @@ Python Steering CouncilとはPythonの言語仕様を策定する委員会の名
     みなさんは子どもを大学生まで育てたことはありますか?直接関わることはほとんどなくなりますが、気にかけることをやめることはありません。私はそのような感覚を今Pythonに対して感じています(拍手)。それが、私が自分でSteering Councilに立候補して、イマココにいる理由です。
   * Nick Coghlan: ハードウェアとC++から、Pythonを使うようになった。Pythonを使うようになったのは、シグナルプロセッシングとunit testがあること、waveモジュールがあることやSWIGを使ってC++のモジュールをラップして使えるからです。Pythonを使ってハードウェアと通信するシステムを作成した。Pythonを使うことによって現実世界の面倒な部分を無視して、開発できるようになった。
 
-* 質問: ガバナンス(組織運営)がBDFLからSteering Councilに変わって、Pythonはどのように変化し続けると思いますか?
+* Ewa: ガバナンス(組織運営)がBDFLからSteering Councilに変わって、Pythonはどのように変化し続けると思いますか?
 
   * Guido: BDFLだったころ、PEP(Pythonの拡張提案)に対して最終的にyes/noやA/Bを選ぶことは責任があり、かなりストレスが大きかった。そのストレスがCouncilの5人に分散されるようになる。
     Python言語の組織運営については `PEP 13 <https://www.python.org/dev/peps/pep-0013/>`_ に記載した規定に則って運営することになります。
@@ -142,11 +142,11 @@ Python Steering CouncilとはPythonの言語仕様を策定する委員会の名
     まだ数ヶ月しか経っていませんが、このやり方はうまくいくと思います。
     今後のCouncilはできるだけ決定を委任していこうと思います。
     
-* 質問: Pythonとデータサイエンスは継続して成長しています。CarolはJupyterのSteering Councilメンバーでもありますが、科学系のPythonコミュニティの強さについて教えてください。
+* Ewa: Pythonとデータサイエンスは継続して成長しています。CarolはJupyterのSteering Councilメンバーでもありますが、科学系のPythonコミュニティの強さについて教えてください。
 
   * Carol: 新しいアイデアをコミュニティの全エリアから聞くことが大事です。Web、組み込み、教育、科学、データ分析などそれぞれ異なる要望があります。Steering Councilにさまざまなバックグランドのメンバーがいることにより、よりより選択をできると思います。
 
-* 質問: Brett、たくさんのインフラ関係の作業を管理してきました。Mariattaが作成した `PEP 581 <https://www.python.org/dev/peps/pep-0581/>`_ でバグチケットを bugs.python.org からGitHubに移動する予定ですが、現在はどのような状況でしか?
+* Ewa: Brett、たくさんのインフラ関係の作業を管理してきました。Mariattaが作成した `PEP 581 <https://www.python.org/dev/peps/pep-0581/>`_ でバグチケットを bugs.python.org からGitHubに移動する予定ですが、現在はどのような状況でしか?
 
   * Brett: まず最初にPEP 581について議論し、私たちはそれを受諾しました。そして実際の移行作業を `PEP 588 <https://www.python.org/dev/peps/pep-0588/>`_ にまとめています。language summitでもこの件について議論しフィードバックをもらいました。大きな問題はないので進めていく予定です。
 
@@ -177,8 +177,8 @@ Python Steering CouncilとはPythonの言語仕様を策定する委員会の名
   * Carol: 2017年にMariattaが最初の女性コア開発者となりました。楽しかったら開発Sprintにも参加してください。
   * Barry: Paul Everettについて触れておきたいです。彼はコミュニティでいろんな人をメンターした。
 
-* ここで、sli.doを使って会場からの質問を受け付けました。
-* 質問: 一番好きなPEPはなに?
+* Ewa: ここで、sli.doを使って会場からの質問を受け付けました。
+* 一番好きなPEPはなに?
 
   * Barry: `PEP 401 -- BDFL Retirement <https://www.python.org/dev/peps/pep-0401/>`_ (エイプリルフールのジョークPEPです)
   * Brett: `PEP 3100 -- Miscellaneous Python 3.0 Plans <https://www.python.org/dev/peps/pep-3100/>`_ (Python 3.0計画)
@@ -186,11 +186,11 @@ Python Steering CouncilとはPythonの言語仕様を策定する委員会の名
   * Guido: `PEP 484 -- Type Hints <https://www.python.org/dev/peps/pep-0484/>`_ (型ヒント)
   * Nick: `PEP 343 -- The "with" Statement <https://www.python.org/dev/peps/pep-0343/>`_ (with文)
 
-* 質問: Pythonのコア開発者になるための最初のステップはなんですか?
+* Ewa: Pythonのコア開発者になるための最初のステップはなんですか?
 
   * Brett: `Python Developer's Guidee <https://devguide.python.org/>`_ を見てください。そこに開発をはじめるためのアイデアなどのドキュメントがまとまっています。
 
-* コア開発者が燃え尽きたという話をよく聞きます。Councilにはそれを改善する計画はありますか?コミュニティになにかできることはありますか?
+* Ewa: コア開発者が燃え尽きたという話をよく聞きます。Councilにはそれを改善する計画はありますか?コミュニティになにかできることはありますか?
 
   * Brett: PEP-581でコア開発者はより作業がやりやすくなると思います。また昨年のキーノートでこのことについて話しました。私たちが下した決定にたいしてソーシャルメディアなどの反応をよく見ています。建設的なフィードバックは歓迎ですし、否定的なフィードバックも排除すると言うことはありません。オンライン上でのやりとりがちょうどよいものであることは、燃え尽きることを防ぐ助けにとてもなります(拍手)。
   * 参考: `PyCon 2018のBrettによるキーノート <https://youtu.be/tzFWz5fiVKU?t=2969>`_
