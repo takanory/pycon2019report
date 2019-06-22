@@ -18,7 +18,7 @@ Python Steering Councilによるキーノートや私が発表したポスター
 * Code Our Dreams
   
   高校生にもコンピューターサイエンスやプログラミング的な知識はこれから重要になるが、先生がいなかったり、学校が貧乏なためにPCの数が足りなかったりとかで、そういうことを学ぶ機会に恵まれない学生がたくさんいるそうです。
-  そこで発表者は `Code Your Dreams <https://www.codeyourdreams.org/>`_ という非営利の団体を立ち上げ、シカゴの学生にプログラミングを教える活動をしているそうです。
+  そこで発表者は `Code Our Dreams <https://www.codeyourdreams.org/>`_ (注: 今はCode Your Dreamsと名前が変わったようです)という非営利の団体を立ち上げ、シカゴの学生にプログラミングを教える活動をしているそうです。
   この活動に共感する企業に、スポンサーをしてほしいという要望を伝えていました。
   スピーカーは大学生ですが、地域の課題を解決するために団体を立ち上げて活動しPyConで発表するという、すごい人がいるもんだなーと感じました。
 
@@ -74,7 +74,7 @@ Python Steering Councilによるキーノートや私が発表したポスター
 
    参加者は朝6時にカンファレンス会場近くの集合場所に集まり、スクールバスでEdgewater Parkに移動し、この公園内でレースをします。
    Fun Run開始時はとても寒く、気温は11℃くらいでした。
-   朝早く起きて「寒い中に何でこんなことするんだ」と自問自答しながらも、レース会場に向かっていました。
+   朝早く起きて「寒い中、どうしてこんなチャレンジをしているのか」と自問自答しながらも、レース会場に向かっていました。
    十分な防寒対策などはなく、私はレギンスとPyLadies Tシャツのみ。
    レース開始までガクガク震えながら待っていました。
 
@@ -93,7 +93,7 @@ Python Steering Councilによるキーノートや私が発表したポスター
 
       PyLadies Tシャツ
 
-   そして、レースが始まりました。はじめ私は先頭集団に何とかついていきましたが、途中から急激なペースダウン。筋トレはしていたものの走る練習をしていなかったため、ぜんぜんダメでした。それでも「せっかく来たのだから走り切ろう」という気持ちが働き、走り切りました。それにしても疲れた！けど、走り切った！
+   そして、レースが始まりました。はじめのうちは先頭集団に何とかついていきましたが、途中から急激なペースダウン。筋トレはしていたものの走る練習をしていなかったため、全くダメでした。それでも「せっかく来たのだから走り切ろう」という気持ちが働き、走り切りました。それにしても疲れた！けど、走り切った！
 
    結果、私の記録は34分34秒。女性の部で5位(9人中)、全体では48位(62人中)でした。
    5kmレース自体も初めてだったので、自分なりには良いかなと思っています。次回は23分を目指したいです！
@@ -229,13 +229,13 @@ PyCon 2019のポスターセッションでは全部で30の発表がありま�
 ポスターの準備
 --------------
 実際の発表の前に、ポスターの準備について少し説明します。
-ポスターのサイズについては横4フィート(約1.2メートル)x縦3フィート(約0.9)メートルとの連絡がありました。
+ポスターのサイズについては横4フィート(約1.2メートル)x縦3フィート(約0.9メートル)との連絡がありました。
 これは日本でポスターを作る場合にはA0くらいで大丈夫そうです。
 私はポスターなど作ったことがないし、まずはどんな内容のポスターにするかのアイデア出しをしないといけません。
 Google Docsに「こういうネタがよさそうかな」と私がざっと書いたものをベースに、以下のメンバーとオンラインでディスカッションしてアイデア出しをしました。
 
 * 寺田 学(`@terapyon <https://twitter.com/terapyon>`_): Python Boot Camp講師、US現地での発表も手伝ってもらった
-* Lina Katayose(`@selina787b <https://twitter.com/selina787b/>`__): Python Boot Camp現地スタッフ、US現地での発表も手伝ってもらった
+* 片寄 里菜(`@selina787b <https://twitter.com/selina787b/>`__): Python Boot Camp現地スタッフ、US現地での発表も手伝ってもらった
 * 筒井 隆次(`@ryu22e <https://twitter.com/ryu22e>`_): Python Boot Campコアスタッフ
 * 小林 智博(`@kobatomo3H <https://twitter.com/kobatomo3H>`_): Python Boot Campコアスタッフ
 * 清水川 貴之(`@shimizukawa <https://twitter.com/shiizukawa>`_): Python Boot Camp講師
@@ -341,7 +341,7 @@ PyCon出発時に手元にポスターがないとだめなので、かなりの
 * スペインからの参加者で、彼はPyCon JP 2018のキーノートのManuel Kaufmann(`@reydelhumo <https://twitter.com/reydelhumo>`_)と友達だそうです
 * 日本人の方で、現在はアメリカの金融系の会社に勤めている方(毎年Job Fairで参加しているそうです)
 * Pyshon Software FoundationのChair PersonのNaomi Ceder氏
-* MailmanのCore Developerで筑波在住の方。3年前くらいはPyCon JPにも来てくれてました(名前なんだっけ...)
+* MailmanのCore Developerで筑波在住のStephen Turnbull(`@yasegumi <https://twitter.com/yasegumi>`_)氏。3年前くらいはPyCon JPにも来てくれていました。
 
 また、PyCon night Tokyo/Osakaで2016年に発表してくれた、DisneyのPaul Hildebrandt (`@paulhildebrandt <https://twitter.com/paulhildebrandt>`_)氏とも再会できました。
 このときはSponserとしてPyConに参加していたGoogleの `@ymotongpoo <https://twitter./com/ymotongpoo>`_ も、一緒にPython Boot Campなどについての説明を手伝ってくれました。ありがとう。
@@ -505,7 +505,7 @@ Dinner Party
 
    Great Lakes Science Center
 
-科学館の見学とかもできるので楽しみだったんですが、少し仮眠するつもりがパーティー終了1時間前くらいに目が覚めてしまい(起きれてよかった)、料理をひととり食べて缶ビールを2缶飲むのがせいいっぱいでした。
+科学館の見学とかもできるので楽しみだったんですが、少し仮眠するつもりがパーティー終了1時間前くらいに目が覚めてしまい(起きれてよかった)、料理をひととおり食べて缶ビールを2缶飲むのがせいいっぱいでした。
 
 .. figure:: /images/us/party.jpg
    :width: 400
@@ -514,7 +514,7 @@ Dinner Party
 
 パーティー終了後は当然飲み足りなかったので、 `Noble Beast Beer <https://www.noblebeastbeer.com/>`_ に飲みに行きました。
 クリーブランドのブルワリーは、どこもデカい建物の中にバーと醸造所が併設してあり、できたてが飲めてとてもよいなと思いました。
-この店は、塾生用と思われる大きな樽があることが特徴的でした。
+この店は、熟成用と思われる大きな樽があることが特徴的でした。
 
 .. figure:: /images/us/noblebeast.jpg
    :width: 400
@@ -535,7 +535,7 @@ Dinner Party
    Sprintの案内ボード
 
 筆者は1日しかSprintには参加しませんでしたが、自分の作業を進めたり、Packaging Summit(Pythonのパッケージングについてのミーティング)に参加してみたりしました。
-このSummitが、内容が難しいことと私の英語力の問題もあり、全然ついていけませんでした。
+このSummitは、内容が難しいことと私の英語力の問題もあり、全然ついていけませんでした。
 Packaging Summitで議論された内容に興味のある方は、以下のツイートを参照してください。
 
 * `ernest w. durbin iii on Twitter: "Topics for the @ThePyPA Packaging Summit at #PyCon2019 Sprints… " <https://twitter.com/EWDurbin/status/1125414881363148800>`_
@@ -560,7 +560,7 @@ Packaging Summitで議論された内容に興味のある方は、以下のツ�
 
    僕は今までOpen Sourceに貢献したことがなく、今回が初めての貢献でした。
    最初はFlaskのSprintに参加しようと思いましたが、"Good First Issue" タグが付いたIssueがほとんどなかったため、初心者歓迎で多くの人が使ってる **pip** チームのSprintに参加しました。
-   メンターはなんと自分と同い年、インドの大学に通ってる学生でした。世界中のみんなに使われてるpipのコアメンテナーが21歳ということにびっくりしました。
+   私のメンターは自分と同い年で、インドの大学に通ってる学生であり、なんとpipのコアメンテナーです。世界中のみんなに使われてるpipのコアメンテナーが21歳ということにびっくりしました。
 
    初日はコードのリファクタリングをしてPull Requestを作成しました。
    次の日にmergeされていると思っていましたが、コミットメッセージがガイドと合っていないという指摘を受けました。git rebase後もう一度Pull Requestを更新し、mergeしてもらいました。
@@ -574,7 +574,7 @@ Packaging Summitで議論された内容に興味のある方は、以下のツ�
    .. figure:: /images/us/packaging-summit.jpg
       :width: 400
 
-      Sprint中PyPIチームはミニカンファレンスを実施した
+      Sprint中パッケージチームはミニカンファレンスを実施した
 
    .. figure:: /images/us/sprints.jpg
       :width: 400
