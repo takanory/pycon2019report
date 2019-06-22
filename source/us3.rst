@@ -181,10 +181,10 @@ Python Steering CouncilとはPythonの言語仕様を策定する委員会の名
 * 質問: 一番好きなPEPはなに?
 
   * Barry: `PEP 401 -- BDFL Retirement <https://www.python.org/dev/peps/pep-0401/>`_ (エイプリルフールのジョークPEPです)
-  * Brett: `PEP 3100 -- Miscellaneous Python 3.0 Plans <https://www.python.org/dev/peps/pep-3100/>`_
-  * Crarol: `PEP 581 -- Using GitHub Issues for CPython <https://www.python.org/dev/peps/pep-0581/>`_
-  * Guido: `PEP 484 -- Type Hints <https://www.python.org/dev/peps/pep-0484/>`_
-  * Nick: `PEP 343 -- The "with" Statement <https://www.python.org/dev/peps/pep-0343/>`_
+  * Brett: `PEP 3100 -- Miscellaneous Python 3.0 Plans <https://www.python.org/dev/peps/pep-3100/>`_ (Python 3.0計画)
+  * Crarol: `PEP 581 -- Using GitHub Issues for CPython <https://www.python.org/dev/peps/pep-0581/>`_ (CPythonのバグをGitHubで管理する)
+  * Guido: `PEP 484 -- Type Hints <https://www.python.org/dev/peps/pep-0484/>`_ (型ヒント)
+  * Nick: `PEP 343 -- The "with" Statement <https://www.python.org/dev/peps/pep-0343/>`_ (with文)
 
 * 質問: Pythonのコア開発者になるための最初のステップはなんですか?
 
@@ -194,9 +194,9 @@ Python Steering CouncilとはPythonの言語仕様を策定する委員会の名
 
   * Brett: PEP-581でコア開発者はより作業がやりやすくなると思います。また昨年のキーノートでこのことについて話しました。私たちが下した決定にたいしてソーシャルメディアなどの反応をよく見ています。建設的なフィードバックは歓迎ですし、否定的なフィードバックも排除すると言うことはありません。オンライン上でのやりとりがちょうどよいものであることは、燃え尽きることを防ぐ助けにとてもなります(拍手)。
   * 参考: `PyCon 2018のBrettによるキーノート <https://youtu.be/tzFWz5fiVKU?t=2969>`_
-  * Nick: 
+  * Nick: 私たちはPSFとともに積極的に活動していきます。みなさんがPSFやコア開発者をサポートする具体的な方法があります。現在ファンドレイザー(資金調達)が進行中です。
 
-* Ewa: 最後によい補足をありがとうございます。 
+* Ewa: 最後によい補足をありがとうございます。  https://pycon.us/psf からファンドレイザーのページにアクセスできます。それではみなさん参加してくれてありがとうございます。残りのPyConを楽しんでください(拍手)。
   
 .. figure:: /images/us/council2.jpg
    :width: 400
