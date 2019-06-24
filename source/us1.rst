@@ -243,16 +243,16 @@ API Evolution the Right Way
 
 私自身はライブラリのメンテナンスなどはしていませんが、自分が書いているコードや社内のコードでも活かせる部分がありそうな、参考になる発表でした。
 
-Migrating Piterest from Python 2 to Python 3
+Migrating Pinterest from Python 2 to Python 3
 --------------------------------------------
 * スピーカー: Jordan Adler, Joe Gordon
 * ビデオ: https://www.youtube.com/watch?v=e1vqfBEAkNA
 * スライド: https://speakerdeck.com/pycon2019/jordan-adler-joe-gordon-migrating-pinterest-from-python2-to-python3
 
-このトークはタイトルの通りPiterestのコードをPython 2から3に移行した話です。
+このトークはタイトルの通りPinterestのコードをPython 2から3に移行した話です。
 2人のスピーカーがスライドごとに入れ替わって話をするスタイルでした(卓球のダブルスみたいだなーと思いながら見ていました)。
 
-PiterestのWebサイトはDjangoベースでできている巨大なコードベースです。
+PinterestのWebサイトはDjangoベースでできている巨大なコードベースです。
 
 * 2,600万行のコード
 * 10年間で1000人以上がメンテナンス
@@ -378,7 +378,7 @@ Squareのパーティ
 
 7時過ぎから飲み始めて、10時にパーティーは終わったんですが、そのあともここで飲み続けて遊んでいました。
 すると地元の黒人の人(Ericさん)が来てなぜか「4目並べで対戦しようぜ」と声をかけられて、対戦。結果は2勝1敗で勝つことができました。めちゃめちゃくやしがっていて、リアクションがとても面白い人でした。
-そのあと「じゃあダブルスやろうぜ」となって、私とEricさんペア、ymotngpooとJasonペアで対戦しましたが、負けてしまいました。
+そのあと「じゃあダブルスやろうぜ」となって、私とEricさんペア、ymotongpooとJasonペアで対戦しましたが、負けてしまいました。
 こういう謎な交流があることも醍醐味ですね。
    
 .. figure:: /images/us/square2.jpg
