@@ -244,7 +244,7 @@ API Evolution the Right Way
 私自身はライブラリのメンテナンスなどはしていませんが、自分が書いているコードや社内のコードでも活かせる部分がありそうな、参考になる発表でした。
 
 Migrating Pinterest from Python 2 to Python 3
---------------------------------------------
+---------------------------------------------
 * スピーカー: Jordan Adler, Joe Gordon
 * ビデオ: https://www.youtube.com/watch?v=e1vqfBEAkNA
 * スライド: https://speakerdeck.com/pycon2019/jordan-adler-joe-gordon-migrating-pinterest-from-python2-to-python3
