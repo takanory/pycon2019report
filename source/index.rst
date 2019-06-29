@@ -10,10 +10,11 @@ Welcome to PyCon 2019 report's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   apac-pythoned
+   apac
    us1
    us2
    us3
    us4
+   thailand
 
-.. apac-pythoned
-   apac
