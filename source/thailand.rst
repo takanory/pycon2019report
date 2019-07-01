@@ -73,20 +73,6 @@ PyCon Thailandとは
 
 なお、写真の右側がPyCon ThailandのChairのDylan Jay(`@djay75 <https://twitter.com/djay75>`_)氏で、左側が最初のキーノートスピーカーのDavid Cournapeau氏です。
 
-
-Keynote: David Cournapeau
-=========================
-オープニングに続いてDavid Cournapeau(`@cournape <https://twitter.com/cournape>`_)氏によるキーノートです。
-最初はスライドがうまく表示できず、いろいろと会場スタッフの方とかがやってきたりして作業していました。少しじかんがたった後に画面が表示されると会場から拍手がわきおこりました。
-このイベントがあたたかい雰囲気だなと感じる瞬間でした。
-
-David氏は現在日本に住んでおり、2019年4月に開催された `SciPy Japan Conference 2019 <https://www.scipyjapan2019.scipy.org/?lang=ja>`_ にも参加していたそうです。
-このキーノートでは自信が現在日本に住んでいることや、音声分析がバックグラウンドであることから話が始まりました。
-Pythonや機械学習のOSS(NumPyなど)にもコントリビュートしているそうです。
-
-そして、の
-* 2006年にGSoCでMatplotlibへのコントリビュートをはじめた
-
 自分の発表
 ==========
 * タイトル: Automate the Boring Stuff with Slackbot
@@ -119,8 +105,6 @@ Pythonや機械学習のOSS(NumPyなど)にもコントリビュートしてい�
 とはいえ、時間がきてしまったのでしょうがないので質疑応答に入ります。
 質問は結構な数がでて、そこをなんとかこなすことができたので、筆者自身の自信にもつながりました。
 いくつか質疑応答の内容を紹介します。
-
-* 聞き取れない英語を他の人がもう一度しゃべってくれて助かった
 
 * LINEBotを作りたいんだけど、この仕組みでできますか?
 
@@ -286,13 +270,16 @@ Keynote: Dr Russell Keith-Magee
 
 Understanding of distributed processing in Python
 =================================================
-* Chie Hayashida
-* 並列プログラミング、並行プログラミング、マルチプロセッシング、マルチスレッドなどについて説明
-* 結構難しい内容だよな
+
+日本から参加指定2名のトーク
+===========================
+このカンファレンスには私以外に2人の日本人が参加してトークで発表していました。
+2人とも海外での登壇は初めてとのことで、どんな感じだったかをそれぞれレポートしてもらいました。
 
 .. admonition:: はじめての海外PyCon参加及び登壇
 
    * 林田千瑛(`@chie8842 <https:/twittercom/chie8842>`_)
+   * タイトル: Understanding of distributed processing in Python
   
    今回のPyCon Thailandはわたしにとってはじめての海外PyCon参加でした。
    もともと2017年にPyCon JPに初登壇したときに、別の登壇者の方から「海外のPyConで登壇することでグローバルなエンジニアのつながりができた」という話をきいたことを印象的に覚えていて、そのときからいつかチャレンジしてみたいと思っていました。
@@ -316,11 +303,37 @@ Understanding of distributed processing in Python
 
       登壇準備の様子
      
-PyLadies and importance of community participation
-==================================================
-* Lina KATAYOSE
-* コミュニティの話
-* InputしてOutputしよう
+.. admonition:: PyCon Thailandで初の海外トーク
+
+   * 片寄 里菜(`@selina787b <https://twitter.com/selina787b>`_)
+   * タイトル: PyLadies and importance of community participation
+   * スライド: https://www.slideshare.net/LinaKatayose/pyladies-and-the-importance-of-community-participation
+
+   5月のPyCon Clevelandに続き、今年2回目の海外PyConに参加しました。
+   今回は参加だけでなく、英語でのトーク(40分)にも挑戦しました。
+
+   今回は女性のPythonユーザーが活動しているPyLadiesの活動に関してトークをしました。
+   主な内容は以下の3点です。
+
+   * 私がPyLadies Tokyoのスタッフをしていること
+   * アジアの女性Pythonistaと連携を深めたいこと
+   * タイにはPyLadiesグループがないので広めたいこと
+
+   PyLadies Tokyoのスタッフを始めて3年ほど活動してきました。
+   その中で大まかな流れがわかり、それらの経験を元に、今までの活動を写真などでまとめ発表をしました。
+
+   私は5年ほど前にタイでタイ語を勉強していた経験があるので、自己紹介だけはタイ語で話したいと決めていました。
+   英語自体でトークするのも初めてなのですが、何とかやり切った感があります。
+   質疑応答では、英語での質問をうまく聞き取れないこともあり、この点は改善していきたいと思いました。
+   また日本語を少ししゃべれる方から日本語の質問もあり、とても嬉しかったです。
+
+   トークの終了後は、発表に興味を持ってくれた方と個別にお話をして、連絡先を交換しました。その方は近いうちに日本に来るらしいです。
+   まだ、改善の余地もありますが、PyCon Thailandと来年もつながっていきたいと思っています。
+
+   .. figure:: /images/th/selina.jpg
+      :width: 400
+
+      発表の様子
 
 Any Code Formatter You Like - As Long As It's Black
 ===================================================
