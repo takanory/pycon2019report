@@ -237,7 +237,7 @@ Day 2
 Keynote: Dr Russell Keith-Magee
 ===============================
 * @freakboy3742
-* title: Python Everywhere
+* タイトル: Python Everywhere
 * Django, Python, BeeWareの紹介
 * Python.. Everywhere?
 * How
@@ -268,10 +268,7 @@ Keynote: Dr Russell Keith-Magee
 
   * ブラウザでPythonが動く
 
-Understanding of distributed processing in Python
-=================================================
-
-日本から参加指定2名のトーク
+日本から参加した2人のトーク
 ===========================
 このカンファレンスには私以外に2人の日本人が参加してトークで発表していました。
 2人とも海外での登壇は初めてとのことで、どんな感じだったかをそれぞれレポートしてもらいました。
@@ -335,68 +332,37 @@ Understanding of distributed processing in Python
 
       発表の様子
 
-Any Code Formatter You Like - As Long As It's Black
-===================================================
-* Zsolt Dollenstein
-* ハンガリー出身
-* Facebookの人
-* PyLint, Flake8でいろいろエラーが出るよね
-* autopep8が助けてくれるよ
-* 今はBlackがあるよ
+ライトニングトーク
+==================
+2日目のライトニングトークからもいくつか面白かった話題を紹介します。
 
-  * single style, minimal configration
-  * Simplicity
-
-* Blockがどういう風にフォーマットするかを実例を交えて説明
-
-  * 文字列はダブルクォート
-* ASTとかは変わらないから、問題ないよ    
-
-Lightning Talks
-===============
-* Iqbalさん
-
-  * コミュニティの人たちに感謝を述べよう
-  * 企業はお金を稼いで寄付しよう
 * Python "OS" for hackers
 
-  * https://python-os.github.io/
-  * Qtile: Desktop Environment
+  https://python-os.github.io/ にあるPython製のOS用のコンポーネント集です。
+  以下のようなツールが揃っており、それぞれをデモを交えて紹介していました。
+  Pythonでここまでできていてすごいなと感じました。
+
+  * Qtile: Window Manager
   * Kitty: Terminal Emulator
   * Xonsh: Shell
   * Qutebrowser: Borwser
   * Ranger: FIle Manager
-  * 面白そう
-* odoo ERP
 
-  * PythonベースのERP
 * Pythonの数値の話
-  * print(a == b, a is b) がどこまでTrueかのはなし
-  * -5 から 256 らしい
-  * LTなので解説はしないよ
-* Regular Expression
-* Gerrymandering
+  
+  2つの変数に数値を設定して ``print(a == b, a is b)`` でどこまでが ``True True`` となるか?という話です(注: オブジェクトが同一の場合は ``is`` の結果が ``True`` となります)。
+  会場に答えさせて、答え合わせをしながら進んでいきましたが、筆者もうろ覚えなので結構間違えました。
+  みなさんもぜひ手元の環境で255、256、257のときやマイナスのときにどうなるかを確認してみてください。
 
-  * たいの選挙のPDFを読み込む
-  * いろんなPDFから読み込むツールの紹介
-  * https://elect.in.th/
-* DevOps関連の用語を独自の切り口で説明するトーク
+.. figure:: /images/th/numbers.jpg
+   :width: 400
 
-  * ものすごいテンポとチョイチョイこねたが挟まっておもしろかった
-  * Cloud: 誰かがメンテナンスしているハードウェア
-  * GCE: GoogleのAWS
-  * Azure: MicrosoftのAWS
+   数値を比較
 
 Keynote: Katie McLaughlin
 =========================
 * How Python Can Excel
 * Slide: https://glasnt.com/talks/2019_06_PyConTH.podium/
-
-コラム
-======
-* terada: https://paper.dropbox.com/doc/PyCon-TH-2019--Afq3grxNTZ4CStQ2R_erMHEUAQ-vpxuT1axJ3Gxxuf0b0XMb
-* Chie https://paper.dropbox.com/doc/PyCon--Af~aWGV3kHF_gImE8L967G6OAg-62KWI8SGKGyy0nNFieN0R
-* selina https://docs.google.com/document/d/1cz6YErm7nJQGiWolQUvyMVXuhhHIE2X2O0dWD2LBZ-k/edit?usp=sharing
 
 まとめ
 ======
