@@ -383,6 +383,7 @@ Keynote: Katie McLaughlin
 ======
 * terada: https://paper.dropbox.com/doc/PyCon-TH-2019--Afq3grxNTZ4CStQ2R_erMHEUAQ-vpxuT1axJ3Gxxuf0b0XMb
 * Chie https://paper.dropbox.com/doc/PyCon--Af~aWGV3kHF_gImE8L967G6OAg-62KWI8SGKGyy0nNFieN0R
+* selina https://docs.google.com/document/d/1cz6YErm7nJQGiWolQUvyMVXuhhHIE2X2O0dWD2LBZ-k/edit?usp=sharing
 
 まとめ
 ======
