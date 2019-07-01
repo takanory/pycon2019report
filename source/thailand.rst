@@ -277,37 +277,46 @@ Noah氏はいったいいくつのPyConに参加するのでしょう、そし�
 
 Keynote: Dr Russell Keith-Magee
 ===============================
-* @freakboy3742
 * タイトル: Python Everywhere
-* Django, Python, BeeWareの紹介
-* Python.. Everywhere?
-* How
 
-  * Pythonはspecification
-  * CPythonはreference implementation
-  * CPythonはGILがあるけどPyPy, IronPython, StacklessにはGILないいよ
-  * ctypes
+2日目のキーノートはUS PyConでもキーノートスピーカーだったRussell Keith-Magee氏です。
+あちこちでキーノートで発表するという、ものすごい人ですね。
 
-* Inside a Python
+.. figure:: /images/th/russel.jpg
+   :width: 400
 
-  * Parser
-  * Compiler
-  * Eval loop
-  * Standard library
-* CPython意外にもいろんな実装あるよ
-* VOC: https://beeware.org/project/projects/bridges/voc/
+   Russell氏のキーノート
+   
+内容は「Python Everywhere」というタイトルで、PythonはPCだけではなくさまざまな環境で動作するという話でした。
+まず前提知識として **Python** は言語仕様であり、PCなどで使用している ``python`` コマンドはC言語で書かれているリファレンス実装であるという説明がありました。
+そのためこのリファレンス実装は **CPython** とも呼ばれます。
+そして他にPythonで実装した `PyPy <https://pypy.org/>`_ や.Netで動作する `IronPython <https://ironpython.net/>`_ などが紹介されました。
+また、CPythonにはGIL(`グローバルインタプリタロック <https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%97%E3%83%AA%E3%82%BF%E3%83%AD%E3%83%83%E3%82%AF>`_)が存在するが、PyPy、IronPython、 `Stackless Python <https://github.com/stackless-dev/stackless/wiki>`_ などには存在しないという説明がありました。
+次に、Pythonを実装するためには、以下のパーサー、コンパイラ、evalループ、標準ライブラリの4つの要素が必要であるという説明がありました。
 
-  * Python -> Java
-* Batavia: https://beeware.org/project/projects/bridges/batavia/
+そして、Russell氏も所属する `BeeWare <https://beeware.org/>`_ プロジェクトで開発している、他のPython実装について紹介がありました。
+BeeWareは、単一のPythonコードからiOS、Android、Windows、macOS、Linux、Webアプリケーションを生成するということを目標としています。
 
-  * Python -> JavaScript
-* asm.js(asmjs.org)
-* Weeb Assembly
+* `VOC <https://beeware.org/project/projects/bridges/voc/>`_:
+  VOCはPythonのバイトコードをJavaのバイトコードに変換するトランスパイラです。
+  現在はPython 3.4に対応しているそうです。
 
-  * quakejs.com
-* Pyodide: https://github.com/iodide-project/pyodide
+* `Batavia <https://beeware.org/project/projects/bridges/batavia/>`_: 
+  BataviaはJavascript上で動作するPythonのバーチャルマシンです。
+  現在はPython 3.4.4に対応しているそうです。
 
-  * ブラウザでPythonが動く
+今後はWebAssemblyによってブラウザ上でPythonが直接動作するようになるであろうという話がありました。
+`Pyodide <https://github.com/iodide-project/pyodide>`_ というプロジェクトでWebブラウザ上でPythonが動作するようです。
+
+* Pyodideのデモページ: https://alpha.iodide.io/notebooks/300/
+
+私も試してみましたが、最初に ``pyodide.js`` を読み込んだ後はオフラインでも実行できるので、実際にブラウザ上でPythonが動作しているようです。
+なんだか不思議な感覚です。
+
+.. figure:: /images/th/pyodide.png
+   :width: 400
+
+   Pyodideのデモページ
 
 日本から参加した2人のトーク
 ===========================
