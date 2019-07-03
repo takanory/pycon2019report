@@ -16,7 +16,7 @@ PyCon Thailandとは
 他にも日本からスピーカーやブース出展で参加した人がいるので、その方からの視点も交えてレポートします。
 
 .. figure:: /images/th/pyconth.png
-   :width: 400
+   :width: 300
 
    PyCon Thailand 2019 Webサイト
 
@@ -45,7 +45,7 @@ PyCon Thailandとは
 ちなみにアサヒビールは結構海外進出しているようです。
    
 .. figure:: /images/th/asahi.jpg
-   :width: 300
+   :width: 200
 
    ビールはアサヒスーパードライ
 
@@ -53,7 +53,7 @@ PyCon Thailandとは
 ちなみにこの店にもアサヒビールは置いてあり、他に常陸野ネストビールも置いてありました。
 
 .. figure:: /images/th/ekamai.jpg
-   :width: 400
+   :width: 300
 
    Ekamai Beer Houseでタイのクラフトビールを飲む
 
@@ -67,7 +67,7 @@ PyCon Thailandとは
 「私は今年のPyCon Taiwanにもトークしに行くので、また会いましょう」といった話をしました。
 
 .. figure:: /images/th/opening.jpg
-   :width: 400
+   :width: 300
 
    オープニングの様子
 
@@ -85,7 +85,7 @@ PyCon Thailandとは
 この席に、他の2名の日本人スピーカー(2人は明日が発表)もやってきてもくもくと作業を進めていました。
 
 .. figure:: /images/th/famires.jpg
-   :width: 400
+   :width: 300
 
    ファミレス席
 
@@ -95,7 +95,7 @@ PyCon Thailandとは
 「まだ来たことがなかったら、ぜひPyCon JPに来てください。PyCon JPで再開しましょう。」という話をしたら少し笑ってもらえました。
 
 .. figure:: /images/th/takanory.jpg
-   :width: 400
+   :width: 300
 
    「日本にきたことある人ー」と聞いているところ
 
@@ -130,7 +130,7 @@ PyCon Thailandとは
 参加者のサポートに感謝です。
 
 .. figure:: /images/th/audience.jpg
-   :width: 400
+   :width: 300
 
    発表前に参加者を撮影(このあとさらに増えました)
 
@@ -145,7 +145,7 @@ PyCon Thailandとは
 企業ブースも結構賑わっており、抽選で賞品が当たるAWSのブースは気合いも入っており、かなりの人だかりでした。
 
 .. figure:: /images/th/aws.jpg
-   :width: 400
+   :width: 300
 
    AWSの企業ブース
 
@@ -155,14 +155,14 @@ PyCon Thailandとは
 あとは普通っぽく見えるおかずが、結構辛かったりしてタイは侮れないなと感じました。
 
 .. figure:: /images/th/lunch.jpg
-   :width: 400
+   :width: 300
 
    ご飯の色がすごい
 
 ちなみにTrue Digital Parkには日本食のお店もたくさん入っており、一瞬「私はどこにいるんだ?」と思いました。
 
 .. figure:: /images/th/japanese-food.jpg
-   :width: 300
+   :width: 200
 
    たくさんの日本食レストラン(ロゴもほぼそのまま)
 
@@ -182,14 +182,14 @@ PyCon Thailandとは
    現状は、いずれもNoと答えるしかないのですが、興味を持っている人が多いことは間違いなささそうです。
 
    .. figure:: /images/th/booth.jpg
-      :width: 400
+      :width: 300
 
       ブースで説明している様子
 
    また、マスコットの人形がすごく人気があり、どうやどうやったら手に入るのかと聞かれました。なおこのマスコットはプレゼントして最終日のクロージングで参加者にプレゼントしました。
 
    .. figure:: /images/th/prize.jpg
-      :width: 400
+      :width: 300
 
       クロージングでぬいぐるみが当たった参加者と
 
@@ -199,7 +199,7 @@ E-commerce for Django
 * スライド: https://github.com/pincoin/thaipycon2019
 
 .. figure:: /images/th/jonghwa.jpg
-   :width: 400
+   :width: 300
 
    Jonghwa Seo氏
 
@@ -221,7 +221,7 @@ Noah氏は台湾在住ですが、フィリピンのPyCon APACや今回タイな
 Noah氏はいったいいくつのPyConに参加するのでしょう、そして私と会うのでしょう。
 
 .. figure:: /images/th/noah.jpg
-   :width: 400
+   :width: 300
 
    Noah氏
 
@@ -230,7 +230,7 @@ Noah氏はいったいいくつのPyConに参加するのでしょう、そし�
 内部的にTensorFlowを使って画像処理を行っているそうですが、驚きなのはネットワークを使っておらず、すべてこのカメラの中で処理をしているそうです。
 
 .. figure:: /images/th/camera.jpg
-   :width: 400
+   :width: 300
 
    ディープラーニングで画像を変換するカメラ
 
@@ -252,7 +252,7 @@ Noah氏はいったいいくつのPyConに参加するのでしょう、そし�
    - 毎月 `Python mini Hack-a-thon <http://pyhack.connpass.com/>`_ というイベントを東京でやっているので、遊びに来てください
 
    .. figure:: /images/th/terada-lt.jpg
-      :width: 400
+      :width: 300
 
       LTの様子
 
@@ -263,7 +263,7 @@ Noah氏はいったいいくつのPyConに参加するのでしょう、そし�
 しかもビールはタイのクラフトビール(`Bootleg Brothers <http://bootlegbrothers.co.th/>`_)のボトルが3種類と、生ビールが2種類用意されていました。完璧すぎます。
 
 .. figure:: /images/th/party1.jpg
-   :width: 400
+   :width: 300
 
    タイのクラフトビールでパーティー
 
@@ -275,6 +275,11 @@ Noah氏はいったいいくつのPyConに参加するのでしょう、そし�
 
 * https://twitter.com/georgically1/status/1141057364444925952
 
+.. figure:: /images/th/band.jpg
+   :width: 300
+
+   バンドと女性スタッフのコラボ
+   
 Keynote: Dr Russell Keith-Magee
 ===============================
 * タイトル: Python Everywhere
@@ -283,9 +288,9 @@ Keynote: Dr Russell Keith-Magee
 あちこちでキーノートで発表するという、ものすごい人ですね。
 
 .. figure:: /images/th/russel.jpg
-   :width: 400
+   :width: 300
 
-   Russell氏のキーノート
+   Russell Keith-Magee氏のキーノート
    
 内容は「Python Everywhere」というタイトルで、PythonはPCだけではなくさまざまな環境で動作するという話でした。
 まず前提知識として **Python** は言語仕様であり、PCなどで使用している ``python`` コマンドはC言語で書かれているリファレンス実装であるという説明がありました。
@@ -314,7 +319,7 @@ BeeWareは、単一のPythonコードからiOS、Android、Windows、macOS、Lin
 なんだか不思議な感覚です。
 
 .. figure:: /images/th/pyodide.png
-   :width: 400
+   :width: 300
 
    Pyodideのデモページ
 
@@ -338,7 +343,7 @@ BeeWareは、単一のPythonコードからiOS、Android、Windows、macOS、Lin
    また、「クックパッド使うよ！」とも言ってもらえました。登壇してよかったな、と思いました。40分のトークを英語でやりきったことは、グローバルに挑戦するための自信にも繋がりました。
 
    .. figure:: /images/th/chie.jpg
-      :width: 400
+      :width: 300
 
       発表の様子
      
@@ -346,7 +351,7 @@ BeeWareは、単一のPythonコードからiOS、Android、Windows、macOS、Lin
    海外カンファレンスにチャレンジしてみたい方にはぜひおすすめしたいと思いました。
 
    .. figure:: /images/th/famires2.jpg
-      :width: 400
+      :width: 300
 
       登壇準備の様子
      
@@ -378,7 +383,7 @@ BeeWareは、単一のPythonコードからiOS、Android、Windows、macOS、Lin
    まだ、改善の余地もありますが、PyCon Thailandと来年もつながっていきたいと思っています。
 
    .. figure:: /images/th/selina.jpg
-      :width: 400
+      :width: 300
 
       発表の様子
 
@@ -405,14 +410,91 @@ BeeWareは、単一のPythonコードからiOS、Android、Windows、macOS、Lin
   みなさんもぜひ手元の環境で255、256、257のときやマイナスのときにどうなるかを確認してみてください。
 
 .. figure:: /images/th/numbers.jpg
-   :width: 400
+   :width: 300
 
    数値を比較
 
 Keynote: Katie McLaughlin
 =========================
-* How Python Can Excel
-* Slide: https://glasnt.com/talks/2019_06_PyConTH.podium/
+* タイトル: How Python Can Excel
+* スライド: https://glasnt.com/talks/2019_06_PyConTH.podium/
 
+Katie McLaughlin(`@glasnt <https://twitter.com/glasnt>`_)氏はPSFフェローであり、PyCon AU(オーストラリア)のカンファレンスDirectorやPSF(Python Software Foundation)やDSF(Django Software Foundation)のDirectorを務める方で、さまざまなカンファレンスでキーノートもするスピーカーでもあります。
+
+トークを始める前に画面トラブルでうまく表示がされないときに、ステージ上で陽気に踊り始めたときには「この人、大丈夫か?」と一瞬思いましたが(笑)、いざトークが始まってみるとスライドの見やすさや、トークの展開など、ものすごく上手に構成されていて個人的にとても勉強になるなと思いました。
+
+トークは「How Python Can Excel」と題して「PythonはどうやったらExcelのようになれるのか?」という内容で進みました。
+まず、Excelは多くの人に使われいてとてもパワフルであること、また協力なカスタマイズも可能で例として `Excelで作られたデジタル時計 <https://github.com/Jonahss/Spreadsheets-Without-Macros/blob/master/digitalClock.xls>`_ があげられていました(そんなものがあるんですね...)。
+次にPythonの利用者は約2,500万人、それに対してExcelは約8億人とのことで、この32倍nの差をどのように埋めていくことができるか、と問いかけながら話は進んでいきます。
+
+そして http://humanedevelopment.org/ の以下の言葉が繰り替えし引用されました。
+日本語訳すると「私たちは、人と一緒に働いて、人々の利益のための、ソフトウェアを開発する、人間です」といった感じでしょうか。
+
+  | We are **humans**
+  | working with **humans**
+  | to develop software
+  | for the benefit of **humans**.
+
+次に具体的な例として、科学者、教育者、クリエイター、求道者という4つの職種に対して、Pythonでどのような役に立つソフトウェアが提供されているかを語りました。
+
+**科学者** に対しては、Jupyter Notebookやpandasなどのデータ分析用のライブラリが紹介されました。
+ここで紹介されている、グラフを手書きっぽくする `XKCD plots <https://nbviewer.jupyter.org/url/jakevdp.github.com/downloads/notebooks/XKCD_plots.ipynb>`_ や、 `music21 <http://web.mit.edu/music21/doc/about/what.html>`_ でNotebook上に楽譜が描けるのは面白いなと思いました。
+
+**教育者** に対しては `micro:bit <https://microbit.org/guide/>`_ や `CircuitPython <https://circuitpython.org/>`_ といった、小さな基板上でPythonプログラミングする例が紹介されていました。
+
+**クリエイター** に対しては事例として `RasPiで制御できる編み機 <https://www.technology.org/2018/09/25/raspberry-pi-networked-knitting-machine-not-your-average-knit-one-purl-one/>`_ を使って巨大な編み物を作った話を紹介しました。
+他にはゲームを作成するフレームワークの `pygame <https://www.pygame.org/news>`_ や、ゲームプログラミングの課題を出す `PyWeek <https://pyweek.org/>`_ が紹介されていました。
+
+**求道者** の例としては2019年に話題となったブラックホールの可視化が例としてあげられました。
+この可視化には `achael/eht-imaging <https://github.com/achael/eht-imaging>`_ というプログラムが使用されています。このプログラムはPython製で、たくさんのパッケージに依存しています。
+直接のコントリビューター(コードに貢献した人)は14名ですが、関連するパッケージのコントリビューター21,715人とものすごい数になります。
+
+最後に「ぜひみなさんもライブラリなどを使ってバグを見つけたら、レポートしてほしい。バグに対して修正して貢献をしてほしい」と呼びかけていました。
+
+* 参考: `史上初、ブラックホールの撮影に成功 ― 地球サイズの電波望遠鏡で、楕円銀河M87に潜む巨大ブラックホールに迫る | 国立天文台(NAOJ) <https://www.nao.ac.jp/news/science/2019/20190410-eht.html>`_
+
+.. figure:: /images/th/katie.jpg
+   :width: 300
+
+   Katie McLaughlin氏
+
+クロージング
+============
+クロージングでは参加者の内訳などが示されていました。
+全体の参加人数は初回から2倍以上で400名を軽く超えていたようです。
+参加者の年齢層が若いこと、女性の比率は約17%であること、タイ以外に9カ国以上から参加者がいることがわかります。
+日本からの参加者数はタイ、シンガポールについで3番目だったようです。
+
+.. figure:: /images/th/attendees.jpg
+   :width: 300
+
+   参加者の分類
+
+このクロージングでChairのDylan氏から **Regime Change** (政権交代)というスライドで「次のPyCon ThailandのChairを募集する」という話がありました。
+無事新しい主催者が出てきて、来年もPyCon Thailandが開催されることを期待します。
+
+.. figure:: /images/th/organizers.jpg
+   :width: 300
+
+   主催者、ボランティア、キーノートスピーカーの集合写真
+   
 まとめ
 ======
+以上でPyCon Thailandのレポートは終わりです。
+初めてのタイで2日間のカンファレンスを非常に楽しく過ごすことができました。
+英語でのトーク発表はフィリピンでのPyCon APACに続き2回目ですが、質疑応答をガッツリできたことが大変ではありましたが自信にもつながりました。
+
+.. figure:: /images/th/fromjapan.jpg
+   :width: 300
+
+   日本からの参加メンバー
+
+私以外にも2名も日本からスピーカーがいたことも、とてもよいことだと思います。
+こんな感じで、いろんな人が海外のカンファレンスでの発表に挑戦してくれるといいなと思っています。
+
+さて、次はどこのPyConに行こうかな(まぁ、すでに次の予定は決まっているんですが)?
+
+.. figure:: /images/th/group.jpg
+   :width: 300
+
+   PyCon Thailand参加者の集合写真
