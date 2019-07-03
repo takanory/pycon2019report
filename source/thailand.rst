@@ -332,6 +332,7 @@ BeeWareは、単一のPythonコードからiOS、Android、Windows、macOS、Lin
 
    * 林田千瑛(`@chie8842 <https:/twittercom/chie8842>`_)
    * タイトル: Understanding of distributed processing in Python
+   * スライド: https://speakerdeck.com/chie8842/understanding-distributed-processing-in-python
   
    今回のPyCon Thailandはわたしにとってはじめての海外PyCon参加でした。
    もともと2017年にPyCon JPに初登壇したときに、別の登壇者の方から「海外のPyConで登壇することでグローバルなエンジニアのつながりができた」という話をきいたことを印象的に覚えていて、そのときからいつかチャレンジしてみたいと思っていました。
