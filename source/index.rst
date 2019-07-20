@@ -17,4 +17,5 @@ Welcome to PyCon 2019 report's documentation!
    us3
    us4
    thailand
-
+   euro1
+   euro2
