@@ -84,31 +84,45 @@ EuroPythonは毎年ヨーロッパの各地域で開催され、今年はスイ�
 * タイトル: Getting Your Data Joie De Vivre Back!
 * https://ep2019.europython.eu/talks/UVUSRHk-getting-your-data-joie-de-vivre-back/
 * スライド: ghostweather.slides.com
-* Joie De Vivre →人生の喜び
-* 大学の名前を間違えて本人に訂正されるww
-* Project 1: Bosch bot
 
-  * https://twitter.com/boschbot
-  * Twint, Pandas, image segments, leaflet.js
-  * 一番みられているやつは魚の上に野買っている人のお尻画像
-  * https://twitter.com/boschbot/status/1122195031648026625
-  * top 10の位置情報はphotoshopで探しました(てへぺろ
-  * 位置情報取得するやつについて、あとで連絡ください
-  * leafletで大きい画像を地図のように扱う
+.. todo:: スライドURL
+          
+「Joie De Vivre」とは「生きている幸せ」という意味のフランス語です。
+データを使っていろいろとLynn氏自身が楽しんで行っているプロジェクトが紹介されていました。
 
-* Project 2-3: Word2Vec Toys
+.. todo:: 写真を入れる
 
-  * 元データはProject Gutenberg
-  * 単語のマップをplotlyで表示→いくつかクラスターがあって面白い
-  * 煮た単語を探す
-  * fireに煮た単語を、元となる文の種類で変わるデモ。面白い
-  * 新しい文章をいれたら、似た単語が変わってきた
-  * 詩を表示して、似た単語に入れ替えて作っていくサイト
-  * 俳句を変換
-* 楽しいデータセットの探し方
+1つ目のプロジェクトは **BoschBot** です。
+これはオランダのHieronymus Boschという人が描いた「快楽の園」という超巨大な絵画のパーツを投稿するBotプログラムです。
+プログラムはTwint、Pandas、image segments、leaflet.jsを使用しているそうです。
+Twitterの `@boschbot <https://twitter.com/boschbot>`_ でこのBotの投稿が見られます。
 
-  * アメリカでビッグフットの目撃情報があった場所の地図
-  * オズの魔法使いの単語運のビデオ
+* 参考: `快楽の園 - Wikipedia <https://ja.wikipedia.org/wiki/%E5%BF%AB%E6%A5%BD%E3%81%AE%E5%9C%92>`_
+
+このBotプログラムは画像からなんらかの特徴のある場所をとりだし、その画像の座標を投稿しています。
+最も見られている画像は魚の上に人が乗っていてお尻をこちらに見せている画像だそうです。
+
+* 該当画像のツイート: https://twitter.com/boschbot/status/1122195031648026625
+
+このBoschBotは多くの人(35,000人以上!)にフォローされており、投稿された画像にキャプションをつけたりコラージュしたりして、楽しまれているようです。
+
+次のプロジェクトは **Word2Vec Toys** です。
+Word2Vecはテキストデータを解析して、単語の意味をベクトル化して似た単語を計算したり、単語に意味を足したり引いたりできるようにするものです。
+元となるテキストデータには `Gutenberg <https://www.gutenberg.org/>`_ から取得したsそうです(日本で `青空文庫 <https://www.aozora.gr.jp/>`_ が使われるのとよく似ていますね)。
+
+単語のマップを `plotly <https://plot.ly/python/>`_ で可視化していましたが、いくつかのクラスターがありました。
+また、似た単語を探すというデモをしていましたが、元の文章の種類によって似た単語が変わってくる例が興味深かったです。
+
+そして、ここで作成したWord2Vecを使って詩をコラージュするサイトを紹介していました。
+詩の文章を表示し、似た単語が存在する場合は適当に入れ替えていって、詩を異なる物にしていくというものです。
+その場で即興で新しい詩を作っていましたが、会場から笑いが出ていました。
+
+最後にデータセットの楽しい活用の例として、アメリカでビッグフットが目撃された場所を地図にプロットしたもの、オズの魔法使いのビデオを単語順にしたものが紹介されていました。
+
+* 参考: `Finding Bigfoot (Data) <http://ryrobes.com/visual-analytics-and-data-porn/finding-bigfoot-data-visualize-the-squatch/>`_
+* 参考: `Every Word In 'The Wizard Of Oz,' Recut Alphabetically <http://digg.com/video/wizard-of-oz-alphabetical>`_
+
+面白いデータセットを見つけて、自分なりのアウトプットをしてみたいなと思う発表でした。
 
 Python for Realtime Audio Processing in a live music context
 ============================================================
@@ -139,11 +153,19 @@ Python for Realtime Audio Processing in a live music context
     * GIGモデルとSCHENEモデルを作った
     * 別なフットペダルを使ってシーンを切り替える
 
-Lunch
-=====
-* 星2つだった
-* リンゴジュースはおいしい
+ランチ
+======
+ランチは基本的に肉系とヴィーガン用の2種類があって選ぶスタイルのようです。
+この日のランチは謎の塊を食べるものでした。キッシュかなにかなんですかね?
 
+`attendify <https://attendify.com/>`_ というスマートフォンのアプリでカンファレンスのスケジュールを確認したり、内容がよかったか星をつけることができるのですが、このランチは5点満点で2点でした...
+ちなみにグラスの中身はお酒ではなくてリンゴジュースです。
+
+.. figure:: /images/euro/lunch1.jpg
+   :width: 400
+
+   謎のランチ
+!Eo7kKxYf8uyQmTv
 Publish a (Perfect) Python Package on PyPI
 ==========================================
 * https://ep2019.europython.eu/talks/JpKkHY7-publish-a-perfect-python-package-on-pypi/
