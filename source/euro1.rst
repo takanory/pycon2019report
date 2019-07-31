@@ -36,6 +36,8 @@ EuroPythonは毎年ヨーロッパの各地域で開催され、今年はスイ�
 筆者はポスターセッションでの発表のために、今年初めてEuroPythonに参加しました。
 カンファレンスにのみ参加したので、キーノートやトーク発表などを中心にレポートしていきたいと思います。
 
+レポート1回目はカンファレンス1日目までの様子をお伝えします。
+
 日本からバーゼルへ
 ==================
 日本からバーゼルへは直行便がないため、乗り換える必要があります。
@@ -55,6 +57,8 @@ EuroPythonは毎年ヨーロッパの各地域で開催され、今年はスイ�
 
 オープニング
 ============
+* ビデオ: https://youtu.be/XDy_3oiAKsk?t=2508
+
 カンファレンス1日目、会場に到着すると会場外にEuroPythonの案内が出ていました。
 テンションがあがります!!
 
@@ -81,16 +85,16 @@ EuroPythonは毎年ヨーロッパの各地域で開催され、今年はスイ�
 
 キーノート: Lynn Cherny
 =======================
-* タイトル: Getting Your Data Joie De Vivre Back!
-* https://ep2019.europython.eu/talks/UVUSRHk-getting-your-data-joie-de-vivre-back/
-* スライド: ghostweather.slides.com
-
-.. todo:: スライドURL
+* タイトル: Getting Your Data Joie de Vivre On (or Back)
+* ビデオ: https://youtu.be/XDy_3oiAKsk?t=3536
           
 「Joie De Vivre」とは「生きている幸せ」という意味のフランス語です。
 データを使っていろいろとLynn氏自身が楽しんで行っているプロジェクトが紹介されていました。
 
-.. todo:: 写真を入れる
+.. figure:: /images/euro/key1.jpg
+   :width: 400
+
+   Lynn Cherny氏によるキーノート
 
 1つ目のプロジェクトは **BoschBot** です。
 これはオランダのHieronymus Boschという人が描いた「快楽の園」という超巨大な絵画のパーツを投稿するBotプログラムです。
@@ -126,6 +130,8 @@ Word2Vecはテキストデータを解析して、単語の意味をベクトル
 
 Python for Realtime Audio Processing in a live music context
 ============================================================
+* スピーカー: Matthieu Amiguet
+  
 この発表では、発表者がライブ演奏を行う際に使用している、音楽をリアルタイムで処理するPythonプログラムについて解説していました。
 発表者は次の日に行われるsocial eventでも演奏をするそうで、メインで使用している楽器はフルートです。
 
@@ -133,19 +139,12 @@ Python for Realtime Audio Processing in a live music context
 テレマンのカノンは全く同じ楽譜をずれて演奏する(カエルの歌の輪唱のような)曲です。
 これを一人で演奏するために、DELAY(録音したものをずらして再生する)をプログラムで実現し、フットスイッチ(フルートの演奏では両手が塞がる)でDELAYのタイミングを指定して実現しているそうです。
 
-.. todo:: スライドの画像を入れる
+.. figure:: /images/euro/realtimeaudio.jpg
+   :width: 400
 
-* DELAYするのを4つつける→どうやってコントロールするんだ???
-* State machineとLooper
+   スライドが手描き風でかわいい
 
-  * すごい
-* Additional Effects
-
-  * LooperにさらにWAH FXをつける
-* いろんなオープンソースを組み合わせて作っているよ
-
-  * 壁にぶつかる
-  * SETLIST→曲によって設定を変える必要がある
+他にもLOOPER(繰り返し処理)を3つつけて一人で4重奏を演奏したりとか、いろいろなパターンについて解説していました。
 
 そしてここで壁にぶつかります。
 曲によってどのようなプログラムが必要かは異なります。
@@ -172,16 +171,20 @@ PYO自体にはSETLISTの機能は無いため、自分でGigモデル(1つの�
 
 Do we have a diversity problem in Python community?
 ===================================================
-* https://ep2019.europython.eu/talks/i6us9Yt-do-we-have-a-diversity-problem-in-python-community/
-
-.. todo:: 写真を入れる  
-
+* スピーカー: Cheuk Ho
+* スライド: https://slides.com/cheukting_ho/do-we-have-a-diversity-problem-in-python-community#/
+  
 Pythonコミュニティの女性参加率がまだまだ低いという話をしていました。
 例として、Rは女性開発者が多いがPythonはそれに比べて少ないということ、
 `R-Ladies <https://rladies.org/>`_ はPyLadiesよりもたくさん支部があるということが例としてあげられていました(R-Ladiesは知りませんでした)。
 
-ビデオ録画されているカンファレンスを調べたところ、発表者の男女の割合はPyCon UK以外は男性が75%程度とのことです。PyCon UKはXXX%でした。
+ビデオ録画されているカンファレンスを調べたところ、発表者の男女の割合はPyCon UK以外は男性が75%程度とのことです。PyCon UKは45%程度でした。
 
+.. figure:: /images/euro/diversityproblem.jpg
+   :width: 400
+
+   各PyConスピーカーの男女比   
+   
 そしてどうすべきかという話として、ロンドンの劇場の話が例として出ました。
 この劇場のあるステージだと22名の俳優が全員白人で、観客もほとんど白人です。
 しかし、ナイジェリア出身のシンガーのFelaの公演を行ったところ、ナイジェリア出身のminicalのドライバーがこの劇場に見に来るようになったそうです。
@@ -196,8 +199,13 @@ USのPyConに比べるとEuroPythonは女性の参加者は少ないなと思っ
 Keynote: Yenny Cheung
 =====================
 * タイトル: Why You Should Pursue Public Speaking and How to Get There
-* https://ep2019.europython.eu/talks/ojGVzoG-why-you-should-pursue-public-speaking-and-how-to-get-there/
+* ビデオ: https://youtu.be/XDy_3oiAKsk?t=27053
 
+.. figure:: /images/euro/key2.jpg
+   :width: 400
+
+   Yenny Cheung氏によるキーノート
+   
 このキーノートではYenny氏が考えるPublic Speaking(カンファレンスなどで発表すること)の価値や、どのようによりよい発表としていくかといった内容でした。
 Yenny氏は2年前のPyCon DE(ドイツ)で初めて発表したそうです。
 
@@ -247,16 +255,30 @@ Yenny氏は2年前のPyCon DE(ドイツ)で初めて発表したそうです。
 
 ライトニングトーク
 ==================
+* ビデオ: https://youtu.be/XDy_3oiAKsk?t=30201
+  
 1日目のライトニングトークで面白かった物をいくつか紹介します。
+司会の2人のテンションもとても面白いので、ぜひビデオで見てみてください。
 
 * foxdotのデモ
 
   foxdotを使って音楽を再生するサンプルを少し見せたら、スタンドバイミーの伴奏をループで演奏しだし「これは歌うのか?」と思ったらハーモニカで演奏して会場全体がすごく盛り上がってました。
+
+.. figure:: /images/euro/lt1.jpg
+   :width: 400
+
+   ハーモニカで演奏中
+  
 * 各国語のキーボードについて
 
   「英語のキーボードはこうなっているけど、他の言語だとー」という発表を、sk, de, cs, fr, es, pl, it, sv, fu, eo, trと10カ国語以上で話すというわけがわからない発表です。
   当然ですが、全然ついていけませんでした。
 
+.. figure:: /images/euro/lt1.jpg
+   :width: 400
+
+   10カ国語を駆使したライトニングトーク
+  
 * tour de pycon
 
   過去にさまざまなPyConにバイクなどで行っている人のようで、今回のbaselは自転車できたそうです。
@@ -264,7 +286,7 @@ Yenny氏は2年前のPyCon DE(ドイツ)で初めて発表したそうです。
 
 1日目終了
 =========
-1日目の夜は日本人メンバー3名で `BrauBudeBasel <>`_ という近くのクラフトビールに行きました。
+1日目の夜は日本人メンバー3名で `BrauBudeBasel <http://www.braubudebasel.ch/>`_ という近くのクラフトビールに行きました。
 ここは店の奥の小屋でビールを作っているという本当に小さなブリュワリーで、フードも置いていない硬派なお店でした(常連は近くで食べ物を買ってきてここでビールを飲んでいるようです)。
 
 .. figure:: /images/euro/bbb.jpg
@@ -272,3 +294,12 @@ Yenny氏は2年前のPyCon DE(ドイツ)で初めて発表したそうです。
 
    BrauBudeBasel
 
+さすがにビールだけだと死んでしまうのでこのあと近くのイタリア料理やで自家製っぽいパスタを食べてEuroPythonの1日目は無事終了しました。
+
+まとめ
+======
+1回目のレポートは以上です。
+
+EuroPythonは初参加ですが、USのPyConとはまた違った感じのカンファレンスを楽しむことができました。
+
+次回のレポートではカンファレンス2日目の私のポスターセッションや興味深いトークなどについて様子をお伝えします。
