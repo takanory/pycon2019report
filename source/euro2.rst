@@ -91,16 +91,24 @@ EuroPythonに参加している方に、日本のPythonの状況や、Python Boo
 
 EPS General Assembly 2019 & EuroPython 2019
 ===========================================
-* https://ep2019.europython.eu/talks/DSiopdm-eps-general-assembly-2019/
-* `Invitation to the EuroPython Society General Assembly 2019 <https://www.europython-society.org/post/185868682920/invitation-to-the-europython-society-general>`_
-* 233名のメンバー
-* Annual Report
-* 2019年の活動を報告
-* Ticket sales development
-* EPSはEuroPythonの登録商標を持っている
-* 会計報告を回覧→銀行に34万EURあるの!!?
-* 2019のBoard候補がなんかしゃべる
-* 最後にそれぞれを承認するかを参加者に確認して終了
+これは通常のトークセッションとは異なり、EuroPythonを主催している
+`EuroPython Society <https://www.europython-society.org/>`_ (EPS)の年次報告と役員改選などを行うミーティングです。
+筆者は `一般社団法人PyCon JPの副代表理事 <https://www.pycon.jp/committee/board.html>`_ をやっていることもあり、ユーロではどんな感じなのか興味があるので参加しました。
+
+.. figure:: /images/euro/epsmember.jpg
+   :width: 400
+
+   EPS General Assembly 2019
+
+基本的な議題は以下のページにまとまっているようです。
+EPSには現在233名のメンバーがいること、年次会計報告の回覧、2019年の活動報告などが行われました。
+EPSはEuroPythonの登録商標を持っているそうです。
+会計報告を見てみたんですが、私の見間違いでなければ銀行に34万EURがあるそうです。お金持ちですね!!!
+
+* 参考: `Invitation to the EuroPython Society General Assembly 2019 <https://www.europython-society.org/post/185868682920/invitation-to-the-europython-society-general>`_
+
+最後に2019年の理事候補が前に出て発言し、参加者の承認を得ていました。
+9名の新理事はEuroPythonのクロージングで紹介されていました。
 
 Day 2 ライトニングトーク
 ========================
@@ -125,6 +133,52 @@ Day 2 ライトニングトーク
   Pythonの `inspectモジュール <https://docs.python.org/ja/3/library/inspect.html>`_ を使用して、動作中のクラスを別のクラスに置き換えて、振る舞いを動的に変更するというデモです。
   全てライブコーディングで説明しながら実装して入れ替えていて、すごいなーと感じました。
 
+Social Event
+============
+カンファレンス2日目の夜は **Social Event** という名前のパーティーがあります。
+パーティーは25EURで簡単な食事と2ドリンクとがついてくるそうで、私も参加してきました。
+
+パーティー会場はチュートリアルやスプリントの会場でもあるFHNW Muttenz(大学)のロビーで行われました。
+この大学ですがかなり建築にお金がかかっているらしく、広々としたロビーはとてもきれいで快適でした(街の中心部からは結構遠いですが...)。
+
+.. figure:: /images/euro/party4.jpg
+   :width: 400
+
+   パーティー会場
+
+フードはドイツ語圏なのでやはりソーセージ。ビールは残念ながら一種類だけでした。
+
+.. figure:: /images/euro/party1.jpg
+   :width: 400
+
+   ソーセージとビール
+
+私は少し遅れて到着したのですが、会場の奥の方でライブ演奏が行われていました。
+この演奏は1日目に「Python for Realtime Audio Processing in a live music context」と題して発表されていた方です。
+実際に自分の演奏をループ再生して、そこにさらにライブで音を重ねてというパフォーマンスをしていて、非常に興味深かかったです。
+
+.. figure:: /images/euro/party2.jpg
+   :width: 400
+
+   ライブ演奏
+
+この会場は、主催メンバーの一人であるMartin Christen氏(`@MartinChristen <https://twitter.com/martinchristen>`_)が教授をされているそうです。
+Noah氏の紹介でMartin氏と話をしていたんですが「屋上を見せてあげるよ」と言って、連れて行ってくれました。
+屋上に入るためのカードキーは一部の教授しか持っていないらしく「みんなには内緒ね」と言っていました。
+Baselにはそんなに高い建物はないため、13Fの屋上からの眺めはとても素晴らしいものでした(明るいですが21時過ぎてます)。
+
+.. figure:: /images/euro/party3.jpg
+   :width: 400
+
+   FHNW Muttenz屋上からBaselを一望する
+
+降りてから、EuroPython SocietyのChairであるMarc-André Lemburg(`@malem <https://twitter.com/malemburg>`_)氏と話をしました。
+氏は2018年に続き2019年もPyCon JPに参加するそうで「日本でまた会いましょう」と再会を約束しました。
+また、PyCon APAC 2019にも参加していたTaihsiang Ho(台湾)とLi-Ting Chen(台湾出身でオランダ在住)とも再会しました。
+2人ともPyCon JPと当然ですがPyCon TWにも参加するそうです。
+「今年はその4カ所で全部なんだよ」と言っていたので「世界のPyConに1年で4カ所参加するなんて、十分クレイジーだよ」と言っておきましたw。
+まぁ私や各国PyConでスタッフをしているNoah氏はもっとクレイジーなんですが。
+   
 Day 3
 =====
 
