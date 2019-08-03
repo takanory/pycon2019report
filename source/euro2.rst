@@ -236,69 +236,47 @@ The Story of Features Coming in Python 3.8 and Beyond
 
 Andrey Vlasovskikh(`@vlasovskikh <https://twitter.com/vlasovskikh>`_)氏によるPython 3.8や今後のPythonについてのトークを聞いてきました。
 Andrey氏は2016年のPyCon JPのキーノートスピーカーでもあり、そのときはPython 3.6について語ってくれました。
+Andrey氏はPyCharmのテクニカルリードでもあり、PEP484、561などのPythonのtypeシステムに対して貢献しています。
 
 * 参考: `2日目 Andrey Vlasovskikh氏基調講演「Pythonのこれから」 <https://gihyo.jp/news/report/01/pyconjp2016/0002>`_
 
-* Otter使ってみる
-* Good docs on what's new
-* New Syntax
-* PEP 572
-  
-  * PEP 572(:=)
-  * initial PEPでは ``(expr as x)`` だった。Sublocalスコープだった(へー
-  * PEPがSimpleになっていった。
-  * スコープは複雑→オリジナル作者はこういうスコープがいいなってしてた
-  * PEP 13: Python Language Governance
+話のメインとなるPytnon 3.8ですが2019年10月21日にリリース予定で、すでに機能は確定したベータバージョンがリリースされています。
+新機能を知るためには `What's New <https://docs.python.org/ja/3.8/whatsnew/3.8.html>`_ がよいドキュメントとなります。
+このトークではいくつかの新しい機能や言語仕様について、その歴史やメリットデメリットについて紹介していきました。
 
-    * GuidoはBDFLをやめた
-    * Python Steering Council
-  * COns: 複雑なケースだと読みにくい。2種類の方法がある
-* PEP 570: Positional-ony paramaters
+まずは `PEP 572 -- Assignment Expressions <https://www.python.org/dev/peps/pep-0572/>`_ です。PEP 572は以下のように ``:=`` という演算子を代入式を実現します。
 
-  * C-API関数用にあった
-  * なぜ `/` なのか
+.. code-block:: python
 
-    * すでにPEP 436 があった
-    * 組み込み関数のdocstringにあった
-    * すでに ``*`` もあるよ
-  * なぜキーワードオンリーが ``*`` なのか?
+   >>> if m := re.search('[abc]', 'spam'):
+   >>>    print(m.group())
+   a
 
-    * PEP3102に理由があるよ
-    * `*args` のあとにキーワードオンリーが書けるからだよ
-* New Types: Protocol, Literal, Final, TypedDict
+このPEP最初は ``x := expr`` ではなく ``(expr as x)`` という書き方で提案されていたそうです。全体を ``()`` で囲んで変数がサブローカルスコープになるという複雑なものだったが、現在のようにシンプル中たちになったそうです。知りませんでした。
 
-  * Literal(str or int)
-  * Final: cannot re-assign, cannot override
-  * どこからきたの?
+また、このPEP572の採択後Guido氏がBDFLを辞任し、その後 `PEP 13 -- Python Language Governance <https://www.python.org/dev/peps/pep-0013/>`_ でPython言語をどのように運営していくかが議論され、5名のPython Steering Councilが選ばれたという話がありました。
+Python Steering Councilについては筆者もUS PyConのレポートで紹介しています。
 
-    * github.com/python/typing
-    * Typing summits, sprints
-    * mypy_extensions -. typing_extensions -> typing
-  * Cons: Python typesを学ぶのが難しくなる。 typing vs typing_extensions
-* Beyond Python 3.8
-* Typing
+* 参考: `第3回　3日目朝のLT紹介，キーノートはPython仕様策定のキーパーソンによるパネル <https://gihyo.jp/news/report/01/us-pycon2019/0003>`_
 
-  * PEP 560, 585
-* async/await
+次に紹介したのは `PEP 570 -- Python Positional-Only Parameters <https://www.python.org/dev/peps/pep-0570/>`_ です。
+これは関数を ``def pow(x, y, z=None, /):`` の用に定義すると ``/`` の前の引数は位置指定しかできなくなります(``pow(x=10, y=20)`` と呼ぶとエラーになります)。
+なぜ区切り記号が ``/`` なのかというと、すでに `PEP 436 -- The Argument Clinic DSL <https://www.python.org/dev/peps/pep-0436/>`_ によってC APIの関数の引数用に用いられていたためです。
 
-  * Structured concurrency for asyncio tasks
-* Mypyc
+また、新しいTypeとして ``Protocol``、``Literal``、``Final``、``TypedDict`` が紹介されました。
+新しいTypeは https://github.com/python/typing で定義されており、Typing summits、開発Sprintなどで進められているそうです。
 
-  * https://github.com/mypyc/mypyc
-  * 型が決まるので速いらしい
-  * Cythonと似ているけどPythonのデータ型がつかえる
-* PEP544 Sub-iterpreters
+Python 3.8の先の話としていくつか紹介されていましたが、興味深かったのは `Mypyc <https://github.com/mypyc/mypyc>`_ です。
+Cythonに似ているけどPythonの型を使い、シングルコアでのパフォーマンスが速くなるそうです。
+また `PEP 554 -- Multiple Interpreters in the Stdlib <https://www.python.org/dev/peps/pep-0554/>`_ も興味深いです。こちらはマルチコア上でのパフォーマンスを上げる取り組みだそうです。
 
-  * マルチコアでのパフォーマンス向上
-* リリースプラン
+Python 3.8の新機能の詳しい紹介や、Python 3.9以降の取り組みについて興味深い発表でした。
 
-  * 3.8: 2019010-21
-  * 3.9: 9ヶ月のサイクルを18ヶ月にする?
-* まとめ
+この日の帰りにAndreyに声をかけたことろ、私のことを覚えてくれていました。
+PyCon JP 2016のトートバッグが自信のノートPC入れにちょうどいいらしく、愛用しているそうです(この日も肩から下げていました)。
+「またどこかのPyConで会いましょう」と話して別れました。
 
-  * Python 3.8b2を入れてためしてみて
-  * PyCharm 2019.2 は 3.8 サポートしているよ
-  * Pythonの開発に参加してね
+* Tweet: https://twitter.com/vlasovskikh/status/1149827595346857986
 
 Enhancing Angklung Music Rehearsals with Python
 ===============================================
@@ -326,46 +304,75 @@ Sprintは短期の開発イベントです。以下のようなテーマでSprin
 
 Day 3 ライトニングトーク
 ========================
+* ビデオ: https://youtu.be/T6vC_LOHBJ4?t=30599
+  
 3日目のライントニングトークで面白かった物をいくつかピックアップして紹介します。
 
-* 20時から川で泳ぐよ
+* 20時からライン川で泳ぐよというお知らせ
 
-  * https://www.basel.com/en/rhine-swimming
-* PyWeek(ゲームを作るやつ)
+  Baselでは `Rhine swimming in Basel <https://www.basel.com/en/rhine-swimming>`_ というWebサイトも用意しており、ライン川を泳いで下るというアクティビティがあるそうです。
+  荷物を入れる専用のフロートも売っているそうです。
 
-  * 数学的な計算をして波の状態を出す
-* Tour de Snake over the mountains edition
+.. figure:: /images/euro/swim.jpg
+   :width: 400
 
-  * MilanoからBaselまで自転車で3人で来た
-* What you an do in 10 minutes
+   Go with the flow
 
-  * Python Pizza Nightがあるよ。10分トークにきてね
-  * ハンブルクでもやるよ
-* The Pad
+* Tour de Snake: over the mountains edition
 
-  * 参加者にまわしてたけどサウンドがならなかったw
-* A Protocol for Python Schemas?
-* Why I/You nee to go to EuroPython!(noah)
+  昨日と同じ人かと思っていたら別の人でした。MilanoからBaselまで自転車で3人で来たそうです。
+* Why I/You need to go to EuroPython!
 
-  * Noah安定のタイムオーバーww
-* PyCon Turkey
-
-  * https://pycon.istanbul
+  世界中のPyConでスタッフをしているNoah氏による、アジアを中心としたPyConの紹介です。
+  Noah氏安定のタイムオーバーで「あと10秒」と司会に言われ、そこから超早口で話し始めると場内は大ウケでした。
 * flynt
 
-  * https://pypi.org/project/flynt/
-  * f-stringに書き換えるツール
-  * (便利そう
-
+  ``.format()`` や `%` で書かれている文字列をf-stringsに書き換えるツールです。 https://pypi.org/project/flynt/ で公開されています。
+  普通に便利そうだなと思いました。
 
 Closing
 =======
-* 明日はSprintだよ
-* 16名で運営
-* ボランティア壇上へ
-* 2020、アクティブなwork group memberを募集
+最後はクロージングです。明日からSprintがあるという説明がありました。
+EuroPythonは1,100~1,200名ほどの参加で、16名で運営をしていたそうです。
+次に、EuroPython 2020のアクティブなメンバーを募集しているという話がありました。
+12ヶ月で100時間くらいの作業が必要だそうです。
+そして最後に新しいboardメンバーを紹介してイベントが終了しました。
 
-  * 12ヶ月で100時間くらいの作業が必要
-* code of conductの報告→2軒報告があった
-* 新boardメンバーを紹介して終了
+.. figure:: /images/euro/closing.jpg
+   :width: 400
 
+   主催者とボランティアスタッフ
+
+アフターパーティー
+==================
+このあとパーティーがないかなと情報を探していると、kiwi.comが主催するパーティーに参加できました。
+(おそらく)AirBnBとかで借りているアパートの屋上にプールがあり、そこでBBQパーティーです。素晴らしいロケーションです。
+
+ここでもいろいろな参加者と話をしました。「今度彼女と日本に行くんだ」という人にはおすすめのラーメン屋を聞かれました。最近ラーメン食べてないので答えられませんでしたが...
+後半になるとテンションの上がった参加者がプールで泳ぎ始めたのですが、「ウェーイ」「ヒャッハー」と騒いでいたらオーナーらしき人がきてガッツリ怒られていました。すぐ隣に住宅があるので、確かに怒られるなと...そのあとは多少静かに騒いでいました。
+
+.. figure:: /images/euro/kiwi-party.jpg
+   :width: 400
+
+   屋上にプールのある会場でパーティー
+
+ロケーションは再校なのですが用意されているビールは普通の缶ビールだった(贅沢)ので、クラフトビールを扱っている `Bierrevier <https://www.bierrevier.ch/>`_ に向かいました。
+ただ、やはりスイスではあまりクラフトビールは作られていないようで、クラフトビール的にはクリーブランドが圧勝だなと思いました。
+
+.. figure:: /images/euro/bierrevier.jpg
+   :width: 400
+
+   ヨーロッパを中心にたくさんの生ビール
+
+次の日はスプリントには行かず買い物や観光をして過ごしていたのですが、スプリントを終えてKlaraというフードコートで飲んでいるとNoah氏に連絡をもらったので合流しました。
+そこにはさまざまなメンバーがいました。
+最後の方は何を話いたかあんまり覚えていませんがw、EuroPython Societyの新Boardメンバーが集まっているメンバーのテーブルでイベント運営とかの話をしていたような気がします。
+一度だけの出会いだとお互い忘れてしまうので、またどこかで彼ら彼女らと再会できるといいなと思いました。
+
+.. figure:: /images/euro/klara.jpg
+   :width: 400
+
+   EuroPython SocietyのBoardメンバーと
+
+まとめ
+======
