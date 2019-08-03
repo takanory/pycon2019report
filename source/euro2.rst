@@ -133,6 +133,34 @@ Day 2 ライトニングトーク
   Pythonの `inspectモジュール <https://docs.python.org/ja/3/library/inspect.html>`_ を使用して、動作中のクラスを別のクラスに置き換えて、振る舞いを動的に変更するというデモです。
   全てライブコーディングで説明しながら実装して入れ替えていて、すごいなーと感じました。
 
+.. admonition:: はじめての海外LT参戦で得たもの
+
+   * 古木 友子(`@komo_fr <https://twitter.com/komo_fr>`_)
+   * スライド: https://twitter.com/di_codes/status/1149348248932552706
+   * ビデオ: https://youtu.be/hgry3vkuI5Y?t=33111
+
+   私にとって、今回のEuroPythonは初めての海外PyCon参加でした。海外のPyConには以前から参加したいと思っていたのですが、「せっかく参加するなら、何か発表したい」「発表するなら、大きいカンファレンスがいい」という気持ちから、 EuroPythonでのLTを決めました。
+
+   EuroPythonのLTは先着順です。受付近くに用意されたサインアップ用の紙に、発表タイトルと連絡先を記入します。先着順なので当日の朝は早めに会場に向かったのですが、開場15分前には既に5、6人の参加者が入口で待ち構えていました。開場直後はサインアップ用の紙が見当たらなかったため、私が受付に「LTやりたいんだけど」と伝えて用意してもらい、他のLT希望者といっしょになって柱に紙を貼りました。
+
+   .. figure:: /images/euro/ltsheet.jpg
+      :width: 300
+
+      みんなで貼ったLTのサインアップ用紙
+
+   LTでは、私が個人で取り組んでいる、PEP (Python Enhancement Proposals)同士の引用関係ネットワークの分析について紹介しました。会場の反応が欲しかったので途中でクイズも交えつつ発表したのですが、本番では無事、歓声と拍手をいただきうれしかったです。
+
+   .. figure:: /images/euro/komo.jpg
+      :width: 400
+
+      発表の様子
+
+   登壇後のSociel Eventでは、「アイデアがいいね！」「わかりやすかった」と本当に多くの方から暖かい言葉をいただきました。また会場の外でも、電車の中でスタッフの方々とお話できたり、ホテル近くの道端で「君のLT面白かったよ！」と声をかけられたりしました。
+
+   またTwitter上でも、「 `OMG Such an amazing project <https://twitter.com/cmaureir/status/1149347660576501760>`_ 」「 `君は14時間かけてきたんだから10分喋るべき <https://twitter.com/mgf1610/status/1149389083652874240>`_ 」とコメントを頂きました。特に、PyPAのメンバーでPyPIのメンテナでもあるDustin氏に、 `パッケージング関係の内容について反応いただけた <https://twitter.com/di_codes/status/1149348248932552706>`_ のはうれしかったです。発表中は、会場の方々の表情まではよく見えなかったのですが、帰国後にYouTubeで公開されている動画を見たところ、客席でみなさん笑っていてくれて嬉しかったです。
+
+   今まで国内で発表したことはあったのですが、今回の経験から「英語で発表すると、今まで届かなかった人にも届く」という手応えを感じることができました。EuroPythonに限らず、PyConのセッションはYouTubeなどで公開されるため、セッションの内容自体は現地に行かなくても把握できます。しかし、「実際に発表して、フィードバックをもらう」「会場の熱を感じる」といった生の体験は、実際に足を運ばないと得られません。もしこれから海外PyConに参加するという方は、ぜひなんらかの形で発表してみることをおすすめします。
+
 Social Event
 ============
 カンファレンス2日目の夜は **Social Event** という名前のパーティーがあります。
@@ -175,15 +203,13 @@ Baselにはそんなに高い建物はないため、13Fの屋上からの眺め
 降りてから、EuroPython SocietyのChairであるMarc-André Lemburg(`@malem <https://twitter.com/malemburg>`_)氏と話をしました。
 氏は2018年に続き2019年もPyCon JPに参加するそうで「日本でまた会いましょう」と再会を約束しました。
 また、PyCon APAC 2019にも参加していたTaihsiang Ho(台湾)とLi-Ting Chen(台湾出身でオランダ在住)とも再会しました。
-2人ともPyCon JPと当然ですがPyCon TWにも参加するそうです。
+2人ともPyCon JPと(当然ですが)PyCon TWにも参加するそうです。
 「今年はその4カ所で全部なんだよ」と言っていたので「世界のPyConに1年で4カ所参加するなんて、十分クレイジーだよ」と言っておきましたw。
-まぁ私や各国PyConでスタッフをしているNoah氏はもっとクレイジーなんですが。
+まぁ、私や各国PyConでスタッフをしているNoah氏はもっとクレイジーだとは思いますが。
    
-Day 3
-=====
-
-Keynote
-=======
+Keynote: Victor Stinner
+=======================
+* タイトル: Python Performance: Past, Present and Future
 * いろんなPython高速化プロジェクトが頓挫した
 * PyPyはあるよ
 
@@ -200,7 +226,19 @@ Keynote
 
 The Story of Features Coming in Python 3.8 and Beyond
 =====================================================
-* http://blog.pirx.ru/media/files/2019/python3.8/#1
+* スピーカー: Andrey Vlasovskikh
+* スライド: http://blog.pirx.ru/media/files/2019/python3.8/#1
+
+.. figure:: /images/euro/andley.jpg
+   :width: 400
+
+   Andrey Vlasovskikh氏
+
+Andrey Vlasovskikh(`@vlasovskikh <https://twitter.com/vlasovskikh>`_)氏によるPython 3.8や今後のPythonについてのトークを聞いてきました。
+Andrey氏は2016年のPyCon JPのキーノートスピーカーでもあり、そのときはPython 3.6について語ってくれました。
+
+* 参考: `2日目 Andrey Vlasovskikh氏基調講演「Pythonのこれから」 <https://gihyo.jp/news/report/01/pyconjp2016/0002>`_
+
 * Otter使ってみる
 * Good docs on what's new
 * New Syntax
@@ -264,6 +302,7 @@ The Story of Features Coming in Python 3.8 and Beyond
 
 Enhancing Angklung Music Rehearsals with Python
 ===============================================
+* スピーカー: Trapsilo Bumi氏
 * https://ep2019.europython.eu/talks/YRihXWF-enhancing-angklung-music-rehearsals-with-python/
 * アンクルンというインドネシアの楽器。1つで1つの音しか出ない
 * 一人で何個も持って一度にならしたりするらしい
@@ -273,14 +312,22 @@ Enhancing Angklung Music Rehearsals with Python
 
   * 組み合わせ最適化問題っぽいやつ?
 
+.. figure:: /images/euro/hennge.jpg
+   :width: 400
+
+   Trapsilo Bumi氏
+
 Sprint Orientation
 ==================
-* 明日どういうSprintがあるかをオーナーが説明するやつ
-* https://wiki.python.org/moin/EuroPython2019/Sprints
-* CPython, pewpew、PyPy、Best Python LTs, EuroPython website, ゲームができるようなデバイス, PyGame, Bokeh, pytest, MoinMoin Wiki, pandas, scikit-learn,
+最後のライトニングトークの前に、明日以降のSprintの説明がありました。
+Sprintは短期の開発イベントです。以下のようなテーマでSprintが開催されるよということが、各Sprintオーナーから説明されていました。
 
-ライトニングトーク
-==================
+* CPython、pewpew、PyPy、Best Python LTs, EuroPython Webサイト、PyGame、Bokeh、pytest、MoinMoin Wiki、pandas、scikit-learn
+
+Day 3 ライトニングトーク
+========================
+3日目のライントニングトークで面白かった物をいくつかピックアップして紹介します。
+
 * 20時から川で泳ぐよ
 
   * https://www.basel.com/en/rhine-swimming
