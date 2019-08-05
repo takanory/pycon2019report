@@ -7,6 +7,8 @@
 
 EuroPython3日目の様子をお伝えします。
 
+この日のキーノートであったPythonの高速化についての深い話や、Python 3.8以降の新機能についてのトークなどについてレポートします。
+
 キーノート: Victor Stinner
 ==========================
 * タイトル: Python Performance: Past, Present and Future
