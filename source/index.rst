@@ -8,14 +8,11 @@ Welcome to PyCon 2019 report's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :glob:
    :caption: Contents:
 
    apac-pythoned
    apac
-   us1
-   us2
-   us3
-   us4
+   us*
    thailand
-   euro1
-   euro2
+   euro*
