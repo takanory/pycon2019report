@@ -210,19 +210,81 @@ Baselにはそんなに高い建物はないため、13Fの屋上からの眺め
 キーノート: Victor Stinner
 ==========================
 * タイトル: Python Performance: Past, Present and Future
-* いろんなPython高速化プロジェクトが頓挫した
-* PyPyはあるよ
+* スライド: https://github.com/vstinner/talks/blob/master/2019-EuroPython/python_performance.pdf
+* ビデオ: https://www.youtube.com/watch?v=T6vC_LOHBJ4&t=1895s  
 
-  * 大量のメモリ
-  * 起動が遅い
-* GIL問題
-* multiprocessing
-* Cython
-* Numba
-* https://speed.python.org/
+Victor Stinner氏はRedHatで働いており、2010年からCPythonのメンテナンスを行っているそうです。
+このトークではPythonのパフォーマンスについて過去、現在、未来について語られました。
 
-  * 変更によって速くなったか遅くなったかをベンチマーク
-* PyHandle, tracing GC, subinterpreter?
+**過去**
+
+CPython(C言語で書かれたPython実装)は1989年から開発されています。
+他に以下のような
+
+* 1997: Jython
+* 1998: Stackless Python
+* 2006: IronPython
+* 2014: MicroPython
+
+そしてPythonを高速化するプロジェクトとして以下が紹介されました。
+これらの多くはJITコンパイラーを使用して高速化を目指しています。
+
+* 2002-2012: psyco(Armin Rigo)
+* 2007: PyPy
+* 2009-2010: Unladen Swallow(Google)
+* 2014-2017: Pyston(Dropbox)
+* 2016-2017: Pyjion(Microsoft)
+
+Pythonを高速化するにはCPythonをフォークする場合と、1から実装する2つの方法があります。
+CPythonからフォークする場合は古いCPythonの実装によるパフォーマンスの限界や、GIL(`グローバルインタプリタロック <https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%97%E3%83%AA%E3%82%BF%E3%83%AD%E3%83%83%E3%82%AF>`_)の制限があります。
+1から実装する場合はGILの制限などがありませんが、C拡張はサポートされなかったり遅いという問題があります。
+CPythonには30名のアクティブなコア開発者がおり、最新の機能は最初にCPythonに実装されます。
+
+ここからは2つの終了したプロジェクトについての説明がありました。
+
+* Unladen Swallow(2011): Googleのプロジェクト。多くのGoogleのPythonコードではパフォーマンスは重要な問題ではないため終了。
+* Pyston(2017): Dropboxのプロジェクト。パフォーマンスに関するコードはGoのような他の言語に切り替えた。互換性の維持に多くの時間を割いた。
+
+**現在**
+
+`PyPy <https://pypy.org/>`_ はCPythonと置き換え可能で、4.4倍速くなるそうです。
+しかしPyPyにも課題はあります。C拡張はCPythonよりは遅い、JITのためにより多くのメモリと起動時間が必要であることです。
+そのためPyPyはサーバーサイドでずっと起動しているサービスなどに向いています。
+
+次に図を使用してGILについての説明がありました。
+CPUバウンドの処理の場合はマルチスレッドでもGILの制限によって1つのスレッドしか実行されません。
+そこでマルチプロセッシングでGILの制限を受けない方法があります。
+Python 3.8から共有メモリがここで使用できるようになるそうです。
+
+別の解決策として `Cython <https://cython.org/>`_ も紹介されていました。
+CythonはC拡張をPythonと似た言語で簡単に記述する方法です。
+複数のPythonバージョンで動作します。
+
+`Numba <https://numba.pydata.org/>`_ はPythonとNumPyの一部処理をJITで高速化するツールです。GPUなどを使用して高速化が可能です。
+
+また https://speed.python.org/ というサイトでCPythonの実行速度を計測しているそうです。
+ある変更によってCPythonが速くなったか、遅くなったかを確認できるようになっています。
+このサイトはよくできているなと感じました。
+
+.. figure:: /images/euro/speedpython.png
+   :width: 400
+
+   https://speed.python.org/
+
+**未来**
+
+今後のPythonのパフォーマンス向上についていくつか紹介されていました。
+
+現在のC APIにはいくつか課題があるため、Python 3.8でC APIを3つのレベルに分類するそうです。
+また安定版のABI(Application Binary Interface)がPython 3.8以降でサポートされるそうです。
+
+CPythonのGCをTracing GCに変更するそうです。Tracing GCは多くのモダンなプログラミング言語やPyPyで採用されています。
+ただし、既存のC APIはリファレインスカウントを継続して使用するそうです。
+
+サブインタープリターは `PEP 554 -- Multiple Interpreters in the Stdlib <https://www.python.org/dev/peps/pep-0554/>`_ で提案されたものです。
+1つのCPythonプロセスの中で複数のインタープリターを動作させることにより、GILの制限を回避するというアイデアです。
+
+Pythonは遅いとよく言われますが、過去にいくつかのプロジェクトが失敗したこと、現在いくつかの対策があること、そして今後も継続的にPythonのパフォーマンスについて改善が継続していくことがわかるトークでした。
 
 The Story of Features Coming in Python 3.8 and Beyond
 =====================================================
