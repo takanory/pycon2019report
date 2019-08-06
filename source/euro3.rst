@@ -21,7 +21,7 @@ Victor Stinner氏はRedHatで働いており、2010年からCPythonのメンテ�
 **過去**
 
 CPython(C言語で書かれたPython実装)は1989年から開発されています。
-他に以下のような
+他に以下のような実装系が紹介されました。
 
 * 1997: Jython
 * 1998: Stackless Python
@@ -81,17 +81,18 @@ CythonはC拡張をPythonと似た言語で簡単に記述する方法です。
 また安定版のABI(Application Binary Interface)がPython 3.8以降でサポートされるそうです。
 
 CPythonのGCをTracing GCに変更するそうです。Tracing GCは多くのモダンなプログラミング言語やPyPyで採用されています。
-ただし、既存のC APIはリファレインスカウントを継続して使用するそうです。
+ただし、既存のC APIは参照カウントを継続して使用するそうです。
 
 サブインタープリターは `PEP 554 -- Multiple Interpreters in the Stdlib <https://www.python.org/dev/peps/pep-0554/>`_ で提案されたものです。
 1つのCPythonプロセスの中で複数のインタープリターを動作させることにより、GILの制限を回避するというアイデアです。
 
-Pythonは遅いとよく言われますが、過去にいくつかのプロジェクトが失敗したこと、現在いくつかの対策があること、そして今後も継続的にPythonのパフォーマンスについて改善が継続していくことがわかるトークでした。
+Pythonは遅いとよく言われますが、過去にいくつかのプロジェクトが失敗したこと、現在いくつかの対策があること、そして今後も継続的にPythonのパフォーマンスについて改善されていくことがわかるトークでした。
 
 The Story of Features Coming in Python 3.8 and Beyond
 =====================================================
 * スピーカー: Andrey Vlasovskikh
 * スライド: http://blog.pirx.ru/media/files/2019/python3.8/#1
+* https://www.youtube.com/watch?v=2hN7uTcaHLM&t=22169s
 
 .. figure:: /images/euro/andley.jpg
    :width: 400
@@ -116,7 +117,7 @@ Andrey氏はPyCharmのテクニカルリードでもあり、PEP484、561など�
    >>>    print(m.group())
    a
 
-このPEP最初は ``x := expr`` ではなく ``(expr as x)`` という書き方で提案されていたそうです。全体を ``()`` で囲んで変数がサブローカルスコープになるという複雑なものだったが、現在のようにシンプル中たちになったそうです。知りませんでした。
+このPEP、最初は ``x := expr`` ではなく ``(expr as x)`` という書き方で提案されていたそうです。全体を ``()`` で囲んで変数がサブローカルスコープになるという複雑なものだったが、現在のようにシンプルな形になったそうです。知りませんでした。
 
 また、このPEP572の採択後Guido氏がBDFLを辞任し、その後 `PEP 13 -- Python Language Governance <https://www.python.org/dev/peps/pep-0013/>`_ でPython言語をどのように運営していくかが議論され、5名のPython Steering Councilが選ばれたという話がありました。
 Python Steering Councilについては筆者もUS PyConのレポートで紹介しています。
@@ -145,6 +146,8 @@ PyCon JP 2016のトートバッグがノートPC入れにちょうどいいら�
 Enhancing Angklung Music Rehearsals with Python
 ===============================================
 * スピーカー: Trapsilo Bumi
+* スライド: https://ep2019.europython.eu/media/conference/slides/YRihXWF-enhancing-angklung-music-rehearsals-with-python.pdf
+* ビデオ: https://www.youtube.com/watch?v=C-Ltp1D_m3c&t=25590s
 
 Trapsilo Bumi氏はインドネシア出身で日本の `HENNGE <https://hennge.com/jp/>`_ で働いている開発者です。
 私はTrapsilo氏と面識はないのですが、日本からのスピーカーと楽器関連ということで発表を聞きに行きました。
@@ -174,11 +177,11 @@ Day 3 ライトニングトーク
 ========================
 * ビデオ: https://youtu.be/T6vC_LOHBJ4?t=30599
   
-3日目のライントニングトークで面白かった物をいくつかピックアップして紹介します。
+3日目のライトニングトークで面白かった物をいくつかピックアップして紹介します。
 
 * 20時からライン川で泳ぐよというお知らせ
 
-  Baselでは `Rhine swimming in Basel <https://www.basel.com/en/rhine-swimming>`_ というWebサイトも用意しており、ライン川を泳いで下るというアクティビティがあるそうです。
+  バーゼルでは `Rhine swimming in Basel <https://www.basel.com/en/rhine-swimming>`_ というWebサイトも用意しており、ライン川を泳いで下るというアクティビティがあるそうです。
   荷物を入れる専用のフロートも売っているそうです。
 
 .. figure:: /images/euro/swim.jpg
@@ -188,7 +191,7 @@ Day 3 ライトニングトーク
 
 * Tour de Snake: over the mountains edition
 
-  Day 1のライトニングトークと同じ人かと思っていたら別の人でした。MilanoからBaselまで自転車で3人で来たそうです。
+  Day 1のライトニングトークと同じ人かと思っていたら別の人でした。ミラノからバーゼルまで自転車で3人で来たそうです。
 * Why I/You need to go to EuroPython!
 
   世界中のPyConでスタッフをしているNoah氏による、アジアを中心としたPyConの紹介です。
@@ -205,7 +208,7 @@ Day 3 ライトニングトーク
    * `Otter Voice Notes - Otter.ai <https://otter.ai/login>`_
 
    このサービスはカンファレンスなどの音声を録音して自動的に文字起こしをしてくれるノートサービスです。
-   私のように英語の聞き取りが苦手な人には、あとで振り合えるときにかなり便利そうだなと感じました。
+   私のように英語の聞き取りが苦手な人には、あとで振り返るときにかなり便利そうだなと感じました。
    AndroidやiOSのアプリもあり、ログインして録音を開始するとほぼリアルタイムで文字起こしがされていきます。
    実際に使ってみるとサーバー側で翻訳などを行っているため、スマートフォンの電池はそれほど消耗しませんでした。
 
