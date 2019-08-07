@@ -162,9 +162,9 @@ Day 2 ライトニングトーク
 
    登壇後のSocial Eventでは、「アイデアがいいね！」「わかりやすかった」と本当に多くの方から暖かい言葉をいただきました。また会場の外でも、電車の中でスタッフの方々とお話できたり、ホテル近くの道端で「君のLT面白かったよ！」と声をかけられたりしました。
 
-   またTwitter上でも、「 `OMG Such an amazing project <https://twitter.com/cmaureir/status/1149347660576501760>`_ 」「 `君は14時間かけてきたんだから10分喋るべき <https://twitter.com/mgf1610/status/1149389083652874240>`_ 」とコメントを頂きました。特に、PyPAのメンバーでPyPIのメンテナでもあるDustin氏に、 `パッケージング関係の内容について反応いただけた <https://twitter.com/di_codes/status/1149348248932552706>`_ のはうれしかったです。発表中は、会場の方々の表情まではよく見えなかったのですが、帰国後にYouTubeで公開されている動画を見たところ、客席でみなさん笑っていてくれて嬉しかったです。
+   またTwitter上でも、「 `OMG Such an amazing project <https://twitter.com/cmaureir/status/1149347660576501760>`_ 」「 `君は14時間かけてきたんだから10分喋るべき <https://twitter.com/mgf1610/status/1149389083652874240>`_ 」といったコメントを頂きました。特に、PyPAのメンバーでPyPIのメンテナでもあるDustin氏に、 `パッケージング関係の内容について反応いただけた <https://twitter.com/di_codes/status/1149348248932552706>`_ のはうれしかったです。発表中は、会場の方々の表情まではよく見えなかったのですが、帰国後にYouTubeで公開されている動画を見たところ、客席でみなさん笑っていてくれて嬉しかったです。
 
-   今まで国内で発表したことはあったのですが、今回の経験から「英語で発表すると、今まで届かなかった人にも届く」という手応えを感じることができました。EuroPythonに限らず、PyConのセッションはYouTubeなどで公開されるため、セッションの内容自体は現地に行かなくても把握できます。しかし、「実際に発表して、フィードバックをもらう」「会場の熱を感じる」といった生の体験は、実際に足を運ばないと得られません。もしこれから海外PyConに参加するという方は、ぜひなんらかの形で発表してみることをおすすめします。
+   今まで国内で発表したことはあったのですが、今回の経験から「英語で発表すると、今まで届かなかった人にも届く」という手応えを感じることができました。EuroPythonに限らず、PyConのトークはYouTubeなどで公開されるため、トークの内容自体は現地に行かなくても把握できます。しかし、「実際に発表して、フィードバックをもらう」「会場の熱を感じる」といった生の体験は、実際に足を運ばないと得られません。もしこれから海外PyConに参加するという方は、ぜひなんらかの形で発表してみることをおすすめします。
 
 Social Event
 ============
@@ -195,7 +195,7 @@ Social Event
 
    ライブ演奏
 
-EuroPythonの主催メンバーの一人であるMartin Christen氏(`@MartinChristen <https://twitter.com/martinchristen>`_)は、Social Event会場である大学でが教授をされているそうです。
+EuroPythonの主催メンバーの一人であるMartin Christen氏(`@MartinChristen <https://twitter.com/martinchristen>`_)は、Social Event会場である大学で教授をされているそうです。
 Noah氏(世界中のPyConでボランティアスタッフをしている筆者の友人)の紹介でMartin氏と話をしていたんですが「屋上を見せてあげるよ」と言って、連れて行ってくれました。
 屋上に入るためのカードキーは一部の教授しか持っていないらしく「みんなには内緒ね」と言っていました。
 バーゼルにはそんなに高い建物はないため、13Fの屋上からの眺めはとても素晴らしいものでした(明るいですが21時過ぎてます)。
@@ -205,7 +205,7 @@ Noah氏(世界中のPyConでボランティアスタッフをしている筆者�
 
    FHNW Muttenz屋上からバーゼルを一望する
 
-降りてから、EuroPython SocietyのChairであるMarc-André Lemburg(`@malem <https://twitter.com/malemburg>`_)氏と話をしました。
+降りてから、EuroPython SocietyのChairであるMarc-André Lemburg(`@malemburg <https://twitter.com/malemburg>`_)氏と話をしました。
 氏は2018年に続き2019年もPyCon JPに参加するそうで「日本でまた会いましょう」と再会を約束しました。
 また、PyCon APAC 2019にも参加していたTaihsiang Ho(台湾)とLi-Ting Chen(台湾出身でオランダ在住)とも再会しました。
 2人ともPyCon JPと(当然ですが)PyCon TWにも参加するそうです。
