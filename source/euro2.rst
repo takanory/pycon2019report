@@ -195,7 +195,7 @@ Social Event
 
    ライブ演奏
 
-EuroPythonの主催メンバーの一人であるMartin Christen氏(`@MartinChristen <https://twitter.com/martinchristen>`_)は、Social Event会場である大学でが教授をされているそうです。
+EuroPythonの主催メンバーの一人であるMartin Christen氏(`@MartinChristen <https://twitter.com/martinchristen>`_)は、Social Event会場である大学で教授をされているそうです。
 Noah氏(世界中のPyConでボランティアスタッフをしている筆者の友人)の紹介でMartin氏と話をしていたんですが「屋上を見せてあげるよ」と言って、連れて行ってくれました。
 屋上に入るためのカードキーは一部の教授しか持っていないらしく「みんなには内緒ね」と言っていました。
 バーゼルにはそんなに高い建物はないため、13Fの屋上からの眺めはとても素晴らしいものでした(明るいですが21時過ぎてます)。
