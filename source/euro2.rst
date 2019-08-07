@@ -205,7 +205,7 @@ Noah氏(世界中のPyConでボランティアスタッフをしている筆者�
 
    FHNW Muttenz屋上からバーゼルを一望する
 
-降りてから、EuroPython SocietyのChairであるMarc-André Lemburg(`@malem <https://twitter.com/malemburg>`_)氏と話をしました。
+降りてから、EuroPython SocietyのChairであるMarc-André Lemburg(`@malemburg <https://twitter.com/malemburg>`_)氏と話をしました。
 氏は2018年に続き2019年もPyCon JPに参加するそうで「日本でまた会いましょう」と再会を約束しました。
 また、PyCon APAC 2019にも参加していたTaihsiang Ho(台湾)とLi-Ting Chen(台湾出身でオランダ在住)とも再会しました。
 2人ともPyCon JPと(当然ですが)PyCon TWにも参加するそうです。
