@@ -92,7 +92,7 @@ The Story of Features Coming in Python 3.8 and Beyond
 =====================================================
 * スピーカー: Andrey Vlasovskikh
 * スライド: http://blog.pirx.ru/media/files/2019/python3.8/#1
-* https://www.youtube.com/watch?v=2hN7uTcaHLM&t=22169s
+* ビデオ: https://www.youtube.com/watch?v=2hN7uTcaHLM&t=22169s
 
 .. figure:: /images/euro/andley.jpg
    :width: 400
