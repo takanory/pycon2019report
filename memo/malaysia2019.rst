@@ -207,3 +207,57 @@ Keynote
 * Community
   * guidoのお言葉
 * Join the PSF
+
+Lunch
+-----
+* Asiaメンバーで集まってランチ
+
+Tunnel
+------
+* GAMUDAで働いている
+* KVMRT作っている
+* First Job: Plant Engineer aka Pipe Ma
+* Tunnel Boring Machines: ポピュラーなやつらしい
+  * 100以上のセンサー
+  * Boring Machineを解剖する
+* KVMRT2のために12機動いているらしい
+* 画面を見ながらリモートで操作
+  * 画面はすごいごちゃごちゃしてるらしい。すごい
+* 基本2名のオペレーターで1台を操作するらしい
+* Laser Based Position Measurement System
+* Ptで作っているらしい
+* Why Python?
+* PLC: Python Communications
+  * https://misoji-engineer.com/archives/python-plc.html
+  * Siemens Step 7 Protocol
+  * Snap7というPythonライブラリがある https://python-snap7.readthedocs.io/en/latest/
+  * Snap7をつかって情報を取り出す手順
+* FINALIST International Awardsに残っているらしい
+* 1名で複数のマシーンを操作できるようにしたい
+
+Lightning Talks
+---------------
+* Dask 101
+  * 時間がないのでKoreaと同じスライド
+  * Daskの紹介
+  * Scalable Pandas Dataframes
+  * 並列処理ができるよ
+  * 1000 nodeとかでも動かせる(すごい)
+  * bit.ly/dask-colab
+* Blogging with Python
+  * Pelicanの紹介
+  * GitHub上で執筆してPRでmergeするとpublishするワークフロー
+  * blog.xoxzo.com
+* Pythonで人生がかわった話(スライドなし
+* Balejar Python Bot
+  * https://telegram.me/belajarpythonbot
+* ドリアンテスト?
+
+Closing
+-------
+* ボランティア、スピーカー、参加者への感謝。
+* 2016は女性の参加者が2名だった→だいぶ増えた
+* 今年は初めてオープンスペースを実施した
+* PyCon MYは周囲のPyConに行くための奨学金を実施するらしい
+* PyCon APAC 2020をマレーシアで開催したいと考えているらしい
+* 2020のスタッフの募集
