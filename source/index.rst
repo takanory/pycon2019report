@@ -16,3 +16,4 @@ Welcome to PyCon 2019 report's documentation!
    us*
    thailand
    euro*
+   malaysia
