@@ -156,3 +156,82 @@ Conference Kitの設営、オープニング
 テーブルで隣に座った女性が日本語が少しできる方で、最近大阪と東京の旅行に行っていたそうです。
 旅行中はすき家にばっかり行っていたそうです。
 とはいえ、彼女はイスラム教なので牛丼は食べられません。もっぱら魚のメニューを食べていたそうです。
+
+Django with GraphQL
+===================
+* スピーカー: Manuel Riel
+
+.. figure:: /images/my/manuel.jpg
+   :width: 400
+
+   Manuel Riel氏
+
+この発表はPython製のWebフレームワークであるDjangoにGraphQLを加えていく手法や、具体的にGraphQLの内容について説明がありました。
+最初に `REST <https://ja.wikipedia.org/wiki/Representational_State_Transfer>`_ APIの課題について説明がありました。
+REST APIはゆるい標準化がされており、複数のモデル間の関係を表すことが難しいという課題があげられていました。
+また、Over Fetchingという必要もないフィールドの情報を全て取ってきてしまったり、逆にUnder Fetchingといって必要な情報を取得するために何回もREST APIを呼び出さないといけないことも課題であると説明していました。
+
+それに対して `GraphQL <https://en.wikipedia.org/wiki/GraphQL>`_ では必要な情報を問い合わせるための、検索用の言語(QL: Query Language)を提供しています。
+GraphQLでリクエストを投げれば、必要な情報が1回でまとめて返ってくるということで便利そうです。
+
+次にGraphQLの基本的な以下のコンセプトとその文法が紹介されていました。
+
+* Types: データベースのモデルを反映するもの。String、Intなどの型が指定できる
+* Queries: デフォルトの操作。指定したデータを取得する
+* Mutations: データを変更する
+* Arguments: クエリの再利用とデータの受け渡し
+* Nesting: ネストした属性が要求できる
+* Subscriptions: Subscribeしたデータの更新をリアルタイムに受け取る
+* Fragments: 複数のクエリで同じフィールドを使うときに使い回せる
+
+次にVue.jsとDjangoを使用したデモを行いました。
+Django側の実装は `Graphene-Python <https://docs.graphene-python.org/projects/django/en/latest/>`_ というパッケージを利用しています。
+そして以下のようなコードを書くことでGraphQLで検索できるようになるそうです。
+
+.. code-block:: python
+
+   class Query(graphene.ObjectType):
+       all_persons = graphene.List(PersonType)
+
+       def resolve_all_persons(self, info):
+           return Person.objects.all()
+
+ただこれだけだと誰でもどんなデータにでもアクセスできてしまうので、認証などの仕組みが必要になるとのことでした(確かに)。
+
+DjangoにGrapheneを導入すると確かに簡単にGraphQLには対応できそうです。
+実際に使ってみないとどういう苦労があるかはわかりませんが、試してみるのもありかなと思いました。
+
+ティーブレイクで日本人と遭遇
+============================
+午後のティーブレイクではおやつとミルクティーで休憩です。
+コーヒーとティーが提供されていますが、どちらも最初からミルクと砂糖が入っており、東南アジアだなーと感じました。
+写真の餃子っぽい物は、中がカレーでカレーパンっぽい食べ物でした。
+
+.. figure:: /images/my/teabreak.jpg
+   :width: 400
+
+   おやつとミルクティー
+
+Twitterで私の発表に対するリアクションを見ていると、日本から参加しているっぽい人(`kzfm (@fmkz___) <https://twitter.com/fmkz___>`_)がいました。
+
+* https://twitter.com/fmkz___/status/1165104151006601216
+
+Twitterで声をかけてみると日本の方のようです。
+ランチの時には見つけられなかったのですが、ティーブレイクに会うことができました。
+以前は静岡に住んでいたそうで、共通の知り合いに `@aodag <https://twitter.com/aodag>`_ がいました。
+世間は狭いですね。
+
+.. figure:: /images/my/kzfm.jpg
+   :width: 400
+
+   kzfmさんと会えた
+
+Scaling AirAsia 3.0
+===================
+* スピーカー: Tevanraj Elengoe
+
+PyCon MalaysiaのスポンサーであるAirAsiaのエンジニアによるトークです。
+そもそも「なんでAirAsiaがPyConのスポンサーしているんだろう?」と思って企業ブースで少し話したんですが、AirAsiaはシステムを内製しておりエンジニアは結構いるようです。
+このスポンサーもよいエンジニアを採用したいために行っているそうです。
+ちなみにスピーカーのTevanraj Elengoe氏はRubyConf MY 18のOrganizerだそうです。
+
