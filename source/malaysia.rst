@@ -289,3 +289,152 @@ Noahを誘って `PAUS <https://pauscraftbeer.weebly.com/>`_ というクラフ�
 
    空き瓶と空き缶がメニュー
 
+キーノート: Carol Willing
+=========================
+* タイトル: Practical Python and Jupyter for Data Science and Beyond
+* スライド: https://speakerdeck.com/willingc/practical-python-and-jupyter-for-data-science-and-more
+
+.. figure:: /images/my/carol.jpg
+   :width: 400
+
+   Carol Willing氏
+
+カンファレンス2日目のキーノートはCarol Willing氏です。
+Carol氏はPythonの仕様策定を行うPython Steering Councilのメンバーの1人で、US PyConでのCouncilメンバーによるキーノートで初めて知りました。
+その様子については以下のレポートを参照してください。
+
+* `第3回　3日目朝のLT紹介，キーノートはPython仕様策定のキーパーソンによるパネル：世界最大のPythonカンファレンス「US PyCon 2019」レポート <https://gihyo.jp/news/report/01/us-pycon2019/0003?page=2>`_
+
+Carol氏は `Project Jupyter <https://jupyter.org/>`_ のSteering Councilでもあり、Core開発者としてJupyteHub、BinderHubなどの開発をしているそうです。
+また `nteract <https://nteract.io/>`_ というJupyter NotebookのUIやデータ可視化を強化したアプリケーションのコアメンテナーでもあるそうです。
+
+最初に「実践的なデータサイエンス」にはPython、Jupyter、Knowledge、Communityが必要であると述べて、それぞれの要素について深掘りしていきました。
+
+Python
+------
+Pythonは成長(Growth)しており、サードパーティーのライブラリを開発する強いコミュニティがあります。
+Pythonはデータサイエンスだけでなく、Web、科学、DevOps、組み込みシステム、教育などさまざまな分野で使用されています。
+
+言語の運営(Governance)については、 `PEP 8018 <https://www.python.org/dev/peps/pep-8016/>`_ によってGuidoがBDFL(最終的な言語策定者)を引退した後に、Steering Councilによる運営が決まりました。
+現在はCarol、Guidoを含めた5名のCouncilメンバーで運営されています。
+
+Python 3.8は現在beta3がリリースされており、試すことが可能です。位置指定のみ引数、代入演算子、fリテラルの ``=`` 記号など新機能についても紹介がありました。
+
+最後にPython 2へのお別れということで、 http://py3readiness.org/ というサイトでは最もメジャーな360のパッケージが全てPython 3に対応していること、 https://pythonclock.org/ でPython 2.7のサポート期限切れまでがカウントダウンされていることが紹介されました。
+
+Jupyter
+-------
+Carolさんは2014年にIPython Notebook(Jupyter Notebookの以前の名前です)を使ってPythonを教えていたそうです。
+そこから5年でGitHub上には500万以上のNotebookファイルが置かれるようになりました。
+
+また、Project Jupyterは2017年に `ACM Softoware System Award <https://en.wikipedia.org/wiki/ACM_Software_System_Award>`_ を受賞しており、そのときのプロジェクトののビデオが紹介されていました。
+
+* ビデオ: https://www.youtube.com/watch?v=qbtDVdEr8SY
+
+Knowledge
+---------
+最初にPythonでデータサイエンスをするための準備(Prepare)が必要であるとの説明がありました。
+最初はWebブラウザ上で https://mybinder.org/ などを使って試し、次にPythonをインストールして、Python上に必要なライブラリをインストールします。
+そしてエディタなどのツールを選択しましょうという説明でした。
+パッケージ管理では ``pip`` と ``conda`` 両方を説明していました。
+
+次にデータの探索(Exploration)について説明がありました。
+自分が興味ある分野からはじめ、PandasやMatplotlibなどのライブラリのチュートリアルを試し、書籍やカンファレンスのビデオで学び、コミュニティに参加しようという提案がされていました。
+また、最新の情報を追いかけるために、 `Talk Python to Me <https://talkpython.fm/>`_ などが紹介されていました。
+
+そして次にプロトタイプの作成(Prototyping)について説明がありました。
+実際にシステム化する前にプロトタイプを作成することが説明されていました。
+さまざまなライブラリを活用して、データをJupyter Notebook上で可視化するサンプルが紹介されていました。
+
+最後は実際にシステムを製造(Production)するフェーズです。
+データサイエンスのシステムをスケールさせるため、以下のツールが紹介されていました。
+
+* `Papermill <https://papermill.readthedocs.io/>`_: パラメータを指定してNotebookをバッチ実行するツール
+* `Scrapbook <https://nteract-scrapbook.readthedocs.io/>`_: Notebookの実行結果を記録するためのツール
+* `Bookstore <https://bookstore.readthedocs.io/>`_: Notebookファイルを管理するためのツール
+* `Commuter <https://github.com/nteract/commuter>`_: NotebookをWebで共有するためるツール
+
+これらのツールを使用した具体的なデータ分析システムのアーキテクチャーも紹介されていました。
+
+Community
+---------
+最後にコミュニティについて述べられました。
+コミュニティによって作成されたプログラミング言語によって、このPyCon Malaysiaのように素晴らしいイベントが開催されていることについて触れられました。
+コントリビューターが開発などで時間的な貢献をし、スポンサーが金銭的な貢献をすることとで、プログラミング言語とコミュニティが継続的に発展しています。
+そしてPythonの未来はここにいるみんなに依存しているというメッセージがありました。
+
+PythonやJupyterの基本的な情報から、データサイエンスで実際に開発するためのノウハウなど、非常に幅広い内容のキーノートでした。
+また、このキーノートとは直接関係ありませんが、Carol氏はさまざまなトークに最前列で参加して積極的に質問もしており、非常に前向きにこのイベントに参加していることを感じました。
+
+ちなみに娘さんが日本在住だそうで「日本に来るときはぜひ連絡ください」と伝えておきました。
+
+ランチミーティング
+==================
+ランチタイムを利用してアジア各国で集まったPyConのメンバーとCarolでミーティングを行いました。
+テーブルについたのはPyConマレーシア、インドネシア、シンガポール、フィリピン、台湾、日本に加えてキーノートスピーカーのCarolさんです。
+ここでは各国のPythonコミュニティについて、どのようにPythonを広げているか、今後の予定などについて情報交換をしました。
+Carolさんが「PSFではこういうサポートができるよ」みたいに具体的にアドバイスをしていることが印象的でした。
+
+.. figure:: /images/my/asiameeting.jpg
+   :width: 400
+
+   アジア各国のPyConメンバーでランチ
+
+トンネルの話
+============
+
+クロージング
+============
+最後はクロージングです。
+ChairのJames氏から、最初にボランティア、スピーカー、参加者への感謝の言葉が述べられました。
+2016年がはじめてのPyCon Malaysiaで最初は2名の参加者だったそうです。
+Women Who Codeなどとも協力して女性の参加者が増えたそうです(発表者も女性が多いなという印象でした)。
+また今後は他のPyConに行くための奨学金制度を始めるとのことです。
+そして2020年はPyCon APACをマレーシアで開催したいと考えているそうです。
+最後に2020年のスタッフ募集の告知をしてPyCon Malaysia 2020は閉会しました。
+
+.. figure:: /images/my/closing.jpg
+   :width: 400
+
+   クロージング
+
+Conference Kit
+==============
+私が日本から重たい思いをして持って行ったPSFのConference Kitですが、これを日本に持ち帰る必要があります(次回はPyCon JPで使用予定)。
+参加者のみなさんがそこで楽しそうに記念撮影しているところを見ていると「持って行ってよかったな」と思いました。
+
+.. figure:: /images/my/kit3.jpg
+   :width: 400
+
+   記念撮影1
+
+.. figure:: /images/my/kit4.jpg
+   :width: 400
+
+   記念撮影2
+
+終わりに
+========
+以上でPyCon Malaysiaは終了です。
+終了後はコアスタッフの1人であるIvyさんに連れられて、Noahと一緒にビールと食事に行きました。
+ちなみ1件目の `The Great Beer Bar <https://www.facebook.com/TheGreatBeerBar/>`_ はカンファレンス前日に1人で飲みに行った店でした。
+
+.. figure:: /images/my/ivy.jpg
+   :width: 400
+
+   Ivyさんとクラフトビール
+
+2件目はローカル感漂うKee Hiong Klang Bak Kuh Tehという店でバクテー(肉骨茶)を食べました。
+私以外は中華系なので中国語で店員とやりとりをしており、なにを言っているのかまったくわかりません。
+いい感じのバクテーがでてきて、おいしくいただきました。
+ローカルの方に案内してもらえると安心ですね。
+
+.. figure:: /images/my/bakkuhteh.jpg
+   :width: 400
+
+   バクテー(どれもおいしかった)
+
+私のPyConツアーは次は9月の日本と台湾です。
+PyCon JPに参加される方とはどこかで会えるとうれしいです。
+
+* https://twitter.com/pyconmy/status/1165461894288658435
