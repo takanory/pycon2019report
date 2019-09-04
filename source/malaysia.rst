@@ -226,12 +226,66 @@ Twitterで声をかけてみると日本の方のようです。
 
    kzfmさんと会えた
 
-Scaling AirAsia 3.0
-===================
+Scarling AirAsia 3.0
+====================
 * スピーカー: Tevanraj Elengoe
 
 PyCon MalaysiaのスポンサーであるAirAsiaのエンジニアによるトークです。
 そもそも「なんでAirAsiaがPyConのスポンサーしているんだろう?」と思って企業ブースで少し話したんですが、AirAsiaはシステムを内製しておりエンジニアは結構いるようです。
 このスポンサーもよいエンジニアを採用したいために行っているそうです。
 ちなみにスピーカーのTevanraj Elengoe氏はRubyConf MY 18のOrganizerだそうです。
+
+まず最初にAirAsiaは「Travel Technology Company」であることが述べられました。
+AirAsiaは他の航空会社と異なり、トップページにホテル予約やショッピングの情報があります。
+またこれらの情報にはスマートフォンのアプリからも参照可能であること、事業規模としてはExpediaなどと比べても大きいそうです。
+
+.. figure:: /images/my/airasia.jpg
+   :width: 400
+
+   AirAsiaのトップページ
+
+サイトとしては最大で30,000リクエスト/秒をさばいており、毎日2,000~4,000のコンテナがAPIのために動いているそうです。
+彼らはAASET(AirAsia Software Engineering and Technology)という部門で働いており、その部門にはエンジニア、QA、DevOps担当が合計で100名以上いるそうです。
+職場はバンガロール、クアラルンプール、シンガポールの3拠点とのこと。
+
+APIサーバーは.Netから現在はPythonに移行しており、Google App Engine上で動作しているそうです。
+`Kong <https://konghq.com/kong>`_ というOSSのAPI Gatewayを使用しているとのこと。
+現在、Kubernetesに載せ替えようとしているそうです。
+APIはSOAPで作成していたが現在はREST APIとなっており、SOAPのAPIをRESTに変換して使っているそうです。
+またMulti-cloud companyと言っており、AWS、GCPだけでなくAzure、Alibaba Cloudも使用しているそうです。
+
+.. figure:: /images/my/multicloud.jpg
+   :width: 400
+
+   AirAsiaはmulti-cloud company!
+
+大規模システムを運用しながらいろいろなところにチャレンジしている感じがして、AirAsiaの技術部門はすごいなーと感じる発表でした。
+積極採用しているそうなので、興味のある方は https://careers.airasia.com/ を見てみてください(回し者ではありません)。
+
+ディナー
+========
+カンファレンス1日目の夜はスピーカー、スタッフなどを招待したディナーがありました。
+場所は豪華なホテルにあるビュッフェレストランです。
+
+.. figure:: /images/my/lobby.jpg
+   :width: 400
+
+   豪華なホテルのロビー
+
+マレーシア料理だけでなく、中華、イタリアン、寿司などもあるバラエティ豊かでした。
+
+.. figure:: /images/my/seafood.jpg
+   :width: 400
+
+   豪華そうなシーフード
+
+しかしビールがないので、いつもどおりビールを探しに移動です。
+Noahを誘って `PAUS <https://pauscraftbeer.weebly.com/>`_ というクラフトビールを扱っているお店へ。
+この店は壁に空き瓶と空き缶が並んでいて、それがそのままメニューになっています(おしゃれ)。
+こうして、PyCon Malaysiaの1日目は終了しました。
+
+.. figure:: /images/my/beerwall.jpg
+   :width: 400
+
+   空き瓶と空き缶がメニュー
 
