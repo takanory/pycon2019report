@@ -413,17 +413,17 @@ Conference Kit
 終わりに
 ========
 以上でPyCon Malaysiaは終了です。
-終了後はコアスタッフの1人であるIvyさんに連れられて、Noahと一緒にビールと食事に行きました。
-ちなみ1件目の `The Great Beer Bar <https://www.facebook.com/TheGreatBeerBar/>`_ はカンファレンス前日に1人で飲みに行った店でした。
+終了後はNoahと一緒に、コアスタッフの1人であるIvyさんに連れられてビールと食事に行きました。
+1軒目のビールのお店「 `The Great Beer Bar <https://www.facebook.com/TheGreatBeerBar/>`_ 」は、カンファレンス前日にも1人で飲みに行った店でした。
 
 .. figure:: /images/my/ivy.jpg
    :width: 400
 
    Ivyさんとクラフトビール
 
-2件目はローカル感漂うKee Hiong Klang Bak Kuh Tehという店でバクテー(肉骨茶)を食べました。
+2軒目はローカル感漂う「Kee Hiong Klang Bak Kuh Teh」という店でバクテー(肉骨茶)を食べました。
 私以外は中華系なので中国語で店員とやりとりをしており、なにを言っているのかまったくわかりません。
-いい感じのバクテーがでてきて、おいしくいただきました。
+おまかせ状態で待っていると、いい感じのバクテーがでてきておいしくいただきました。
 ローカルの方に案内してもらえると安心ですね。
 
 .. figure:: /images/my/bakkuhteh.jpg
