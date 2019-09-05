@@ -2,12 +2,12 @@
  PyCon Malaysia レポート
 =========================
 
-.. contents:: 目次
+.. .. contents:: 目次
    :local:
 
 鈴木たかのりです。
 2019年の個人的な挑戦として「海外のPythonカンファレンスにトークやポスターを応募しまくって、採択されたら行く」ということを行っています。
-今回レポートするPyCon Malaysiaは4カ国目です。
+今回レポートするPyCon Malaysiaは5カ国目です。
 過去のレポートもgihyo.jpに掲載していますので、ぜひ興味のある国のレポートを読んでみてください。
 
 * `アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート <https://gihyo.jp/news/report/2019/03/1201>`_
@@ -26,7 +26,7 @@ PyCon Malaysiaとは
    PyCon Malaysia 2019 Webサイト
 
 `PyCon Malaysia <https://pycon.my/>`_ は2014に第1回が開催されたました。
-2017にはPyCon APA in MalaisiaCとして、アジア太平洋地域のPyConが開催されました。
+2017にはPyCon APAC in Malaisiaとして、アジア太平洋地域のPyConが開催されました。
 そのときの模様は以下のレポートで確認できます。
 
 * `「PyCon APAC 2017 in Malaysia」参加レポート <https://gihyo.jp/news/report/01/pycon-apac2017>`_
@@ -57,7 +57,7 @@ PyCon Malaysiaとは
    JP -> TW (Younggun, will attend both)
 
 これはどういう内容かというと、PSFがスポンサーしているイベントではPSFがブースを出してPythonステッカーなどを参加者に配っています。
-で、ブースには通常PSF Conference KitというPythonロゴが入ったバックパネルを設置しています。
+また、ブースには通常PSF Conference KitというPythonロゴが入ったバックパネルを設置しています。
 そのKitは東アジアではYounggun氏が管理しているのですが「マレーシアに行けないのでtakanoriが持って行ってくれない?」というお願いでした。
 
 .. figure:: /images/my/boothkit.jpg
@@ -78,7 +78,7 @@ PyCon Malaysiaとは
 Conference Kitの設営、オープニング
 ==================================
 次の日はカンファレンスの1日目です。
-早めにConference Kitを持って会場に移動し、PyCOn Malaysia 2019のChairであるJames氏とあいさつをして会場に設営しました。
+早めにConference Kitを持って会場に移動し、PyCon Malaysia 2019のChairであるJames氏とあいさつをして会場に設営しました。
 
 各国PyConでボランティアスタッフをしている(私には)おなじみのNoah氏と一緒にConference Kitを組み立てました。
 そのときに衝撃の事実が発覚しました。
@@ -115,14 +115,14 @@ Conference Kitの設営、オープニング
 発表の準備をしていたので、オープニングとキーノートはあまり聞けませんでした。
 
 基本的な発表内容はフィリピンで開催されたPyCon APAC、PyCon Thailandのものと同じです。
-しかし、トークの導入部分、Slackのメッセージ例やまとめなど、ちょこちょこ地域ごとにいじっています。
+しかし、トークの導入部分、Slackのメッセージ例やまとめなど、ちょこちょこ地域ごとに手を入れています。
 
 .. figure:: /images/my/takanory.jpg
    :width: 400
 
    発表の様子
 
-今回は、発表の最初に「写真を撮ってTweetは大歓迎」と伝えたり、全スライドに自分のTwitter idを入れるという工夫をしました(PyCon MalaysiaでKatieさんが行っていたものをリスペクトしました)。
+今回は、発表の最初に「写真を撮ってTweetは大歓迎」と伝えたり、全スライドに自分のTwitter idを入れるという工夫をしました(PyCon ThailandでKatieさんが行っていたものをリスペクトしました)。
 その甲斐あってか、Twitterにもいろいろとリアクションがもらえてうれしかったです。
 
 * https://twitter.com/ariestiyansyah/status/1165099844387557378
@@ -134,7 +134,7 @@ Conference Kitの設営、オープニング
 
 質疑応答では「Botをどこで動かすのか?」という質問があり「EC2やHerokuなどのサーバー上で動かすのがおすすめ。開発時は自分のPCで動かすだけで試せるので簡単だよ」という回答をしました。
 他の参加者から「サーバーを使わずにAWS Lambdaとかを使ってBotを作るのもありだよ」というフォローがありました。
-「このSlackbotのフレームワークはLambdaでは動かないと思うけど、一般論としてはそういうのもありだと思う」という説明をして、なんとか今回も質疑応答をやり終えました。
+「このSlackbotのフレームワークはLambdaでは動かすのは面倒だと思うけど、一般論としてはそういうのもありだと思う」という説明をして、なんとか今回も質疑応答をやり終えました。
 
 ランチ
 ======
@@ -248,7 +248,7 @@ AirAsiaは他の航空会社と異なり、トップページにホテル予約�
 彼らはAASET(AirAsia Software Engineering and Technology)という部門で働いており、その部門にはエンジニア、QA、DevOps担当が合計で100名以上いるそうです。
 職場はバンガロール、クアラルンプール、シンガポールの3拠点とのこと。
 
-APIサーバーは.Netから現在はPythonに移行しており、Google App Engine上で動作しているそうです。
+APIサーバーは以前は.Netで作られていましたが、現在はPythonに移行してGoogle App Engine上で動作しているそうです。
 `Kong <https://konghq.com/kong>`_ というOSSのAPI Gatewayを使用しているとのこと。
 現在、Kubernetesに載せ替えようとしているそうです。
 APIはSOAPで作成していたが現在はREST APIとなっており、SOAPのAPIをRESTに変換して使っているそうです。
@@ -315,10 +315,10 @@ Python
 Pythonは成長(Growth)しており、サードパーティーのライブラリを開発する強いコミュニティがあります。
 Pythonはデータサイエンスだけでなく、Web、科学、DevOps、組み込みシステム、教育などさまざまな分野で使用されています。
 
-言語の運営(Governance)については、 `PEP 8018 <https://www.python.org/dev/peps/pep-8016/>`_ によってGuidoがBDFL(最終的な言語策定者)を引退した後に、Steering Councilによる運営が決まりました。
+言語の運営(Governance)については、 `PEP 8016 <https://www.python.org/dev/peps/pep-8016/>`_ によってGuidoがBDFL(最終的な言語策定者)を引退した後に、Steering Councilによる運営が決まりました。
 現在はCarol、Guidoを含めた5名のCouncilメンバーで運営されています。
 
-Python 3.8は現在beta3がリリースされており、試すことが可能です。位置指定のみ引数、代入演算子、fリテラルの ``=`` 記号など新機能についても紹介がありました。
+Python 3.8は現在beta4がリリースされており、試すことが可能です。位置指定のみ引数、代入演算子、fリテラルの ``=`` 記号など新機能についても紹介がありました。
 
 最後にPython 2へのお別れということで、 http://py3readiness.org/ というサイトでは最もメジャーな360のパッケージが全てPython 3に対応していること、 https://pythonclock.org/ でPython 2.7のサポート期限切れまでがカウントダウンされていることが紹介されました。
 
@@ -352,7 +352,7 @@ Knowledge
 * `Papermill <https://papermill.readthedocs.io/>`_: パラメータを指定してNotebookをバッチ実行するツール
 * `Scrapbook <https://nteract-scrapbook.readthedocs.io/>`_: Notebookの実行結果を記録するためのツール
 * `Bookstore <https://bookstore.readthedocs.io/>`_: Notebookファイルを管理するためのツール
-* `Commuter <https://github.com/nteract/commuter>`_: NotebookをWebで共有するためるツール
+* `Commuter <https://github.com/nteract/commuter>`_: NotebookをWebで共有するためのツール
 
 これらのツールを使用した具体的なデータ分析システムのアーキテクチャーも紹介されていました。
 
@@ -360,7 +360,7 @@ Community
 ---------
 最後にコミュニティについて述べられました。
 コミュニティによって作成されたプログラミング言語によって、このPyCon Malaysiaのように素晴らしいイベントが開催されていることについて触れられました。
-コントリビューターが開発などで時間的な貢献をし、スポンサーが金銭的な貢献をすることとで、プログラミング言語とコミュニティが継続的に発展しています。
+コントリビューターが開発などで時間的な貢献をし、スポンサーが金銭的な貢献をすることで、プログラミング言語とコミュニティが継続的に発展しています。
 そしてPythonの未来はここにいるみんなに依存しているというメッセージがありました。
 
 PythonやJupyterの基本的な情報から、データサイエンスで実際に開発するためのノウハウなど、非常に幅広い内容のキーノートでした。
@@ -370,8 +370,8 @@ PythonやJupyterの基本的な情報から、データサイエンスで実際�
 
 ランチミーティング
 ==================
-ランチタイムを利用してアジア各国で集まったPyConのメンバーとCarolでミーティングを行いました。
-テーブルについたのはPyConマレーシア、インドネシア、シンガポール、フィリピン、台湾、日本に加えてキーノートスピーカーのCarolさんです。
+ランチタイムを利用してアジア各国で集まったPyConのメンバーとCarolさんでミーティングを行いました。
+テーブルについたのはCarolさんとマレーシア、インドネシア、シンガポール、フィリピン、台湾、日本のメンバーです。
 ここでは各国のPythonコミュニティについて、どのようにPythonを広げているか、今後の予定などについて情報交換をしました。
 Carolさんが「PSFではこういうサポートができるよ」みたいに具体的にアドバイスをしていることが印象的でした。
 
@@ -384,11 +384,11 @@ Carolさんが「PSFではこういうサポートができるよ」みたいに
 ============
 最後はクロージングです。
 ChairのJames氏から、最初にボランティア、スピーカー、参加者への感謝の言葉が述べられました。
-2016年がはじめてのPyCon Malaysiaで最初は2名の参加者だったそうです。
+2016年のPyCon Malaysiaでは女性の参加者はたった2名だったそうです。
 Women Who Codeなどとも協力して女性の参加者が増えたそうです(発表者も女性が多いなという印象でした)。
 また今後は他のPyConに行くための奨学金制度を始めるとのことです。
 そして2020年はPyCon APACをマレーシアで開催したいと考えているそうです。
-最後に2020年のスタッフ募集の告知をしてPyCon Malaysia 2020は閉会しました。
+最後に2020年のスタッフ募集の告知をしてPyCon Malaysia 2019は閉会しました。
 
 .. figure:: /images/my/closing.jpg
    :width: 400
