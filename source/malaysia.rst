@@ -25,7 +25,7 @@ PyCon Malaysiaとは
 
    PyCon Malaysia 2019 Webサイト
 
-`PyCon Malaysia <https://pycon.my/>`_ は2014に第1回が開催されたました。
+`PyCon Malaysia <https://pycon.my/>`_ は2014に第1回が開催されました。
 2017にはPyCon APAC in Malaisiaとして、アジア太平洋地域のPyConが開催されました。
 そのときの模様は以下のレポートで確認できます。
 
@@ -43,7 +43,7 @@ PyCon Malaysiaとは
 日本からの大荷物
 ================
 今回日本からの移動は思いがけない大荷物となりました。
-きっかけは韓国の `Younngun氏 <https://twitter.com/scari_net/>`_ からの以下のようなメールでした(Younggun氏はPSF: Python Software Foundationの2016年の理事でPyCon KRの立ち上げメンバーでもあります)。
+きっかけは韓国の `Younggun氏 <https://twitter.com/scari_net/>`_ からの以下のようなメールでした(Younggun氏はPSF: Python Software Foundationの2016年の理事でPyCon KRの立ち上げメンバーでもあります)。
 
 ::
 
@@ -99,7 +99,7 @@ Conference Kitの設営、オープニング
    Conference Kitができあがった
 
 その後時間となりイベントのオープニングとなりました。
-さきほど挨拶したJames氏のあいさつでPyCon Malaysia 2019が始まりました。
+さきほど話したJames氏のあいさつでPyCon Malaysia 2019が始まりました。
 
 .. figure:: /images/my/opening.jpg
    :width: 400
@@ -138,7 +138,7 @@ Conference Kitの設営、オープニング
 
 ランチ
 ======
-ランチはビュッフェスタイルです。基本的においしいものが多くいいですね。
+ランチはビュッフェスタイルです。基本的においしいものが多くていいですね。
 
 .. figure:: /images/my/lunch1.jpg
    :width: 250
@@ -146,7 +146,7 @@ Conference Kitの設営、オープニング
    ランチはビュッフェスタイル
 
 ランチの料理はマレー、中華、インドの料理が混ざっている感じでしょうか。
-デザートにスイカやメロンんどの果物があって、それもおいしかったです。
+デザートにスイカやメロンなどの果物があって、それもおいしかったです。
 
 .. figure:: /images/my/lunch2.jpg
    :width: 400
