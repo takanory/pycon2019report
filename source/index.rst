@@ -7,7 +7,7 @@ Welcome to PyCon 2019 report's documentation!
 =============================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
    :caption: Contents:
 
@@ -17,3 +17,6 @@ Welcome to PyCon 2019 report's documentation!
    thailand
    euro*
    malaysia
+   taiwan
+   singapore
+   indonesia
