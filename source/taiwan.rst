@@ -214,3 +214,54 @@ CTOの染田さんは2日目に発表予定です。
 
    HACARUSブース
 
+ライトニングトーク
+==================
+ライトニングトークはしゃべりたいタイトルと連絡先を紙に買いて受付にある箱に入れて、選ばれた人には連絡が来るというスタイルです。
+1日目のライトニングトークは申し込んだ人が少なかったのかわかりませんが、5名中4名が日本人(しかもPyCon JPスタッフ)という「お前らちょっと自重しろw」という布陣となりました。
+ここで「Do you know PyCon JP?」みたいに、全員で同じフレーズをかぶせていったらウケるのでは?という話を日本人の中でしていました。
+
+それぞれ以下のようなタイトルでMinecraftをPythonから扱う話、PyCon JPで使っているツールの話、PyCon JP 2019の振り返り、PyCon JP 2019の準備をPythonで行った話をLTでしつつ「Do you know PyCon JP?」で少しずつウケていました。
+
+* Minecraft Education and Python - Daisuke Saito
+* PyCon JP Introduction of useful tools - Shunsuke Yoshida
+* Recap PyCon JP 2019 - Naotaka Yokoyama
+* Prepare PyCon JP 2019 with python - Nikkie
+
+.. note::
+
+   以下の4枚の写真は多いので、まとめて1つの写真にしてもいいかなと思います
+
+.. figure:: /images/tw/lt-daisuke.jpg
+   :width: 400
+
+   Minecraft Education and Python - Daisuke Saito
+
+.. figure:: /images/tw/lt-yoshida.jpg
+   :width: 400
+
+   PyCon JP Introduction of useful tools - Shunsuke Yoshida
+
+.. figure:: /images/tw/lt-naoy.jpg
+   :width: 400
+
+   Recap PyCon JP 2019 - Naotaka Yokoyama
+
+.. figure:: /images/tw/lt-nikkie.jpg
+   :width: 400
+
+   Prepare PyCon JP 2019 with python - Nikkie
+           
+すると、この日最後のLTスピーカーであるKeith Yang氏が、急遽用意した「Do you know PyCOn JP?」のスライドで全部持って行かれました。
+彼は過去PyCon Taiwanや各国PyConでも発表経験があり、さすがだなーと思いました。
+      
+.. figure:: /images/tw/lt-keith.jpg
+   :width: 400
+
+   Keith Yang氏によるDo you know PyCon JP?
+
+.. admonition:: コラム
+
+   TODO: nikkieのコラムを入れる
+
+スピーカーディナー
+==================
