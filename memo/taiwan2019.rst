@@ -9,8 +9,8 @@ Day 1
 ------------
 * 中国語だけどスライドが英語なのでわかった
 
-Honey, There is a Python in My ...
-----------------------------------
+Honey, There is a Python in my Android Phone!
+---------------------------------------------
 * Jason(MY Chair)
 * Android PhoneとPCは違うよね
 * 古くなったAndroidどうするか

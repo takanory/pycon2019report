@@ -47,3 +47,53 @@ PyCon Taiwanは2012年に初めて参加した海外PyConであり、2013年に�
 
 またPyCon Taiwanは例年6月に開催されているのですが、今年は9月20日からとなり9月17日にPyCon JPが終了してすぐに移動というハードスケジュールでした。
 9月16日週はさながらPyConウィークといった感じで非常にハードでした。
+
+オープニング
+============
+PyCon Taiwan 2019のChairであるTaihsiang Ho氏(`@tai271828 <https://twitter.com/tai271828>`_)によるオープニングでPyCon Taiwan 2019が始まりました。
+説明は中国語でしたがスライドが英語だったので、なんとなくなにについて話しているかはわかりました。
+
+.. figure:: /images/tw/opening.jpg
+   :width: 400
+
+   オープニング
+
+ちなみにThaisiang氏とはフィリピンで開催されたPyCon APAC 2019で初めて会い、その後EuroPython、PyCon JPにも参加していたのでPyCon Taiwanで会うのは4回目です。
+どっちも普通じゃないなと思います。
+
+Honey, There is a Python in my Android Phone!
+=============================================
+* スピーカー: Ing Wei Tang
+
+スピーカーのIng Wei Tang氏はPyCon Malaysia 2019のChairであり、私は今年のマレーシアで初めて会いました。
+彼がPyCon Taiwanに参加していることを私は全然知らず、この日の朝にエレベーターでばったり会って、今日発表があることを知って聞きに来ました。
+
+発表の内容は古くなったAndroidをどう再利用するかというところで、Java/KotlinではなくPythonでプログラミングをしようという話です。
+
+.. figure:: /images/tw/james.jpg
+   :width: 400
+
+   Ing Wei Tang氏
+
+話は2016年のクリスマスに遡ります。当時Tang氏は自身の蔵書のカタログを作りたいと思っていました。
+ISBNから書籍に関するメタデータ(価格、著者、出版日等)を取得するPythonスクリプトを書きたが、バーコードスキャナーは持っていませんでした。
+
+Androidにはバーコードをスキャンする機能があるので、これをPythonから呼べないかと調べてみたそうです。すると以下の2種類の方法が見つかったそうです。
+
+* Android Scripting Environment(ASE)
+* `Scripting languages for Android(SL4A) <https://github.com/damonkohler/sl4a>`_
+
+これらを使用すると、 ``self._rpc("scanBarcode")`` のようなコードでAndroid APIとやりとりができるそうです(プライベートメソッド使うんだ...と個人的には思いました)。
+このようにしてAndroidでバーコードをスキャンして、蔵書のカタログができたそうです。
+
+次に、QPython3が紹介されました。QPython3はAndroid上で動作するアプリーションで、そのアプリの中で任意のPythonコードを実行できます。
+QPython3は以下のリンクでGoogle Playストアからインストールできます。
+
+* `QPython3 - Python3 for Android <https://play.google.com/store/apps/details?id=org.qpython.qpy3&hl=ja>`_
+
+そのアトはQPython3で作成したアプリケーションの例として、GPSを使用した移動経路のロガーや、ジャイロスコープを利用してAndroidの向きに連動してWeb画面上の立方体が回転するデモを紹介していました。
+QPython3に付属するandroidhelperを使用すると、Androidのさまざまなセンサーなどの値がとれるようです。
+
+現実のデバイスでプログラミングするとっかかりとしては手頃で面白そうだなと思いました。
+参考までに、iOSにも `Pythonista 3 <https://apps.apple.com/jp/app/pythonista-3/id1085978097>`_ という似たようなアプリケーションがあります。
+興味のある方はこちらもチェックして見てください。
