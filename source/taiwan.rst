@@ -97,3 +97,91 @@ QPython3に付属するandroidhelperを使用すると、Androidのさまざま�
 現実のデバイスでプログラミングするとっかかりとしては手頃で面白そうだなと思いました。
 参考までに、iOSにも `Pythonista 3 <https://apps.apple.com/jp/app/pythonista-3/id1085978097>`_ という似たようなアプリケーションがあります。
 興味のある方はこちらもチェックして見てください。
+
+ランチ
+======
+PyCon TaiwanのランチはPyCon JPと同様のお弁当スタイルです。
+複数種類のお弁当が用意されており、好きなお弁当を取っていくスタイルです(結構余っていたようです)。
+
+.. figure:: /images/tw/bento.jpg
+   :width: 300
+
+   お弁当
+
+簡単にどんな種類の弁当があるかの説明があるのですが、なんとなく牛か豚か鶏かくらいはわかるのですが、細かい情報がわからずなかなか選びにくかったです。
+おそらく3日間とも同じメニュー構成だったと思われますが、私は2、3日目に食べた韓国系の焼き肉弁当がおいしかったです。
+
+PEP 572: The Walrus Operator
+============================
+* スピーカー: Dustin Ingram
+* スライド: https://speakerdeck.com/pycon2019/dustin-ingram-pep-572-the-walrus-operator (US PyConでのスライドですが、内容はほぼ同じです)
+
+Dustin氏はGoogleのDeveloper Advocateであり、Python Package Authority(PyPA)のメンバーでもあります。
+氏はPyCon JP 2019でも「Modern Development Environments for Pythonistas」というタイトルで発表をしていましたが、台湾では異なるタイトルでの発表でした。
+こちらの内容はUS PyCon 2019でも発表していたようです。
+
+今回は期間が近いということもあり、このようにPyCon JPとPyCon Taiwanの両方で発表している人が結構います。
+
+.. figure:: /images/tw/dustin.jpg
+   :width: 400
+
+   Dustin Ingram氏
+
+発表はPEP572の話に入る前に、PythonのGovernance(運営)についての話から始まりました。
+言語の最終決定者としてBDFLのGuido van Rossum氏がおり、PEPで言語仕様の提案が行われていることの説明がありました。
+自分の一番好きなPEPは `PEP 566 Metadata for Python Sofotware Packages 2.1 <https://www.python.org/dev/peps/pep-0566/>`_ と言ってましたが、自身が作成者のPEPだからだそうです(笑)。
+PEPはDraft(草稿)が議論を得てAccept(採択)されるとImplementation(実装)が行われます。
+また、すべてのPEPの判断をGuido氏が行うことは大変なため、BDFL Delegatesという仕組みで判断をGuido氏が他の人に委任することができます。
+
+次にPEP 572のセイウチ演算子(``:=``)をいくつかの例を交えて紹介していました。
+以下はその一例で、上が既存の書き方で下がセイウチ演算子を使った場合です。
+
+.. code-block:: python
+   :caption: 関数の呼び出し回数を減らす
+
+   foo = [f(x), f(x)**2, f(x)**3]
+
+   foo = [y:= f(x), y**2, y**3]
+
+.. code-block:: python
+   :caption: ストリームの処理
+
+   chunk = file.reads(8192)
+   while chunk:
+       process(chunk)
+       chunk = file.reads(8192)
+
+   while chunk := file.reads(8192):
+       process(chunk)
+
+しかし、この演算子は `=` とは同じように使えない場合がいくつかあり、それらも実例を交えて紹介していました。
+この部分は個人的にとても勉強になりました。
+
+.. code-block:: python
+   :caption: セイウチ演算子を使用できないパターン
+
+   (z := (y := (x := 0)))
+   a[i] := x
+   self.rest := []
+   (x := 1, 2)  # xには1がセットされる
+   total +:= tax
+
+このセイウチ演算子の元となったPEP 572ですがメーリングリスト上で非常に長い議論となりました。
+またさまざまなコアの開発者が意見を述べました。
+
+* `Poll: Do you like the PEP 572 Assignment Expressions?のメールのスレッド <https://mail.python.org/archives/list/python-committers@python.org/thread/23IAVIROHJFSNTPWQ7SYO4OS4XLWRAMR/#6LP4HRABH5T5HNULQAU5TLADODXPMYAE>`_
+
+そして2018年7月12日に、Guido氏がPEP 572をAcceptし、そのあとにGuido氏がBDFLをやめるというメールを出しました。
+当然ですがこれはPython界隈に衝撃的なニュースとして伝わり、さまざまな人がツイートしたそうです。
+
+* `PEP 572をAcceptしたPull Request <https://github.com/python/peps/pull/735/files>`_
+* `Guido氏のメール: Transfer of power <https://mail.python.org/archives/list/python-committers@python.org/message/GQONAGWBBFRHVRUPU7RNBM75MHKGUFJN/>`_  
+
+その後Python言語の仕様策定をどのように運用していくかの議論がはじまり、 `PEP 8000 Python Language Governance Proposal Overview <https://www.python.org/dev/peps/pep-8000/>`_ をベースにいくつかの運営方法が提案され、投票で `PEP 8016 The Steering Council Model <https://www.python.org/dev/peps/pep-8016/>`_ がそして。
+採用されました2019年1月から2月にかけてSteering Councilメンバーの投票が行われ5名のCouncilメンバーが決定しました。
+
+この5名のメンバーによるキーノートがUS PyConで行われ、その模様は以下の記事でレポートしてあります。
+
+* `第3回　3日目朝のLT紹介，キーノートはPython仕様策定のキーパーソンによるパネル：世界最大のPythonカンファレンス「US PyCon 2019」レポート <https://gihyo.jp/news/report/01/us-pycon2019/0003?page=2>`_
+
+PEP 572の技術的な話だけでなく、その周辺で起こったPythonの運営体制などについても触れた、興味深いトークでした。
