@@ -175,7 +175,7 @@ PEPはDraft(草稿)が議論を得てAccept(採択)されるとImplementation(�
 当然ですがこれはPython界隈に衝撃的なニュースとして伝わり、さまざまな人がツイートしたそうです。
 
 * `PEP 572をAcceptしたPull Request <https://github.com/python/peps/pull/735/files>`_
-* `Guido氏のメール: Transfer of power <https://mail.python.org/archives/list/python-committers@python.org/message/GQONAGWBBFRHVRUPU7RNBM75MHKGUFJN/>`_  
+* `Guido氏のメール: Transfer of power <https://mail.python.org/archives/list/python-committers@python.org/message/GQONAGWBBFRHVRUPU7RNBM75MHKGUFJN/>`_
 
 その後Python言語の仕様策定をどのように運用していくかの議論がはじまり、 `PEP 8000 Python Language Governance Proposal Overview <https://www.python.org/dev/peps/pep-8000/>`_ をベースにいくつかの運営方法が提案され、投票で `PEP 8016 The Steering Council Model <https://www.python.org/dev/peps/pep-8016/>`_ がそして。
 採用されました2019年1月から2月にかけてSteering Councilメンバーの投票が行われ5名のCouncilメンバーが決定しました。
@@ -250,10 +250,10 @@ CTOの染田さんは2日目に発表予定です。
    :width: 400
 
    Prepare PyCon JP 2019 with python - Nikkie
-           
+
 すると、この日最後のLTスピーカーであるKeith Yang氏が、急遽用意した「Do you know PyCOn JP?」のスライドで全部持って行かれました。
 彼は過去PyCon Taiwanや各国PyConでも発表経験があり、さすがだなーと思いました。
-      
+
 .. figure:: /images/tw/lt-keith.jpg
    :width: 400
 
@@ -288,7 +288,7 @@ SUNRISEという名前のビュッフェスタイルのレストランでディ�
    Driftwood
 
 .. todo:: driftwoodで飲んでいる写真
-          
+
 Driftwoodで飲んだあとはホテルに帰るのですが、私と他数名はカンファレンス会場の近くに宿泊しているため、戻る必要があります。
 Googleマップで検索してみるとまだ電車が動いているようで、西門から台北駅まで歩いて移動して電車に乗りました。
 台北駅はさまざまな路線が入っているため少し迷いましたが、なんとか電車に乗ってホテルの最寄り駅まで戻ることができました。ちなみに写真の通り終電でした。
@@ -300,3 +300,4 @@ Googleマップで検索してみるとまだ電車が動いているようで�
 
    台湾でまさかの終電
 
+こうして、なんとか1日目が終わりました。
