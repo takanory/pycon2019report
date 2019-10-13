@@ -392,3 +392,140 @@ Googleマップで検索してみるとまだ電車が動いているようで�
    台湾でまさかの終電
 
 こうして、なんとか1日目が終わりました。
+
+カンファレンス2日目
+===================
+
+Keynote: Paul Ivanov
+--------------------
+* Programming Language Tourism
+
+Paul Ivanov(`@ivanov <Programming Language Tourism>`_)氏はJupyterの `Steering Counsil <https://jupyter.org/about>`_ メンバーであり、Bloombergのシニアエンジニアです。
+
+「私たちはどこにいますか?いま私たちはPyCon Taiwanにいます。」と問いかけたあとに「どこからきましたか?」と参加者に問えば、それぞれ異なったスケールで回答があるよといいました。例えばJupyterの人に聞いたら多分「地球から」と答えるだろうと(笑)。
+アメリカならカリフォルニア、サンフランシスコと答えたり、ベイエリアと答えたりといった感じです。
+
+* Jupyter の Counsil
+* 台北ははじめて
+* PythonがStackoverflowでトップになった
+* 育っているしHappy
+* GitHubのデータでもPythonはだいたい3番目くらい(JS, Java)
+* Goodbye, Python 2: なんか面白い詩のようなものがあった
+* Scratch
+
+  * MakeCode Arcade→JSに変換できる
+
+自分の発表
+----------
+* HackMD: https://hackmd.io/@PyConTW/2019/%2F%40pycontw%2FB1i3ro2UB
+* Slide: https://gitpitch.com/takanory/slides?p=20190922pycontw#/
+* 無事発表終了
+* 30分なので結構はしょりぎみに説明した。コードとかは細かく話せない感じ
+* 質疑応答は3分間
+
+.. figure:: /images/tw/takanory.jpg
+   :width: 400
+
+   筆者の発表の様子
+
+* How to avoid the 3 second response time limit from slack api when using slack bot?
+
+  * BotではRTM APIが推奨されている。Botの場合は手でコマンドを送ってそれに反応しているので、あまり3秒のリミットは気にならない
+  * もう一個思い出せない。
+
+ライトニングトーク
+------------------
+カンファレンス2日目のライトニングトークでもいろいろな発表がありました。いくつか紹介します。
+
+.. figure:: /images/tw/students.jpg
+   :width: 400
+
+   高校生たちによる発表
+
+* 高中生做點事
+
+  * 言葉がわからないので意味は全くわかりませんでしたが、元気な高校生4人組の発表でした。あとで調べてみたところソフトウェア関係の部活のようで、小学生にプログラミングを教えたりもしているようです。発表の中では自分たちの活動とLINEBotを紹介していました。
+
+* 個人発起的小小小社群
+
+  * PyCon JPにも参加していたKK氏による発表です。小さいコミュニティを作って継続しようということを参加者に勧めていました。
+
+* 高雄發大財
+
+  * Kaohsiung(高雄).pyの主催者による発表です。高雄は台湾の南にある都市で、将来的にPyCon Taiwanを高雄で開催したいという発表をしていました。また、LTの冒頭に「Do you know Kaohsiung.py」と1日目のLTのネタをかぶせてきました。
+
+* My PyCon diary in 2019
+
+  * 日本から参加したLina KATAYOSE(`@selina787b <https://twitter.com/selina787b/>`_)の発表です。今年US、Thailandにも参加している自身の体験を共有して、みんなも海外PyConに行ってみると楽しいよという話をしていました。今年は5回参加しているけど、筆者とNoah氏がさらにたくさん参加しているよと言及されていました。またこの発表の後に「インドに来てね」というように誘われたそうです。
+
+* SprintSeoul
+
+  * 韓国のYounggun(`@scari_net <https://twitter.com/scari_net/>`_)氏による発表です。ソウルでは2カ月ごとに `SprintSeoul <https://www.sprintseoul.org/>`_ という開発イベントを継続的に開催しているそうです。内容もPythonのみに限らず様々な言語で行っているようです。他の地域でもぜひやってみねてと促していました。
+
+PyNight
+-------
+カンファレンス2日目の夜はオフィシャルのパーティーであるPyNightでした。
+ピザなどの軽食とドリンクが振る舞われたカジュアルな会でした。
+
+PyCon Taiwanのいつものパターンだとアルコールはないだろうなぁと思っていましたが、なんとサングリアやカクテルなど数種類のアルコールが提供されていました(しかしビールはありません)!!
+
+奥の方でなにやら演奏がはじまりましたが、チェロの五重奏です。
+写真の一番左に写っているのはPyCon Taiwan 2019のChairであるTaihsiang Ho氏です。
+彼はチェロやピアノが演奏できるそうです。多才ですね。
+
+.. figure:: /images/tw/cellos.jpg
+   :width: 400
+
+   チェロの演奏
+
+PyNightのあとはいつものようにビールが飲みたくなったので、友人数名と `Redpoint Brewing Co. <https://www.redpointbrewing.com/>`_ に行きました。
+この店には「台.P.A.」という名前のIPAスタイルのビールがあります。なかなかいいネーミングですね。
+写真の真ん中に写っているのが韓国のYounggun氏で、私がPyCon MalaysiaにPSFのBooth Kitを持って行く原因となった人物です。
+
+.. figure:: /images/tw/redpoint.jpg
+   :width: 400
+
+   naoy、Younggun、selinaとビール
+
+カンファレンス3日目
+===================
+
+Open Spaces
+-----------
+カンファレンス3日目の夕方はトークセッションはなく **Open Spaces** が行われました。
+Open Spacesとはその名の通り「オープンなスペース」で、場所を確保しているのでそこで「こんな話がしたい」とカンファレンス中に申し込んでディスカッションなどが行われるものです。
+
+10個くらいのテーブルが用意されており、例として以下のようなテーブルがありました。
+
+* asyncio
+* PyCon Taiwan 2020 @ 高雄
+* Health care
+* Numeric software
+* PyCon [A-Z]{2}
+
+私は一通りみて回ったあとに「PyCon [A-Z]{2}」という海外PyCon参加についてディスカッションしているテーブルに入ってみました。
+主催者はWei Lee(TODO: Twitter)氏で、PyCon JP参加時のさまざまな写真をスライドショーで紹介していました。
+
+.. figure:: /images/tw/openspaces.jpg
+   :width: 400
+
+   Open Spacesの様子(奥の白いTシャツがWei Lee氏)
+
+Wei Lee氏が他の参加者に私のことを「彼は日本から参加していて、各国のPyConで発表している」といったことを説明していました。
+その後田の参加者から「日本と台湾のPyConはどう違うのか?」という質問があったので「開発Sprintのありなしとか、チュートリアルが別の日だったりとかの細かい違いはあるけど、みんなUSのPyConやお互いを参考にしあっているのでそこまでの違いはないと思います。」という説明をしました。
+
+ここのいた人が他国のPyConに興味を持って参加してくれるとうれしいなと思いました。
+
+ちなみに、Wei Lee氏とはPyCon JPの1日目のオフィシャルパーティーの後に海外勢と一緒に飲みに行ったときに知り合いました。
+
+.. figure:: /images/tw/jp-party.jpg
+   :width: 400
+
+   PyCon JPでの飲み会
+
+おわりに
+========
+.. figure:: /images/tw/fromjapan.jpg
+   :width: 400
+
+   日本からの参加メンバー
