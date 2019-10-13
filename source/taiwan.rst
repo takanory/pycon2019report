@@ -61,7 +61,7 @@ PyCon Taiwan 2019のChairであるTaihsiang Ho氏(`@tai271828 <https://twitter.c
 
    オープニング
 
-ちなみにThaisiang氏とはフィリピンで開催されたPyCon APAC 2019で初めて会い、その後EuroPython、PyCon JPにも参加していたのでPyCon Taiwanで会うのは4回目です。
+ちなみにTaihsiang氏とはフィリピンで開催されたPyCon APAC 2019で初めて会い、その後EuroPython、PyCon JPにも参加していたのでPyCon Taiwanで会うのは4回目です。
 どっちも普通じゃないなと思います。
 
 Honey, There is a Python in my Android Phone!
@@ -456,11 +456,11 @@ Paul Ivanov(`@ivanov <Programming Language Tourism>`_)氏はJupyterの `Steering
 
 * My PyCon diary in 2019
 
-  * 日本から参加したLina KATAYOSE(`@selina787b <https://twitter.com/selina787b/>`_)の発表です。今年US、Thailandにも参加している自身の体験を共有して、みんなも海外PyConに行ってみると楽しいよという話をしていました。今年は5回参加しているけど、筆者とNoah氏がさらにたくさん参加しているよと言及されていました。またこの発表の後に「インドに来てね」というように誘われたそうです。
+  * 日本から参加したLina KATAYOSE氏(`@selina787b <https://twitter.com/selina787b/>`_)の発表です。今年US、Thailandにも参加している自身の体験を共有して、みんなも海外PyConに行ってみると楽しいよという話をしていました。今年は5回参加しているけど、筆者とNoah氏がさらにたくさん参加しているよと言及されていました。またこの発表の後に「インドに来てね」というように誘われたそうです。
 
 * SprintSeoul
 
-  * 韓国のYounggun(`@scari_net <https://twitter.com/scari_net/>`_)氏による発表です。ソウルでは2カ月ごとに `SprintSeoul <https://www.sprintseoul.org/>`_ という開発イベントを継続的に開催しているそうです。内容もPythonのみに限らず様々な言語で行っているようです。他の地域でもぜひやってみねてと促していました。
+  * 韓国のYounggun氏(`@scari_net <https://twitter.com/scari_net/>`_)による発表です。ソウルでは2カ月ごとに `SprintSeoul <https://www.sprintseoul.org/>`_ という開発イベントを継続的に開催しているそうです。内容もPythonのみに限らず様々な言語で行っているようです。他の地域でもぜひやってみねてと促していました。
 
 PyNight
 -------
@@ -516,16 +516,86 @@ Wei Lee氏が他の参加者に私のことを「彼は日本から参加して�
 
 ここのいた人が他国のPyConに興味を持って参加してくれるとうれしいなと思いました。
 
-ちなみに、Wei Lee氏とはPyCon JPの1日目のオフィシャルパーティーの後に海外勢と一緒に飲みに行ったときに知り合いました。
+Keynote: Tracy Osborn
+---------------------
+* タイトル: The Different Paths We Take As Programmers 
+* スライド: https://speakerdeck.com/tracymakes/keynote-the-different-paths-we-take-as-programmers
 
-.. figure:: /images/tw/jp-party.jpg
+カンファレンス3日目は夕方にもTracy Osborn氏(`@tracymakes <https://tracymakes>`_)によるキーノートがありました。
+
+.. figure:: /images/tw/tracy.jpg
    :width: 400
 
-   PyCon JPでの飲み会
+   Tracy氏と著作
+
+終了後に持ってきた書籍をプレゼントするというと、参加者が一斉に群がる様が個人的には面白かったです。
+
+クロージング
+------------
+カンファレンスの最後はChairであるTaihsiang Ho氏によるクロージングです。
+スポンサーへの感謝などが述べられたあとに、TaiwanメンバーがPyCon JPに参加したときの写真を引用して、今年はツアーを行ったことが紹介されました。
+また「Do you know PyCon JP?」にかけて、PyCon JP以外にもアジアや各国のPyConがあるので、ぜひ知って参加してみてほしいという話がありました。
+
+.. figure:: /images/tw/friends.jpg
+   :width: 400
+
+   PyCon JPに参加したTaiwanメンバー
+
+最後に壇上に主催者とボランティアが集合し、参加者から感謝の拍手が送られました。
+このあと参加者全員が壇上に集合して記念撮影を行い、PyCon Taiwan 2019は終了しました。
+
+.. figure:: /images/tw/taiwanstaff.jpg
+   :width: 400
+
+   PyCon TaiwanのOrganizerとVolunteer
+
+打ち上げ
+--------
+カンファレンス後はスタッフ打ち上げに参加させてもらいました。
+打ち上げ会場へはみんなでバスで移動です。
+バスに乗るとJames(PyCon MalaysiaのChair)一家がいました。どうやら今回は家族旅行を兼ねていたようです。
+息子さんはLEGOが好きらしく、移動のバス中で先日沖縄のパルコシティで撮影してきたLEGOの写真を見せてあげたら、興味深く見ていました。
+LEGOは国や言語を超えますね。
+
+.. figure:: /images/tw/noah-and-james.jpg
+   :width: 400
+
+   James氏、息子さん、Noah氏と
+
+打ち上げ会場は台北のほど近くにあるタイ料理中心のビュッフェです。
+ここのビュッフェには生ビールが付いていました。すばらしい!!!
+ここでもデブ活に励みながら、いろんなスタッフやキーノートスピーカーと交流しました。
+
+.. figure:: /images/tw/taipei101.jpg
+   :width: 300
+
+   台北101
+
+打ち上げが終わって何人かはNight Marketに行くそうですが、私はクラフトビールが飲みたいのでそのチームとは分かれて台湾メンバー数名と一緒に飲みに行きました。
+別れ際にキーノートスピーカーのPaul Ivanovが「Do you know?」と私にフリを入れてきたので「PyCon JP!!」と答えて別れました。Paulさんめっちゃ面白い人だ。
+
+ビールのお店はZhang Men BreweryのBreezeSongGao店です。
+この店は屋上に出られて、その屋上から台北101が見えるというとてもシャレオツなロケーションにあります。
+心地よい夜風に吹かれながら、台湾のみなさんと楽しく過ごしました(何を話したかほぼ覚えていない)。
+
+.. figure:: /images/tw/beer-with-taipei101.jpg
+   :width: 300
+
+   クラフトビールと台北101
 
 おわりに
 ========
+以上でPyCon Taiwanのレポートは終了です。
+振り返ってみると私を含めて4名の日本人がトークを行い、LTでも5名が登壇しました。
+「Do you know PyCon JP?」はキーフレーズとなって、参加者のみなさんに浸透したんじゃないかなと思っています。
+
+今後もこの日本と台湾の関係性が継続して、たくさんの人が行き来するといいなと思います。
+ご飯もおいしいし、漢字の意味がなんとなくわかるので、初めてのPyConとしてとてもおすすめです。
+
 .. figure:: /images/tw/fromjapan.jpg
    :width: 400
 
    日本からの参加メンバー
+
+私の次のPyConツアーはシンガポールです。
+次はどんな出会いがあるでしょうか(実はこの原稿を書いている時には、すでにPyCon Singaporeは終わっているんですけどね...)。
