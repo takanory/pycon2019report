@@ -17,6 +17,6 @@ Welcome to PyCon 2019 report's documentation!
    thailand
    euro*
    malaysia
-   taiwan
+   taiwan*
    singapore
    indonesia
