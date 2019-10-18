@@ -105,6 +105,9 @@ QPython3に付属するandroidhelperを使用すると、Androidのさまざま�
 
    Tetsuya Hirata(`@JesseTetsuya <https://twitter.com/JesseTetsuya>`_)
 
+   * タイトル: How to Transform Research Oriented Code into Machine Learning APIs with Python
+   * スライド: https://speakerdeck.com/tetsuya0617/how-to-transform-research-oriented-code-into-machine-learning-apis-with-python
+
    去年、初めてPyCon JPの存在を知り、一般参加者として参加しました。
    それ以来、私も登壇してみたいなと思っていました。
    ある日、台湾人の友達と食事をしていた際に台湾にいきたいなと思っていたところ、ちょうどPyCon TaiwanのCFP(発表の募集)が始まっていたので、応募し採択されて登壇することになりました。
@@ -357,11 +360,11 @@ CTOの染田さんは2日目に発表予定です。
 スピーカーディナー
 ------------------
 1日目の夜はスピーカーを招待したディナーがあったので、そちらに参加してきました。
-カンファレンス会場から送迎バスで移動して***駅のショッピングモールに来ました。
+カンファレンス会場から送迎バスで移動して駅のショッピングモールに来ました。
 SUNRISEという名前のビュッフェスタイルのレストランでディナーです。
 
 入り口で名前を確認され、それぞれ指定されたテーブルに着くというスタイルでした。
-私の席にはPyCon Taiwanの立ち上げメンバーであるYung-Yu Chen氏や、Shoppyというスポンサーの方などがいました。
+私の席にはPyCon Taiwanの立ち上げメンバーであるYung-Yu Chen氏や、スポンサーであるShoppyの方などがいました。
 
 .. figure:: /images/tw/speaker-dinner.jpg
    :width: 400
@@ -398,41 +401,68 @@ Googleマップで検索してみるとまだ電車が動いているようで�
 
 Keynote: Paul Ivanov
 --------------------
-* Programming Language Tourism
+* タイトル: Programming Language Tourism: Leave Python and see the world!
 
-Paul Ivanov(`@ivanov <Programming Language Tourism>`_)氏はJupyterの `Steering Counsil <https://jupyter.org/about>`_ メンバーであり、Bloombergのシニアエンジニアです。
+Paul Ivanov氏(`@ivanov <Programming Language Tourism>`_)はJupyterの `Steering Counsil <https://jupyter.org/about>`_ メンバーであり、Bloombergのシニアエンジニアです。
 
-「私たちはどこにいますか?いま私たちはPyCon Taiwanにいます。」と問いかけたあとに「どこからきましたか?」と参加者に問えば、それぞれ異なったスケールで回答があるよといいました。例えばJupyterの人に聞いたら多分「地球から」と答えるだろうと(笑)。
-アメリカならカリフォルニア、サンフランシスコと答えたり、ベイエリアと答えたりといった感じです。
+.. figure:: /images/tw/ivanov.jpg
+   :width: 400
 
-* Jupyter の Counsil
-* 台北ははじめて
-* PythonがStackoverflowでトップになった
-* 育っているしHappy
-* GitHubのデータでもPythonはだいたい3番目くらい(JS, Java)
-* Goodbye, Python 2: なんか面白い詩のようなものがあった
-* Scratch
+   Paul Ivanov氏
 
-  * MakeCode Arcade→JSに変換できる
+「私たちはどこにいますか?いま私たちはPyCon Taiwanにいます。」と問いかけたたあとに「どこからきましたか?」と参加者に問えば、それぞれ異なったスケールで回答があるよといいました。Jupyterの人に聞いたら「地球(笑)、アメリカ、カリフォルニア、サンフラシスコ、ベイエリア」のようにさまざまな尺度で答えるだろうと言っていました。
+余談ですが、「私は台湾ははじめてで、日本やドイツには行ったことはないんだけど...」というくだりで「Have you heard of PyCon JP?(PyCon JPのことを聞いたことがありますか?)」と1日目のLTのネタにかぶせて笑いを取っていました。
+
+次にプログラミングを自分の場所と考えたときにPythonはどこにいるかという話になりました。
+そこでStack Overflowの質問の数のグラフを紹介し、この10年間でPythonは上位プのタグになったそうです(上にはJavaScriptがいますが)。
+GitHubを見てみると、作成されたリポジトリの数は上位からJavaScript、Java、Pythonという順番だそうです。
+
+Pythonは素晴らしい言語だが、仕事でPythonを使用している場合は、たまにプログラミングの休暇を取ることを参加者に勧めました。
+休暇というのは、プログラミング言語を場所と考えると、別の場所に行ったりすることを指しています。
+またプログラミング以外のことを行って気分転換をしようという話がありました。
+
+また自身が主催しているイベントについて触れました。
+このイベントは2日間開催されプログラミングについて、普段の仕事ではなく自分自身のために学んで向上することができます。
+そこにはPyCon MalaysiaのキーノートスピーカーでもあるCarol Willingもいるそうです。
+そこにはさまざまな年齢やバックグラウンドの人が参加しており、その人たちの別の場所となっていると述べていました。
+
+私は `Python mini Hack-athon <https://pyhack.connpass.com/>`_ というイベント主催者の1人ですが、このイベントが誰かの別の場所になるといいなと思いました。
+
 
 自分の発表
 ----------
-* HackMD: https://hackmd.io/@PyConTW/2019/%2F%40pycontw%2FB1i3ro2UB
-* Slide: https://gitpitch.com/takanory/slides?p=20190922pycontw#/
-* 無事発表終了
-* 30分なので結構はしょりぎみに説明した。コードとかは細かく話せない感じ
-* 質疑応答は3分間
+* タイトル: Automate the Boring Stuff with Slackbot
+* スライド: https://gitpitch.com/takanory/slides?p=20190922pycontw
+
+いつものSlackbotを開発する内容で発表をしてきました。
+スライドで大きく変更した箇所は以下です。
+
+* 自己紹介のところでPyCon JPとPyCon TWの交流があるという話を追加
+* 今年の自分の各国PyConへの参加を地図で表示
+* 書籍が台湾でも出版されていることを紹介
+* Block Kitを使用したサンプルコードを追加
 
 .. figure:: /images/tw/takanory.jpg
    :width: 400
 
    筆者の発表の様子
 
-* How to avoid the 3 second response time limit from slack api when using slack bot?
+発表時間が30分と短めなため、はしょり気味に説明しました。
+具体的には細かいコードの説明をあまりしないことで、発表時間を調整しました。
 
-  * BotではRTM APIが推奨されている。Botの場合は手でコマンドを送ってそれに反応しているので、あまり3秒のリミットは気にならない
-  * もう一個思い出せない。
+PyCon Taiwanでは質疑応答は `sli.do <https://www.sli.do/>`_ というサービスで質問を受け付けています。
+文字で表示されるので質問を聞き取れないという問題がない反面、質問者に直接「今の回答でよかったか」といったことが確認できないため、メリットデメリットがあるなと思いました。
 
+以下は質疑応答の内容です。
+
+* SlackのAPIでは3秒のリミットがあるが、slackbotではどのようにして防いでいるのか?
+
+  * SlackbotではRTM APIの使用が推奨されているので3秒の制限はないはず。Botの場合は手でコマンドを送ってそれに反応しているので3秒のリミットは関係ないはず(後で調べてみたところ、これはEvents APIに対してレスポンスを返すリミットなので、botの場合は関係がなさそうです)。
+
+* Slack APIを使用してメッセージを送信したが表示されないときに、どのようにデバッグをしているのか?
+  
+  * ``slackbot_settings.py`` の ``ERRORS_TO`` にチャンネル名またはユーザー名を設定すると、エラー時にそこにエラーメッセージが表示されます。
+  
 ライトニングトーク
 ------------------
 カンファレンス2日目のライトニングトークでもいろいろな発表がありました。いくつか紹介します。
@@ -523,12 +553,30 @@ Keynote: Tracy Osborn
 
 カンファレンス3日目は夕方にもTracy Osborn氏(`@tracymakes <https://tracymakes>`_)によるキーノートがありました。
 
+現在はDjangoの書籍(`Hello Web App <https://hellowebbooks.com/learn-django/>`_)なども執筆しているスピーカーが、自身がプログラミングを学んでいった険しい道について語りました。
+
 .. figure:: /images/tw/tracy.jpg
    :width: 400
 
    Tracy氏と著作
 
-終了後に持ってきた書籍をプレゼントするというと、参加者が一斉に群がる様が個人的には面白かったです。
+氏は現在35歳だそうですが、高校生の頃にシンプルなHTML(h1とpタグしかないような)を書いてWebサイトを作り始めたそうです。それを見て先生は「おお、Webサイトが作れるなんてすごいね」と驚いたそうです(笑)。
+コンピューターやWebサイトが好きなので大学に入ってコンピューターサイエンスを学ぶことにしたそうです。
+大学に入ってプログラミングを学べると興奮して「コンピューターサイエンス基礎」を受講して10分経つとわけがわからなくて呆然としたそうです。
+その後JavaやGUIなどを学びましたが、途中でデザインなどのクラスをとり、最終的には真逆の芸術の学位をとって卒業したそうです。
+
+卒業後はデザイナーとしてWebのフロントエンドを作成するようになり、そこでJavaScriptを使い始めたそうです。
+その後自分のスタートアップを起業し、技術に強い共同創業者を探します。
+そしてDjangoを学び6週間でWebサイトを立ち上げたそうです。以下がその経験を書いたBlogです。
+
+* `I'm a designer who learned Django and launched her first webapp in 6 weeks - Tracy Osborn <https://tracyosborn.com/articles/im-a-designer-who-learned-django-and-launched-her-first-webapp-in-6-weeks/>`_
+
+このように、プログラムを学ぶときには初心者→中級者→上級者という一本道ではなく、さまざまな道があるという話がありました。
+そして自身がDjangoを学んでWebサイトを作成できるようになった経験をもとに書籍を執筆したそうです。
+また、現在は大学以外にもさまざまなPython等のプログラムを学ぶためのWebサイト、サービス、動画などが提供されています。そういう大学などとは異なったパスからプログラムを学ぶこともできるという話がありました。
+
+さまざまなバックグラウンドを持った人がプログラミングを学ぶことに対して背中を押す、素晴らしい発表でした。
+トークの終了後に「持ってきた著書をプレゼントする」と言うと、参加者が一斉に群がり即席サイン会がはじまって面白かったです。
 
 クロージング
 ------------
