@@ -54,7 +54,7 @@ PyCon Taiwanは2012年に初めて参加した海外PyConであり、2013年に�
 オープニング
 ------------
 PyCon Taiwan 2019のChairであるTaihsiang Ho氏(`@tai271828 <https://twitter.com/tai271828>`_)によるオープニングでPyCon Taiwan 2019が始まりました。
-説明は中国語でしたがスライドが英語だったので、なんとなくなにについて話しているかはわかりました。
+説明は中国語でしたがスライドが英語だったので、なんとなく何について話しているかはわかりました。
 
 .. figure:: /images/tw/opening.jpg
    :width: 400
@@ -79,7 +79,7 @@ Honey, There is a Python in my Android Phone!
    Ing Wei Tang氏
 
 話は2016年のクリスマスに遡ります。当時Tang氏は自身の蔵書のカタログを作りたいと思っていました。
-ISBNから書籍に関するメタデータ(価格、著者、出版日等)を取得するPythonスクリプトを書きたが、バーコードスキャナーは持っていませんでした。
+ISBNから書籍に関するメタデータ(価格、著者、出版日等)を取得するPythonスクリプトを書いたが、バーコードスキャナーは持っていませんでした。
 
 Androidにはバーコードをスキャンする機能があるので、これをPythonから呼べないかと調べてみたそうです。すると以下の2種類の方法が見つかったそうです。
 
@@ -94,12 +94,12 @@ QPython3は以下のリンクでGoogle Playストアからインストールで�
 
 * `QPython3 - Python3 for Android <https://play.google.com/store/apps/details?id=org.qpython.qpy3&hl=ja>`_
 
-そのアトはQPython3で作成したアプリケーションの例として、GPSを使用した移動経路のロガーや、ジャイロスコープを利用してAndroidの向きに連動してWeb画面上の立方体が回転するデモを紹介していました。
+その後はQPython3で作成したアプリケーションの例として、GPSを使用した移動経路のロガーや、ジャイロスコープを利用してAndroidの向きに連動してWeb画面上の立方体が回転するデモを紹介していました。
 QPython3に付属するandroidhelperを使用すると、Androidのさまざまなセンサーなどの値がとれるようです。
 
 現実のデバイスでプログラミングするとっかかりとしては手頃で面白そうだなと思いました。
 参考までに、iOSにも `Pythonista 3 <https://apps.apple.com/jp/app/pythonista-3/id1085978097>`_ という似たようなアプリケーションがあります。
-興味のある方はこちらもチェックして見てください。
+興味のある方はこちらもチェックしてみてください。
 
 .. admonition:: 初めてのPyCon登壇
 
@@ -112,7 +112,7 @@ QPython3に付属するandroidhelperを使用すると、Androidのさまざま�
    それ以来、私も登壇してみたいなと思っていました。
    ある日、台湾人の友達と食事をしていた際に台湾にいきたいなと思っていたところ、ちょうどPyCon TaiwanのCFP(発表の募集)が始まっていたので、応募し採択されて登壇することになりました。
 
-   トークセッションは、3部屋に分かれて行われ、一番大きな部屋(キーノートやオープンニングセッションが行われる部屋)で話すことになりました。以下の画像になります。
+   トークセッションは、3部屋に分かれて行われ、一番大きな部屋(キーノートやオープニングセッションが行われる部屋)で話すことになりました。以下の画像になります。
 
    .. figure:: /images/tw/main-hall.jpg
       :width: 400
@@ -133,7 +133,7 @@ QPython3に付属するandroidhelperを使用すると、Androidのさまざま�
 
    質問は、発表の間、sli.do (https://www.sli.do/)上でうけつけ、司会役の方が読み上げてくれます(sli.doは勉強会やカンファレンスにて、会場からの質問を匿名で集められるサービス)。
 
-   しかし、一部聞き取れず、「I'm sorry that I can not answer this question(ごめんなさい、その質問には答えることができません)」と答えて誤魔化したりしていました。
+   しかし、一部聞き取れず、「I'm sorry that I can not answer this question(ごめんなさい、その質問には答えることができません)」と答えて誤魔化していました。
 
    そんなこんなで誤魔化していましたが、実は、そのsli.do上の質問内容が後ろのスクリーンに写っていました。
 
@@ -159,8 +159,8 @@ PyCon TaiwanのランチはPyCon JPと同様のお弁当スタイルです。
 
    お弁当
 
-簡単にどんな種類の弁当があるかの説明があるのですが、なんとなく牛か豚か鶏かくらいはわかるのですが、細かい情報がわからずなかなか選びにくかったです。
-おそらく3日間とも同じメニュー構成だったと思われますが、私は2、3日目に食べた韓国系の焼き肉弁当がおいしかったです。
+簡単にどんな種類の弁当かの漢字の説明で、なんとなく牛か豚か鶏かくらいはわかるのですが、細かい情報がわからずなかなか選びにくかったです。
+おそらく3日間とも同じメニュー構成だったと思われますが、2、3日目に食べた韓国系の焼き肉弁当がおいしかったです。
 
 PEP 572: The Walrus Operator
 ----------------------------
@@ -217,7 +217,7 @@ PEPはDraft(草稿)が議論を得てAccept(採択)されるとImplementation(�
    (x := 1, 2)  # xには1がセットされる
    total +:= tax
 
-このセイウチ演算子の元となったPEP 572ですがメーリングリスト上で非常に長い議論となりました。
+このセイウチ演算子の元となったPEP 572ですが、メーリングリスト上で非常に長い議論となりました。
 またさまざまなコアの開発者が意見を述べました。
 
 * `Poll: Do you like the PEP 572 Assignment Expressions?のメールのスレッド <https://mail.python.org/archives/list/python-committers@python.org/thread/23IAVIROHJFSNTPWQ7SYO4OS4XLWRAMR/#6LP4HRABH5T5HNULQAU5TLADODXPMYAE>`_
@@ -228,8 +228,7 @@ PEPはDraft(草稿)が議論を得てAccept(採択)されるとImplementation(�
 * `PEP 572をAcceptしたPull Request <https://github.com/python/peps/pull/735/files>`_
 * `Guido氏のメール: Transfer of power <https://mail.python.org/archives/list/python-committers@python.org/message/GQONAGWBBFRHVRUPU7RNBM75MHKGUFJN/>`_
 
-その後Python言語の仕様策定をどのように運用していくかの議論がはじまり、 `PEP 8000 Python Language Governance Proposal Overview <https://www.python.org/dev/peps/pep-8000/>`_ をベースにいくつかの運営方法が提案され、投票で `PEP 8016 The Steering Council Model <https://www.python.org/dev/peps/pep-8016/>`_ がそして。
-採用されました2019年1月から2月にかけてSteering Councilメンバーの投票が行われ5名のCouncilメンバーが決定しました。
+その後Python言語の仕様策定をどのように運用していくかの議論がはじまり、 `PEP 8000 Python Language Governance Proposal Overview <https://www.python.org/dev/peps/pep-8000/>`_ をベースにいくつかの運営方法が提案され、投票で `PEP 8016 The Steering Council Model <https://www.python.org/dev/peps/pep-8016/>`_ が採用されました。2019年1月から2月にかけてSteering Councilメンバーの投票が行われ、5名のCouncilメンバーが決定しました。
 
 この5名のメンバーによるキーノートがUS PyConで行われ、その模様は以下の記事でレポートしてあります。
 
@@ -257,7 +256,7 @@ PEP 572の技術的な話だけでなく、その周辺で起こったPythonの�
    私の本が置いてあった!!
 
 また企業ブースもまわってみましたが、京都に本社がある `ハカルス <https://hacarus.com/ja/>`_ さんがブースを出していました。
-メンバーのニノさんとはPyCon APACのときに挨拶していたので、ここで再会できました。
+メンバーのニノさんとはPyCon APACのときに挨拶しており、ここで再会できました。
 CTOの染田さんは2日目に発表予定です。
 
 .. figure:: /images/tw/hacarus.jpg
@@ -267,7 +266,7 @@ CTOの染田さんは2日目に発表予定です。
 
 ライトニングトーク
 ------------------
-ライトニングトークはしゃべりたいタイトルと連絡先を紙に買いて受付にある箱に入れて、選ばれた人には連絡が来るというスタイルです。
+ライトニングトークはしゃべりたいタイトルと連絡先を紙に書いて受付にある箱に入れて、選ばれた人には連絡が来るというスタイルです。
 1日目のライトニングトークは申し込んだ人が少なかったのかわかりませんが、5名中4名が日本人(しかもPyCon JPスタッフ)という「お前らちょっと自重しろw」という布陣となりました。
 ここで「Do you know PyCon JP?」みたいに、全員で同じフレーズをかぶせていったらウケるのでは?という話を日本人の中でしていました。
 
@@ -276,7 +275,7 @@ CTOの染田さんは2日目に発表予定です。
 * Minecraft Education and Python - Daisuke Saito
 * PyCon JP Introduction of useful tools - Shunsuke Yoshida
 * Recap PyCon JP 2019 - Naotaka Yokoyama
-* Prepare PyCon JP 2019 with python - Nikkie
+* Prepare PyCon JP 2019 with Python - Nikkie
 
 .. note::
 
@@ -300,9 +299,9 @@ CTOの染田さんは2日目に発表予定です。
 .. figure:: /images/tw/lt-nikkie.jpg
    :width: 400
 
-   Prepare PyCon JP 2019 with python - Nikkie
+   Prepare PyCon JP 2019 with Python - Nikkie
 
-すると、この日最後のLTスピーカーであるKeith Yang氏が、急遽用意した「Do you know PyCOn JP?」のスライドで全部持って行かれました。
+すると、この日最後のLTスピーカーであるKeith Yang氏が、急遽用意した「Do you know PyCon JP?」のスライドで全部持って行かれました。
 彼は過去PyCon Taiwanや各国PyConでも発表経験があり、さすがだなーと思いました。
 
 .. figure:: /images/tw/lt-keith.jpg
@@ -311,6 +310,8 @@ CTOの染田さんは2日目に発表予定です。
    Keith Yang氏によるDo you know PyCon JP?
 
 .. admonition:: 初めての海外PyConでLT
+
+   nikkie (`@ftnext <https://twitter.com/ftnext>`_)
 
    PyCon Taiwanは、私にとって初めての海外、初めての海外PyConでした。
    PyCon Taiwanのスタッフをはじめ、色々な方に助けていただき、抽選では運も味方して、カンファレンス1日目にLTができました。
@@ -372,16 +373,14 @@ SUNRISEという名前のビュッフェスタイルのレストランでディ�
    スピーカーディナーの様子
 
 スタッフ、スピーカー、スポンサー含めて4~50名はいたでしょうか?
-さまざまな宗教や食事の制限があったりするので、ビュッフェ形式は理にかなっているなと思いました。
-ただ、当然のようにビールがなかったりするので、ひとしきり食事を楽しんでいろんな人と話をしたあとは、台湾のクラフトビールの店に移動です。
+宗教によるものベジタリアンなどの食事の制限がある人がいるので、ビュッフェ形式は理にかなっているなと思いました。
+ただ、当然のようにビールがなかったので、ひとしきり食事を楽しんでいろんな人と話をしたあとは、台湾のクラフトビールの店に移動です。
 この日はDriftwoodというお店で先に何名か日本からの参加メンバー飲んでいて、そこにあとから合流しました。
 
 .. figure:: /images/tw/driftwood.jpg
    :width: 400
 
    Driftwood
-
-.. todo:: driftwoodで飲んでいる写真
 
 Driftwoodで飲んだあとはホテルに帰るのですが、私と他数名はカンファレンス会場の近くに宿泊しているため、戻る必要があります。
 Googleマップで検索してみるとまだ電車が動いているようで、西門から台北駅まで歩いて移動して電車に乗りました。
