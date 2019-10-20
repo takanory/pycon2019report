@@ -14,6 +14,11 @@
    フォローしているmeetupグループ(`Singapore Python User Group <https://www.meetup.com/Singapore-Python-User-Group/>`_)にてPyCon SGの主催者がスピーカーを募集していたのを見て、プロポーザルを提出しました。
    世界各地で開催されているPythonの技術カンファレンスとしてPyConの存在は元々知っていたのですが、今回が初めての参加でした。
 
+   .. figure:: /images/sg/aoki.jpg
+      :width: 400
+
+      発表の様子
+
    私が仕事で取り組んでいるデータサイエンスや機械学習に関するセッションは他にも数多くありそうだと思い、折角なので最近趣味で勉強しているストリームデータ処理について紹介しようと思いプロポーザルをまとめました。
    対象となる聴き手の想定を「Pythonでの開発経験はあるけれどストリーム処理については未経験」と置いて全体像を固めました。
    私がセッションにて紹介したApache KafkaやSpark Structured Streamingについては、それぞれ既にWeb上でそれなりに情報が出揃っています。
