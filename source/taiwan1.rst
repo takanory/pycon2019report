@@ -61,15 +61,15 @@ PyCon Taiwan 2019のChairであるTaihsiang Ho氏(`@tai271828 <https://twitter.c
 
    オープニング
 
-ちなみにTaihsiang氏とはフィリピンで開催されたPyCon APAC 2019で初めて会い、その後EuroPython、PyCon JPにも参加していたのでPyCon Taiwanで会うのは4回目です。
-どっちも普通じゃないなと思います。
+ちなみに筆者はTaihsiang氏とはフィリピンで開催されたPyCon APAC 2019で初めて会い、その後EuroPython、PyCon JPにも参加していたので、PyCon Taiwanで会うのは4回目です。
+お互い世界中のPyConに参加していて物好きだなと思います。
 
 Honey, There is a Python in my Android Phone!
 ---------------------------------------------
 * スピーカー: Ing Wei Tang
 
 スピーカーのIng Wei Tang氏はPyCon Malaysia 2019のChairであり、私は今年のマレーシアで初めて会いました。
-彼がPyCon Taiwanに参加していることを私は全然知らず、この日の朝にエレベーターでばったり会って、今日発表があることを知って聞きに来ました。
+彼がPyCon Taiwanに参加していることを私は全然知らず、この日の朝にエレベーターでばったり会い、今日発表があることを知って聞きに来ました。
 
 発表の内容は古くなったAndroidをどう再利用するかというところで、Java/KotlinではなくPythonでプログラミングをしようという話です。
 
@@ -247,7 +247,7 @@ PEP 572の技術的な話だけでなく、その周辺で起こったPythonの�
    大量のおやつ
 
 この時間に書籍の販売コーナーに寄ってみたところ、私の書いた `Pythonによるあたらしいデータ分析の教科書 <https://www.shoeisha.co.jp/book/detail/9784798158341>`_ の中国語版が置いてありました!!
-誰かが購入してくれてたらうれしいのですが...
+誰かが購入してくれたらうれしいのですが...
 書籍は全体的にディープラーニング系が多いかなという印象でした。
 
 .. figure:: /images/tw/book.jpg
@@ -301,7 +301,7 @@ CTOの染田さんは2日目に発表予定です。
 
    Prepare PyCon JP 2019 with Python - Nikkie
 
-すると、この日最後のLTスピーカーであるKeith Yang氏が、急遽用意した「Do you know PyCon JP?」のスライドで全部持って行かれました。
+すると、この日最後のLTスピーカーであるKeith Yang氏が、急遽用意した「Do you know PyCon JP?」のスライドで全部笑いを持っていかれました。
 彼は過去PyCon Taiwanや各国PyConでも発表経験があり、さすがだなーと思いました。
 
 .. figure:: /images/tw/lt-keith.jpg

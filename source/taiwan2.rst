@@ -5,7 +5,7 @@
 .. contents:: 目次
    :local:
 
-PyCon Taiwan2日目と3日目の様子についてレポートします。
+PyCon Taiwanの2日目と3日目の様子についてレポートします。
 キーノートスピーカーによる発表、筆者自身の発表、PyNight、Open Spacesなどについて紹介します。
 
 カンファレンス2日目
@@ -98,7 +98,7 @@ PyCon Taiwanでは質疑応答は `sli.do <https://www.sli.do/>`_ というサ�
 
 * My PyCon diary in 2019
 
-  * 日本から参加したLina KATAYOSE氏(`@selina787b <https://twitter.com/selina787b/>`_)の発表です。今年US、Thailandにも参加している自身の体験を共有して、みんなも海外PyConに行ってみると楽しいよという話をしていました。今年は5回参加しているけど、筆者とNoah氏がさらにたくさん参加しているよと言及されていました。またこの発表の後に「インドに来てね」というように誘われたそうです。
+  * 日本から参加したLina KATAYOSE氏(`@selina787b <https://twitter.com/selina787b/>`_)の発表です。今年US、Thailandにも参加している自身の体験を共有して、みんなも海外PyConに行ってみると楽しいよという話をしていました。今年は5回参加しているけど、筆者とNoah氏がさらにたくさん参加しているよと言及されていました。またこの発表の後にインドからの参加者に「PyCon Indiaにも来てね」と誘われていたようです。
 
 * SprintSeoul
 
