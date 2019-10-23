@@ -5,6 +5,61 @@
 .. contents:: 目次
    :local:
 
+鈴木たかのりです。
+2019年の個人的な挑戦「海外のPythonカンファレンスに応募しまくって、採択されたら行く」も終盤戦です。
+今回レポートするPyCon Singaporeは8カ国目です。
+過去のレポートもgihyo.jpに掲載していますので、ぜひ興味のある国のレポートを読んでみてください。
+
+* `アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート <https://gihyo.jp/news/report/2019/03/1201>`_
+* `世界最大のPythonカンファレンス「US PyCon 2019」レポート <https://gihyo.jp/news/report/01/us-pycon2019>`_
+* `日本をはじめ各国のスピーカーが語るPythonのいま ―「PyCon Thailand 2019」レポート <https://gihyo.jp/news/report/2019/07/0501>`_
+* `ヨーロッパのPythonコミュニティと交流できる3日間「EuroPython 2019」参加レポート <https://gihyo.jp/news/report/01/europython2019>`_
+* `データサイエンスの実践に必要な4つの柱とは？ ―「PyCon Malaysia 2019」レポート <https://gihyo.jp/news/report/2019/09/0901>`_
+* (TBD: Taiwanのレポートへのリンク)
+
+Pycon Singapore
+===============
+シンガポールは2010年からPyConを開催しており、日本よりも歴史のあるカンファレンスです(アジアではインドが最も歴史があるようです)。
+この2010年のPyCon APAC(初回はAPACという名前でした)に日本から参加した4名が出会ったことがきっかけとなって、2011年にPyCon JPが初開催されました。
+
+.. figure:: /images/sg/pyconsg.jpg
+   :width: 400
+
+   PyCon Singarepo 2019 Webサイト
+
+以下はPyCon Singapore 2019の開催概要です。
+
+:URL: https://pycon.sg/
+:日程: 2019年10月10日(木)-12日(土)
+:場所: シンガポール
+:会場: `Republic Polytechnic <https://www.rp.edu.sg/>`_
+:参加費: 180シンガポールドル(約14,000円)
+
+筆者自身は2014年に訪れて以来、5年ぶり2度目のPyCon Singaporeです。
+
+カンファレンス前夜
+==================
+カンファレンス前夜は、シンガポール在住の元PyCon JPスタッフと食事に行きました。
+せっかくなので私以外の日本人スピーカー2名(どちらもシンガポール在住)と、日本から参加する他のメンバーとも一緒に交流しました。
+
+店はChin Chin Eating Houseというローカルに人気の中華料理店です。
+お昼は結構混んでいるそうです。
+特に名物の蒸し鶏はとてもおいしく、結局丸々1羽を7人で食べました。
+
+.. figure:: /images/sg/eve-party.jpg
+   :width: 400
+
+   おいしい中華で前夜祭
+
+この前夜祭での重要なタスクの一つに、 `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_ Tシャツを神谷さんに渡すということがありました。
+
+.. figure:: /images/sg/kamiya.jpg
+   :width: 300
+
+   Tシャツを受け取ってご満悦の神谷さん
+
+オープニング
+============
 
 .. * 青木さんコラム https://docs.google.com/document/d/1Lv6AgAXMhN3wCM3s0xVcS9mL9qGgwii8w08OFRJ2GLc/edit?fbclid=IwAR3mDQvU87qU8sZ1PGiOd8LHecmFbjE_p-sr0U9NoARaEAgjTIC-QKIzCCo
 
