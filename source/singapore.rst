@@ -161,6 +161,28 @@ PyCon Singaporeでは朝食、ランチ、午後のおやつが提供されま�
 
 .. * 青木さんコラム https://docs.google.com/document/d/1Lv6AgAXMhN3wCM3s0xVcS9mL9qGgwii8w08OFRJ2GLc/edit?fbclid=IwAR3mDQvU87qU8sZ1PGiOd8LHecmFbjE_p-sr0U9NoARaEAgjTIC-QKIzCCo
 
+日本からの参加者との出会い、そしてビールへ
+==========================================
+日本からの参加メンバーは知り合いのnao_y(`@NaoY_py <https://twitter.com/NaoY_py>`_)とnikkie(`@ftnext <https://twitter.com/ftnext>`_)だけだと思っていましたが、午後に自分の発表の準備をしている時に日本語で声をかけられました。
+それがKeisuke Nishitani(`@keinstn <https://twitter.com/keinstn>`_)さんです。
+話をしてみるとPyCon APACにも参加されていたそうですが、そのときは声をかけるタイミングがなかったそうです。
+せっかくなので日本からの参加メンバーで写真を撮りました。
+
+.. figure:: /images/sg/team-japan.jpg
+   :width: 400
+
+   日本からの参加メンバー(左からKeisuke、nao_y、nikkie、筆者)
+
+カンファレンス終了後はビールだよね!!ということで、他のアジアから参加したメンバーに声をかけて、Joshさんに教えてもらった `SGTaps <https://www.sgtaps.com/>`_ に向かいました。
+お店に着くとJoshさんがお友達(シンガポール在住)とビールをすでに飲んでいました。
+そこに日本人4名、インドのVaibhav(VB)、フィリピンのJosefも混ぜてもらってビールを楽しみました。
+このお店、オーナーが日本人だそうで、オーナーが注文を取りに来ると急に日本語で話しかけられたりするので、なんかだ不思議な気分でした。
+
+* https://twitter.com/takanory/status/1182465891209859072
+
+ビールのあとnao_y、nikkie、Josefと歩いて近くのホーカーセンターに向かいました。
+3人はシンガポールチキンライスを食べていましたが、私はさすがにお腹いっぱいなのでアイスカチャン(かき氷)を食べてこの日は終了しました。
+
 .. admonition:: 青木さんコラム
     
    私は普段はシンガポールにてData Scientistの仕事をしています。
