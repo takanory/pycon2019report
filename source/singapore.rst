@@ -8,14 +8,15 @@
 鈴木たかのりです。
 2019年の個人的な挑戦「海外のPythonカンファレンスに応募しまくって、採択されたら行く」も終盤戦です。
 今回レポートするPyCon Singaporeは8カ国目です。
-過去のレポートもgihyo.jpに掲載していますので、ぜひ興味のある国のレポートを読んでみてください。
+過去のレポートもgihyo.jpに掲載していますので、ぜひ興味のある国のレポートを読んでみてください(PyCon JPのみ運営スタッフによるレポートです)。
 
-* `アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート <https://gihyo.jp/news/report/2019/03/1201>`_
+* `アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート <https://gihyo.jp/news/report/2019/03/1201>`__
 * `世界最大のPythonカンファレンス「US PyCon 2019」レポート <https://gihyo.jp/news/report/01/us-pycon2019>`_
 * `日本をはじめ各国のスピーカーが語るPythonのいま ―「PyCon Thailand 2019」レポート <https://gihyo.jp/news/report/2019/07/0501>`_
 * `ヨーロッパのPythonコミュニティと交流できる3日間「EuroPython 2019」参加レポート <https://gihyo.jp/news/report/01/europython2019>`_
 * `データサイエンスの実践に必要な4つの柱とは？ ―「PyCon Malaysia 2019」レポート <https://gihyo.jp/news/report/2019/09/0901>`_
-* (TBD: Taiwanのレポートへのリンク)
+* `PyCon JP 2019 カンファレンスレポート <http://gihyo.jp/news/report/01/pyconjp2019>`_
+* `日本と台湾のPythonコミュニティの架け橋に ―「PyCon Taiwan 2019」レポート <http://gihyo.jp/news/report/01/pycon-tw2019>`_
 
 Pycon Singapore
 ===============
@@ -69,7 +70,7 @@ Pycon Singapore
 会場のRepublic PolytechnicはPyCon Singaporeの立ち上げメンバーであるLiew Beng Keat氏の職場でもあります。
 ちなみに氏は今年のPyCon APACのキーノートスピーカーでもありました。
 
-* 参考: `アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート：レポート <https://gihyo.jp/news/report/2019/03/1201>`_
+* 参考: `アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート：レポート <https://gihyo.jp/news/report/2019/03/1201>`__
 
 さて、会場に着くとすでに参加者が朝食を食べながら交流していました。
 私も朝食をとってマレーシアから参加した知人などとあいさつをしました。
@@ -152,7 +153,7 @@ PyCon Singaporeでは朝食、ランチ、午後のおやつが提供されま�
 
    発表を聞きに来てくれたみなさん
 
-発表しながら会場をみているとうなずいている方とかはいたので、ある程度伝わっているのかなと感じました。
+発表しながら会場を確認すると、うなずいて聞いている方かいらっしゃったので、ある程度は伝わっているのかなと感じました。
 ビールについての小ネタもそこそこウケたので個人的には満足です。
 質疑応答の時間がとれなかったのですが、終了後に「シンガポールのビールの場所教えるよ」と声をかけてくれる方がいました(スライドの中に「おいしいビールのお店を教えてください」というメッセージを入れてあります)。
 以下がその人(Joshさん)からのメッセージです。
@@ -163,25 +164,47 @@ PyCon Singaporeでは朝食、ランチ、午後のおやつが提供されま�
 
 日本からの参加者との出会い、そしてビールへ
 ==========================================
-日本からの参加メンバーは知り合いのnao_y(`@NaoY_py <https://twitter.com/NaoY_py>`_)とnikkie(`@ftnext <https://twitter.com/ftnext>`_)だけだと思っていましたが、午後に自分の発表の準備をしている時に日本語で声をかけられました。
+日本からの参加メンバーは知り合いのnao_y(`@NaoY_py <https://twitter.com/NaoY_py>`_)とnikkie(`@ftnext <https://twitter.com/ftnext>`_)だけだと思っていましたが、午後に筆者が発表の準備をしていると日本語で声をかけられました。
 それがKeisuke Nishitani(`@keinstn <https://twitter.com/keinstn>`_)さんです。
-話をしてみるとPyCon APACにも参加されていたそうですが、そのときは声をかけるタイミングがなかったそうです。
+PyCon APACにも参加されていたそうですが、そのときは他の日本参加者に声をかけるタイミングがなかったそうです。
+また、このレポートも読んでいて「自分もチーム・ジャパンとして出たい」と言ってました(笑)。
 せっかくなので日本からの参加メンバーで写真を撮りました。
 
 .. figure:: /images/sg/team-japan.jpg
    :width: 400
 
-   日本からの参加メンバー(左からKeisuke、nao_y、nikkie、筆者)
+   チーム・ジャパン(左からKeisuke、nao_y、nikkie、筆者)
 
 カンファレンス終了後はビールだよね!!ということで、他のアジアから参加したメンバーに声をかけて、Joshさんに教えてもらった `SGTaps <https://www.sgtaps.com/>`_ に向かいました。
 お店に着くとJoshさんがお友達(シンガポール在住)とビールをすでに飲んでいました。
-そこに日本人4名、インドのVaibhav(VB)、フィリピンのJosefも混ぜてもらってビールを楽しみました。
+そこに日本人4名、インドのVaibhav(`@reach_vb <https://twitter.com/reach_vb>`_)、フィリピンのJosef(`@josefmonje <https://twitter.com/josefmonje>`_)も混ぜてもらってビールを楽しみました。
 このお店、オーナーが日本人だそうで、オーナーが注文を取りに来ると急に日本語で話しかけられたりするので、なんかだ不思議な気分でした。
 
 * https://twitter.com/takanory/status/1182465891209859072
 
 ビールのあとnao_y、nikkie、Josefと歩いて近くのホーカーセンターに向かいました。
-3人はシンガポールチキンライスを食べていましたが、私はさすがにお腹いっぱいなのでアイスカチャン(かき氷)を食べてこの日は終了しました。
+3人はシンガポールチキンライスを食べていましたが、私はさすがにお腹いっぱいなのでアイスカチャン(かき氷)を食べてカンファレンス1日目が終了しました。
+
+Building a Data Pipeline using Apache Airflow(on AWS/GCP)
+=========================================================
+* スピーカー: Yohei Onishi
+* スライド: https://www.slideshare.net/legoboku/building-a-data-pipeline-using-apache-airflow-on-aws-gcp
+
+.. figure:: /images/sg/yohei.jpg
+   :width: 400
+
+   Yohei Onishi氏
+
+日本人スピーカーの発表です。Yohei Onishi(`@legoboku <https://twitter.com/legoboku>`_)s氏はシンガポール在住のデータエンジニアです。
+彼とはPyCon APACで知り合って「私がシンガポールに行ったときには、また会いましょう」と言っていたんですが、無事再会できました。
+
+* 参考: `アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート <https://gihyo.jp/news/report/2019/03/1201?page=3>`_
+
+発表の内容は `Apache Airflow <https://airflow.apache.org/>`_ を使用してデータパイプラインをAWS、GCP上に構築するという話です(タイトルのままですね)。
+実務で使用している例がベースとなっており、具体的なAirFlowのコードもでてくる発表でした。
+またAWSとGCP両方で構築した経験を元に、GCPが環境としておすすめされていました。
+
+発表が早めに終わったため、そのあとはかなりたくさんの質疑応答が行われていたのが印象的でした。
 
 .. admonition:: 青木さんコラム
     
@@ -203,7 +226,7 @@ PyCon Singaporeでは朝食、ランチ、午後のおやつが提供されま�
    また、全体を通したリハーサルを１度も出来なかった事もあり、Q＆Aの時間があまり取れない時間配分になってしまったことも反省点です。
 
    伝えやすい話し方や技術的内容そのものについて等まだまだ改善すべき点はありますが、初のPyCon登壇を楽しむことが出来ました。
-   また、今回Apache Beamによるストリーム処理をテーマに登壇した人との繋がりもでき、情報交換することが出来ました(彼からは、KafkaやSparkも良いけど一緒にApache BeamにPRあげてcontributeしよう！と熱烈に誘われました笑)。
+   また、今回Apache Beamによるストリーム処理をテーマに登壇した人との繋がりもでき、情報交換することが出来ました(彼からは「KafkaやSparkも良いけど一緒にApache BeamにPRあげてcontributeしよう！」と熱烈に誘われました笑)。
 
    参加者としての所感としては、今回参加したPyConでは機械学習に関するセッションが充実していたように思います。
    シンガポールでは政府がAI人材の育成に力を入れていますし、企業での経験を経て大学院にて機械学習やデータサイエンスを学ぶ人達が増えている環境なので、PyCon SGでもこのような傾向が出ているのかなと想像しました。
@@ -212,13 +235,128 @@ PyCon Singaporeでは朝食、ランチ、午後のおやつが提供されま�
 
    Python情報のインプット・アウトプットの場としてPyCon SGはとても良い場だったので、今後も当地や他国で開催されるPyConで積極的に登壇していけたらと思います。
 
+2FA, WTF
+========
+* Phil Nash
+* スライド: https://speakerdeck.com/philnash/2fa-wtf-at-pycon-singapore
+
+タイトルがちょっとアレですが、2FA(2要素認証)についての発表です。
+スピーカーのPhil Nash(`@philnash <https://twitter.com/philnash>`_)氏はtwilioのエンジニアです。
+
+まず最初にパスワードのみの認証は危険だという例として、Mat Honanさんの悲劇について触れました。
+この事件知らなかったんですが、悪意のあるユーザーにiPhone、MacBook、Twitter、Googleアカウント、Gmailなどが乗っ取られデータが削除されたそうです。
+恐ろしすぎます...
+
+* 参考: `WIRED記者の悲劇から学ぶ「セキュリティ9つの常識」 <https://wired.jp/2012/08/14/how-not-to-become-mat-honan/>`_
+
+また、Ashley Madisonというサイトから数100万のアカウントが盗まれ、そこにはパスワードが平文で入っていたそうです。で、最も使用されているパスワードは「123456」だそうです。120,511ユーザーが使用しているそうで、これはひどい...
+
+* 参考: `Ashley Madisonのアカウント盗難事件が明かす‘愚かなパスワードは不滅です’ <https://jp.techcrunch.com/2015/09/08/20150907stupid-passwords/>`_
+
+まとめとしては当然ですが、難しいパスワードは覚えられないので1Password、LastPassなどのパスワードマネージャーを使いましょうというものでした。
+
+次に2要素認証の話です。
+2要素認証の主な手法としてSMS、トークン、プッシュの3つがあげられていました。
+それぞれコードの例と利点、欠点があげられていました。
+
+SMS
+
+* SMSで認証コードを送信する仕組み
+* 利点: 多くの人が使用できるみんなが使える
+* 欠点: SMS送信にお金がかかる。電波が必要。SMSは壊れている(SIMを盗まれたりなど簡単になりすませる
+
+トークン
+
+* HOTP、TOTPといったワンタイムパスワードを生成。 `pyauth/pyotp <https://github.com/pyauth/pyotp>`_ を使用したトークン生成のデモを実施していました。
+* 利点: 無料、オフラインでも利用可能
+* 欠点: スマートフォンが必要、リカバリー用のバックアップコードが必要
+  
+プッシュ
+
+* Webで操作すると専用のスマートフォンアプリケーションに通知がくる仕組み
+* 利点: よりよいユーザー体験、最も安全
+* 欠点: スマートフォンとネイティブアプリが必要。オフランでは利用できない
+
+.. figure:: /images/sg/phil.jpg
+   :width: 400
+
+   Phil Nash氏によるpyotpのデモ
+
+最後に「2要素認証を使おう」というまとめで発表は終わりました。
+
+TOTPなどのワンタイムパスワードを生成するために **pyotp** を使用してると簡単そうだなと思いました。
+
+Keynote: Rich Jones
+===================
+* スライド: https://github.com/Miserlou/Talks/tree/master/pycon-sg-2019
+
+Rich Jones氏はPython製のサーバーレスフレームワーク `Zappa <https://github.com/Miserlou/Zappa>`_ の作者です。
+
+.. figure:: /images/sg/rich.jpg
+   :width: 400
+
+   Rich Jones氏
+
+この「Hello」から始まるスライドは400枚を超えており、終始ハイテンションでしゃべりまくるエネルギッシュなキーノートでした。
+50分間1人でライトニングトークをし続ける、といった感じでした。
+ただ、しゃべっている内容はスライドにだいたい書いてあるので、英語を聞き取るのが苦手な私もわかりやすい発表でした。
+
+前半は「Zappaでサーバーレスにしよう」と題して、AWS LambdaとAPI Gatewayを使用して、超スケーラブルなサービスを作ろう、という話をしていました。
+Zappaを使えばVPSに比べてコストも安く済み、メンテナンスも不要になる(その結果運用チームを解雇できるよ)とのことでした。
+基本的なZappaが提供しているコマンドの紹介や、様々なケーススタディでZappaを使用する例について紹介していました。
+
+しかし後半の「なぜZappaを使うべきではないのか」というところから、話の方向が変わっていきます。
+Amazonがコミュニティに対して何度も敵対しているという話から始まります。
+AWSはOSSコミュニティと敵対し、結果としてMongoDB、Redis、ElasticSearchのライセンスが変更になりました。
+
+* 参考: `Redis、MongoDB、Kafkaらが相次いで商用サービスを制限するライセンス変更。AWSなどクラウドベンダによる「オープンソースのいいとこ取り」に反発 <https://www.publickey1.jp/blog/19/redismongodbkafkaaws.html>`_
+
+またAmazonは税金を払っていない、アメリカの小さな街を破壊した、従業員を低賃金で働かせすぎているとすごい勢いで批判を続けます。
+ここで「AmazonはPyCon Singaporeのスポンサーじゃないよね?」と確認していました(笑)。
+
+そこで「自分たちのLambdaを作ろう!」ということで `OpenFaaS <https://github.com/openfaas/faas>`_ の紹介をしました。
+PLONK(Prometheus、Linkerd、OpenFaas、NATS、Kubernetes)というスタックでオープンなAWS Lambda、API Gatewayの代わりとなるものを作っているそうです。
+そしてOpenFaasを使用して実際にファンクションを作成して動作させる手順について説明がありました。
+
+そして自身のプロジェクトである `Fashion <https://github.com/Miserlou/Fashion>`_ の紹介です。
+FashionはOpenFaasの機能をPython的に使用できるライブラリだそうです。
+使い勝手などを知りたいので、ぜひ利用してみてほしいと呼びかけていました。
+
+最後に「新しいインターネットを作ろう」というタイトルで、ピアツーピア(P2P)のWeb技術を紹介しました。
+いくつかP2PのWeb技術があるそうですが、ここでは `dat:// <https://dat.foundation/>`_ を紹介していました。
+datはgitとBitTorrentとHTTPを併せたようなもので、データサイエンティストが大きなデータセットを共有するために設計されたそうです。
+「Google、Twitter、Facebook、Netflix、Slackなどを置き換えなければならない」と呼びかけていました。
+そして「広告のない世界で生きていきたい!」と語っていました。
+
+いわゆる **ハッカー** だなという感じのRichさんのキーノートでした。
+一部過激な内容もありましたが、個人的にも頷ける部分があるなと思いました。
+
+Rich氏も交えてビールへ
+======================
+カンファレンス2日目が終了しました(3日目はチュートリアルデー)。
+ライトニングトークやカチッとしたクロージングもなかったのですが、それがSingapore流のようです(以前もそんな感じでした)。
+
+終了後はキーノートスピーカーのRich氏や知り合い、その場にいた人に声をかけてビールを飲みに行きました。
+Rich氏(帽子をかぶっている人)はアメリカ、タイ在住のロシア人、マレーシア、イスラエル、シンガポール在住の日本人と様々なメンツで一緒に楽しくビールを飲みました。
+会計を担当してくれたイスラエルの女性が、誰がなにを頼んだかを確認してセント単位まで細かく金額計算をしていたのが印象的でした。
+
+.. figure:: /images/sg/brewerkz.jpg
+   :width: 400
+
+   Brewerkzにて
+
+ちなみにこの店は、2018年にSlackで寺田さん(`@terapyon <https://twitter.com/terapyon>`_)から「どこかいいビールの店をたのむ」と言われて、参加していない私が検索してよさそうなので紹介した店でした。
+一年越しで来られて満足しました。
+
+* 参考: `Day2：今すぐ始められる機械学習，“Pythonic”なコードを書くには？：「PyCon APAC 2018 in Singapore」参加レポート <https://gihyo.jp/news/report/01/pycon-apac2018/0002?page=3>`_
+
 .. nikkieコラム https://docs.google.com/document/d/1dcDg6e3m_chaPGt32Xy98OpLadtAO14DvPZpjLmOC7Y/edit
 
 .. admonition:: 機械学習のチュートリアルに参加して
 
    * nikkie(`@ftnext <https://twitter.com/ftnext>`_)
 
-   PyCon SGでは、3日目の10/12(土)がチュートリアルDayでした。
+   PyCon Singaporeでは、3日目の10/12(土)がチュートリアルDayでした。
    午前と午後の2部構成で、 `3時間のチュートリアルが合計6本 <https://pycon.sg/tutorials/>`_ がありました。
    機械学習、スクレイピングといった馴染みのあるものから、ゲーム、ブロックチェーン、Kubernetes、ドローンといった幅広いチュートリアルがありました。
    これらは `プロポーザルを募集して <https://twitter.com/pyconsg/status/1140599350986330112?s=20>`_ 採択されたものです。
@@ -271,3 +409,12 @@ PyCon Singaporeでは朝食、ランチ、午後のおやつが提供されま�
 
    受講方針やOtterが功を奏し、3時間みっちりのチュートリアルを最後までついていくことができました。
    スピーカーのLiu氏や参加者の皆さま、ありがとうございました。
+
+打ち上げのこと
+==============
+
+おわりに
+========
+以上でPyCon Singaporeのレポートは終了です。
+
+レゴランドの写真かな
