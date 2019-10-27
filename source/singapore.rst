@@ -24,9 +24,9 @@ Pycon Singapore
 この2010年のPyCon APAC(初回はAPACという名前でした)に日本から参加した4名が出会ったことがきっかけとなって、2011年にPyCon JPが初開催されました。
 
 .. figure:: /images/sg/pyconsg.jpg
-   :width: 400
+   :width: 300
 
-   PyCon Singarepo 2019 Webサイト
+   PyCon Singapore 2019 Webサイト
 
 以下はPyCon Singapore 2019の開催概要です。
 
@@ -40,7 +40,7 @@ Pycon Singapore
 
 カンファレンス前夜
 ==================
-カンファレンス前夜は、シンガポール在住の元PyCon JPスタッフと食事に行きました。
+カンファレンス前夜は、シンガポール在住の元PyCon JPスタッフ(神谷さん、斧田さん)と食事に行きました。
 せっかくなので私以外の日本人スピーカー2名(どちらもシンガポール在住)と、日本から参加する他のメンバーとも一緒に交流しました。
 
 店はChin Chin Eating Houseというローカルに人気の中華料理店です。
@@ -48,18 +48,18 @@ Pycon Singapore
 特に名物の蒸し鶏はとてもおいしく、結局丸々1羽を7人で食べました。
 
 .. figure:: /images/sg/eve-party.jpg
-   :width: 400
+   :width: 300
 
    おいしい中華で前夜祭
 
 この前夜祭での筆者の重要なタスクの一つに、「 `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_ Tシャツ」を神谷さんに渡すというものがありました。
-神谷さんは2016年に私と一緒にPython Boot Campの立ち上げてくれたスタッフです。
+神谷さんはPyCon JPスタッフだけでなく、2016年に私と一緒にPython Boot Campを立ち上げてくれたスタッフです。
 しかし、Tシャツを作り始めた2018年にはすでにシンガポールに住んでおり、ずっとこのTシャツを渡せずにいました。
 今回こうしてTシャツを直接渡すことができて、3年越しで立ち上げの恩に少しだけ報いることができたかなと思います。
 本当にありがとうございました。
 
 .. figure:: /images/sg/kamiya.jpg
-   :width: 300
+   :width: 200
 
    Tシャツを受け取ってご満悦の神谷さん
 
@@ -68,7 +68,7 @@ Pycon Singapore
 会場はシンガポールの北部にあり、マレーシアの国境に近いWoodlandsという地区にあります。
 中心部のホテルからGrabで30分ほど移動して会場に到着しました。
 会場のRepublic PolytechnicはPyCon Singaporeの立ち上げメンバーであるLiew Beng Keat氏の職場でもあります。
-ちなみに氏は今年のPyCon APACのキーノートスピーカーでもありました。
+ちなみに彼は今年のPyCon APACのキーノートスピーカーでもありました。
 
 * 参考: `アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート <https://gihyo.jp/news/report/2019/03/1201>`__
 
@@ -76,7 +76,7 @@ Pycon Singapore
 私も朝食をとってマレーシアから参加した知人などとあいさつをしました。
 
 .. figure:: /images/sg/breakfast.jpg
-   :width: 400
+   :width: 300
 
    朝食をとりながら交流する参加者
 
@@ -87,7 +87,7 @@ Martin氏は以前参加したPyCon Singaporeでも見た記憶があり、継�
 私も左下の方にいます。
 
 .. figure:: /images/sg/speakers.jpg
-   :width: 400
+   :width: 300
 
    オープニングでスピーカーも紹介された
    
@@ -95,19 +95,19 @@ Keynote: Laurence Liew
 ======================
 * タイトル: Accelerating AI in Singapore
   
-Laurence Liew氏は `AI Singapore <https://www.aisingapore.org/>`_ というプロジェクトDirectorです。
+Laurence Liew氏は `AI Singapore <https://www.aisingapore.org/>`_ というプロジェクトのDirectorです。
 AI Singaporeとは、シンガポールでAIの人材を育成してエコシステムを構築するという国家プロジェクトです。
 
 .. figure:: /images/sg/liew.jpg
-   :width: 400
+   :width: 300
 
    Laurence Liew氏
 
 最初に「RかPythonか」という問いかけがあり、Googleトレンドによると世界的にもシンガポールでもPythonの人気が高まっているということが示されました。
-また、2017年にデータ分析、データサイエンスなどの分野でPythonを利用している人がRを超えたそうです。
+また、2017年にデータ分析、データサイエンスなどの分野でPythonを利用している人の数がRを超えたそうです。
 
 次にある人の生活を例にして、AIはすでに生活の中に溶け込んでいるという話をしました。
-その内容は、AIスピーカーで音楽をかけ、Googleマップで会社までのルートを調べ、顔認証でオフィスに入り、メールではSPAMをはじき、ランチを食べて安全にカードで支払いをし、家に帰っておすすめリストから映画を見るというものです。
+その内容は、AIスピーカーで音楽をかけ、Googleマップで会社までのルートを調べ、顔認証でオフィスに入り、メールではスパムをはじき、ランチを食べて安全にカードで支払いをし、家に帰っておすすめリストから映画を見るというものです。
 ちなみに、このときに例として「OK Google...」と言ったら、参加者のスマートフォンが反応していました(笑)。
 
 次に「AIは魔術ではない」と題して、その元となる理論について解説しました。
@@ -133,10 +133,10 @@ AI Singaporeとは、シンガポールでAIの人材を育成してエコシス
 PyCon Singaporeでは朝食、ランチ、午後のおやつが提供されます。
 ランチは中華系でおいしいです。
 相変わらずPyConに行くとデブ活が捗ります。
-コーヒーや紅茶に砂糖がデフォルトで入っていないのがせめてもの救いです。
+台湾やマレーシアと違って、コーヒーや紅茶に砂糖がデフォルトで入っていないのがせめてもの救いです。
 
 .. figure:: /images/sg/lunch.jpg
-   :width: 400
+   :width: 300
 
    ランチ
 
@@ -149,7 +149,7 @@ PyCon Singaporeでは朝食、ランチ、午後のおやつが提供されま�
 基本的な構成は台湾から変えていませんが、時間が45分あるのでコードの説明を丁寧にしました。
 
 .. figure:: /images/sg/audience.jpg
-   :width: 400
+   :width: 300
 
    発表を聞きに来てくれたみなさん
 
@@ -166,19 +166,19 @@ PyCon Singaporeでは朝食、ランチ、午後のおやつが提供されま�
 ==========================================
 日本からの参加メンバーは知り合いのnao_y(`@NaoY_py <https://twitter.com/NaoY_py>`_)とnikkie(`@ftnext <https://twitter.com/ftnext>`_)だけだと思っていましたが、午後に筆者が発表の準備をしていると日本語で声をかけられました。
 それがKeisuke Nishitani(`@keinstn <https://twitter.com/keinstn>`_)さんです。
-PyCon APACにも参加されていたそうですが、そのときは他の日本参加者に声をかけるタイミングがなかったそうです。
+PyCon APACにも参加されていたそうですが、そのときは他の日本からの参加者に声をかけるタイミングがなかったそうです。
 また、このレポートも読んでいて「自分もチーム・ジャパンとして出たい」と言ってました(笑)。
 せっかくなので日本からの参加メンバーで写真を撮りました。
 
 .. figure:: /images/sg/team-japan.jpg
-   :width: 400
+   :width: 300
 
    チーム・ジャパン(左からKeisuke、nao_y、nikkie、筆者)
 
 カンファレンス終了後はビールだよね!!ということで、他のアジアから参加したメンバーに声をかけて、Joshさんに教えてもらった `SGTaps <https://www.sgtaps.com/>`_ に向かいました。
-お店に着くとJoshさんがお友達(シンガポール在住)とビールをすでに飲んでいました。
+お店に着くとJoshさんと彼のお友達(シンガポール在住)がビールをすでに飲んでいました。
 そこに日本人4名、インドのVaibhav(`@reach_vb <https://twitter.com/reach_vb>`_)、フィリピンのJosef(`@josefmonje <https://twitter.com/josefmonje>`_)も混ぜてもらってビールを楽しみました。
-このお店、オーナーが日本人だそうで、オーナーが注文を取りに来ると急に日本語で話しかけられたりするので、なんかだ不思議な気分でした。
+このお店、オーナーが日本人だそうで、オーナーが注文を取りに来ると急に日本語で話しかけられるので、なんだか不思議な気分でした。
 
 * https://twitter.com/takanory/status/1182465891209859072
 
@@ -191,7 +191,7 @@ Building a Data Pipeline using Apache Airflow(on AWS/GCP)
 * スライド: https://www.slideshare.net/legoboku/building-a-data-pipeline-using-apache-airflow-on-aws-gcp
 
 .. figure:: /images/sg/yohei.jpg
-   :width: 400
+   :width: 300
 
    Yohei Onishi氏
 
@@ -201,10 +201,10 @@ Building a Data Pipeline using Apache Airflow(on AWS/GCP)
 * 参考: `アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート <https://gihyo.jp/news/report/2019/03/1201?page=3>`_
 
 発表の内容は `Apache Airflow <https://airflow.apache.org/>`_ を使用してデータパイプラインをAWS、GCP上に構築するという話です(タイトルのままですね)。
-実務で使用している例がベースとなっており、具体的なAirFlowのコードもでてくる発表でした。
-またAWSとGCP両方で構築した経験を元に、GCPが環境としておすすめされていました。
+実務で使用している例がベースとなっており、具体的なAirFlowのコードも出てくる発表でした。
+またAWSとGCP両方で構築した経験を元に、GCPを環境としておすすめされていました。
 
-発表が早めに終わったため、そのあとはかなりたくさんの質疑応答が行われていたのが印象的でした。
+発表が早めに終わったものの、そのあとの時間にかなりたくさんの質疑応答が行われていたのが印象的でした。
 
 .. admonition:: 青木さんコラム
     
@@ -213,7 +213,7 @@ Building a Data Pipeline using Apache Airflow(on AWS/GCP)
    世界各地で開催されているPythonの技術カンファレンスとしてPyConの存在はもともと知っていたのですが、今回が初めての参加でした。
 
    .. figure:: /images/sg/aoki.jpg
-      :width: 400
+      :width: 300
 
       発表の様子
 
@@ -241,7 +241,7 @@ Building a Data Pipeline using Apache Airflow(on AWS/GCP)
 * スライド: https://speakerdeck.com/philnash/2fa-wtf-at-pycon-singapore
 
 タイトルがちょっとアレですが、2FA(2要素認証)についての発表です。
-スピーカーのPhil Nash(`@philnash <https://twitter.com/philnash>`_)氏はtwilioのエンジニアです。
+スピーカーのPhil Nash(`@philnash <https://twitter.com/philnash>`_)氏はTwilioのエンジニアです。
 
 まず最初にパスワードのみの認証は危険だという例として、Mat Honanさんの悲劇について触れました。
 私はこの事件を知らなかったんですが、悪意のあるユーザーにiPhone、MacBook、Twitter、Googleアカウント、Gmailなどが乗っ取られデータが削除されたそうです。
@@ -262,8 +262,8 @@ Building a Data Pipeline using Apache Airflow(on AWS/GCP)
 SMS
 
 * SMSで認証コードを送信する仕組み
-* 利点: 多くの人が使用できるみんなが使える
-* 欠点: SMS送信にお金がかかる。電波が必要。SMSは壊れている(SIMを盗まれたりなど簡単になりすませる
+* 利点: 多くの人が使用できる
+* 欠点: SMS送信にお金がかかる。電波が必要。SMSは壊れている(SIMを盗まれたりなど簡単になりすませる)
 
 トークン
 
@@ -273,12 +273,12 @@ SMS
   
 プッシュ
 
-* Webで操作すると専用のスマートフォンアプリケーションに通知がくる仕組み
+* Webで操作すると専用のスマートフォンアプリケーションに通知をする仕組み
 * 利点: よりよいユーザー体験、最も安全
-* 欠点: スマートフォンとネイティブアプリが必要。オフランでは利用できない
+* 欠点: スマートフォンとネイティブアプリが必要。オフラインでは利用できない
 
 .. figure:: /images/sg/phil.jpg
-   :width: 400
+   :width: 300
 
    Phil Nash氏によるpyotpのデモ
 
@@ -293,7 +293,7 @@ Keynote: Rich Jones
 Rich Jones氏はPython製のサーバーレスフレームワーク `Zappa <https://github.com/Miserlou/Zappa>`_ の作者です。
 
 .. figure:: /images/sg/rich.jpg
-   :width: 400
+   :width: 300
 
    Rich Jones氏
 
@@ -337,11 +337,12 @@ Rich氏も交えてビールへ
 ライトニングトークやカチッとしたクロージングもなかったのですが、それがSingapore流のようです(以前もそんな感じでした)。
 
 終了後はキーノートスピーカーのRich氏や知り合い、その場にいた人に声をかけてビールを飲みに行きました。
-Rich氏(帽子をかぶっている人)はアメリカ、タイ在住のロシア人、マレーシア、イスラエル、シンガポール在住の日本人とバラエティ豊かなメンツで一緒に楽しくビールを飲みました。
-会計を担当してくれたイスラエルの女性が、誰がなにを頼んだかを確認してセント単位まで細かく金額計算をしていたのが印象的でした。
+Rich氏(帽子をかぶっている人)はアメリカ人、タイ在住のロシア人、マレーシア人、イスラエル人、シンガポール在住の日本人とバラエティ豊かなメンツで一緒に楽しくビールを飲みました。
+
+会計を担当してくれたイスラエルの女性が、誰が何を頼んだかを確認してセント単位まで細かく金額計算をしていたのが印象的でした。
 
 .. figure:: /images/sg/brewerkz.jpg
-   :width: 400
+   :width: 300
 
    Brewerkzにて
 
@@ -370,7 +371,7 @@ Rich氏(帽子をかぶっている人)はアメリカ、タイ在住のロシ�
    スポンサーブースはなく、こぢんまりと運営されていました。
 
    .. figure:: /images/sg/tutorial-breakfast.jpg
-      :width: 400
+      :width: 300
 
       チュートリアルの朝ごはん(バナナケーキやサンドイッチ)
 
@@ -388,7 +389,7 @@ Rich氏(帽子をかぶっている人)はアメリカ、タイ在住のロシ�
    なお、手元のデータからもDatasetを作れるそうです。
 
    .. figure:: /images/sg/liu.jpg
-      :width: 400
+      :width: 300
 
       TensorFlow 2.0のアップデートについて解説するLiu氏
 
@@ -418,7 +419,7 @@ PyCon Singapore 3日目はチュートリアルデーのため、私はこちら
 まさか台北で行けなかった鼎泰豊にシンガポールで行くことになるとは(笑)。
 
 .. figure:: /images/sg/welldone.jpg
-   :width: 400
+   :width: 300
 
    スタッフ打ち上げに合流
 
@@ -442,7 +443,7 @@ Little Creaturesはオーストラリアが発祥で、現在は東南アジア�
 彼はカンファンレンス1日目(10月10日)の終了後に、 `PyCon India <https://in.pycon.org/2019/>`_ (10月12日~15日)のボランティアに向かいました。タフすぎます。
 
 .. figure:: /images/sg/marlion.jpg
-   :width: 400
+   :width: 300
 
    マーライオン
 
