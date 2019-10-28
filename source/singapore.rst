@@ -206,8 +206,12 @@ Building a Data Pipeline using Apache Airflow(on AWS/GCP)
 
 発表が早めに終わったものの、そのあとの時間にかなりたくさんの質疑応答が行われていたのが印象的でした。
 
-.. admonition:: 青木さんコラム
-    
+.. admonition:: 初めてのPyCon登壇
+
+   * 青木 孝憲
+   * タイトル: How to build stream data pipeline with Apache Kafka and Spark Structured Streaming
+   * スライド: https://speakerdeck.com/dstaka/how-to-build-stream-data-pipeline-with-apache-kafka-and-spark-structured-streaming
+
    私は普段はシンガポールにてData Scientistの仕事をしています。
    フォローしているmeetupグループ(`Singapore Python User Group <https://www.meetup.com/Singapore-Python-User-Group/>`_)にてPyCon SGの主催者がスピーカーを募集していたのを見て、プロポーザルを提出しました。
    世界各地で開催されているPythonの技術カンファレンスとしてPyConの存在はもともと知っていたのですが、今回が初めての参加でした。
@@ -218,9 +222,9 @@ Building a Data Pipeline using Apache Airflow(on AWS/GCP)
       発表の様子
 
    私が仕事で取り組んでいるデータサイエンスや機械学習に関するセッションは他にも数多くありそうだと思い、せっかくなので最近趣味で勉強しているストリームデータ処理について紹介しようと思いプロポーザルをまとめました。
-   対象となる聴き手の想定を「Pythonでの開発経験はあるけれどストリーム処理については未経験」と置いて全体像を固めました。
+   対象となる聴き手の想定を「Pythonでの開発経験はあるけれど、ストリーム処理については未経験のエンジニア」と置いて全体像を固めました。
    私がセッションにて紹介したApache KafkaやSpark Structured Streamingについては、それぞれ既にWeb上でそれなりに情報が出揃っています。
-   そこで今回のプレゼンテーションでは作成したデモコードを基に実際のPythonでのコーディング例を併せて紹介することで、どのようにストリーム処理を実装するかのイメージを持ってもらうことを目標にしました。
+   そこで今回のプレゼンテーションでは自作したデモコードを基に実際のPythonでのコーディング例を併せて紹介することで、どのようにストリーム処理を実装するかのイメージを持ってもらうことを目標にしました。
 
    他の勉強会の発表と時期が重なってしまうなど直前に慌ただしくなってしまい、作成予定だったデモプログラムの一部の機能については実装・検証が間に合わなかった事が心残りでした。
    また、全体を通したリハーサルを一度もできなかった事もあり、質疑応答の時間があまり取れない時間配分になってしまったことも反省点です。
@@ -230,10 +234,10 @@ Building a Data Pipeline using Apache Airflow(on AWS/GCP)
 
    参加者としての所感としては、今回参加したPyConでは機械学習に関するセッションが充実していたように思います。
    シンガポールでは政府がAI人材の育成に力を入れていますし、企業での経験を経て大学院にて機械学習やデータサイエンスを学ぶ人たちが増えている環境なので、PyCon SGでもこのような傾向が出ているのかなと想像しました。
-   他にもPlatinum SponsorsであるDBS銀行のセッションでは、社内でどのように機械学習モデルの開発やデプロイをしているかについての話がありました。
+   他にもPlatinum SponsorsであるDBS銀行のセッションでは、社内でどのように機械学習モデルの開発・運用をしているかについての話がありました。
    DBSはPh.D持ちのData Scientistを多く雇い、シンガポール国内でも有数のデータ分析チームを持つ企業なので、その取り組みについて興味深く拝聴しました。
 
-   Python情報のインプット・アウトプットの場としてPyCon SGはとても良い場だったので、今後も当地や他国で開催されるPyConで積極的に登壇していけたらと思います。
+   Python技術情報のインプット・アウトプットの場としてPyCon SGはとても良い場だったので、今後も当地や他国で開催されるPyConで積極的に登壇していけたらと思います。
 
 2FA, WTF
 ========
