@@ -96,3 +96,176 @@ PyCon Indonesia
 
 キーノート
 ==========
+1つ目のキーノートはInggriani Liem博士によるトークでした。
+内容はよりよいソフトウェア開発者になるための学び方や現在の状況などのようです。
+「ようです」と書いたのは、スライドは英語だったのですが発表がインドネシア語だったためまったくわかりませんでした。
+写真の通り小柄な女性ですが、すごいパワフルなトークと、場内がものすごい楽しそうに話を聞いていたのが印象的でした。
+あとでIskandarが教えてくれたんですが、インドネシアではすごい有名な先生で、Iskandar自身も彼女に教わったそうです。
+
+.. figure:: /images/id/keynote1.jpg
+   :width: 300
+
+   Inggriani Liem博士
+
+2つ目のキーノートはFauzan Erich Emmerling氏による「How Python Changed My Life」です(このトークは英語でした)。
+Fauzan氏は2000年からプログラミングをはじめ2010年にPythonを使い始め、現在はGojekのモバイル部門のリードエンジニアだそうです。
+
+.. figure:: /images/id/keynote2.jpg
+   :width: 300
+
+   Fauzan Erich Emmerling氏
+
+`Gojek <https://ja.wikipedia.org/wiki/GO-JEK>`_ はライドシェア、配送、出前、決済など統合的なサービスを提供するインドネシアのベンチャー企業です。
+最近、創業者がインドネシアの閣僚となるというニュースでも話題となっている企業です。
+
+* 参考: `ゴジェックのマカリムＣＥＯが退任、インドネシアで入閣 - Bloomberg <https://www.bloomberg.co.jp/news/articles/2019-10-21/PZPLRS6TTDS201>`_
+
+まずはPythonに出会う前の暗黒時代(The Dark Ages」から話がはじまります。
+1999年にインターネットと出会いHTMLコードを書いてGeocitiesでWebサイトを公開していたそうです。次にVB6の本を読んだがあまり理解ができず、2002年に大学に入ってCのプログラミングを学び始めたそうです。当時は今と違い学習のためのリソースも限られていました。
+
+その後はVB6でビジュアルプログラミング、JavaとJSPでWebアプリケーション、PHPを習得していったそうです。
+PHPは氏にとって初めてのインタプリター言語で、JSPや.Netに比べてPCが軽く、Webにリファレンスがあり、軽いサーバーで動作するなどいろいろ楽しかったそうです。
+しかし、PHPは自分をインスパイアする部分がなく、IRCコミュニティで質問すると厳しく扱われ、よいコーディング哲学がないと感じたそうです。
+とはいえ、他の言語より早く開発できるので、PHPのプログラムで卒業し、PHPのWebで仕事をはじめたそうです。
+
+つぎに悟りの時代(The Age of Enlightment)の話になりました。
+最初にPHPとZENDで作成したサービスをGoogle App Engineに載せ替えることとなり、そこでPythonと出会ったそうです。
+Pythonを使ってみるとシンプルでわかりやすく、簡単に学習でき、コード量も少なく書けたそうです。
+また、多くのプログラミングのコンセプトを学び、テストやセキュリティなどを学ぶモチベーションとなったそうです。
+
+他にもIRCのコミュニティはとてもあたたかく、豊富な標準ライブラリ、ネット上のチュートリアル、BDFL(Python作者のGuido van Rossum氏のこと)はとてもクールだと感じたそうです。
+
+Pythonを使用してから参加したハッカソンで賞を取り、スタートアップに名前を知られるようになったそうです。
+その後、さまざまなスタートアップで仕事をし現在はGojekにいるそうです。
+
+現在はモバイル部門のためPythonはメインでは使用してないが、Pythonの哲学は現在も生きているそうです。
+現在も学習を続けており、iOS、Androidの開発を学んだ後は他の言語やDevOps、スタートアップの立ち上げなどについても学んでいるそうです。
+
+最後にGuido van Rossum氏の `King's Day Speech <http://neopythonic.blogspot.com/2016/04/kings-day-speech.html>`_ の一節を引用していました。
+意味としては「プログラミング言語はプログラマーがアイデアを表現、伝えるための方法であり、その聞き手はコンピューターではなく他のプログラマーです。」といった内容になります。
+
+  In reality, programming languages are how programmers express and communicate ideas - and the audience for those ideas is other programmers, not computers.
+
+また自身が2013年からPython Indonesiaに参加している話をして、コミュニティへの参加を呼びかけていました。
+
+Pythonを知ってまさに人生が変わった人という感じで、刺激的な内容でした。
+キーノートの発表が終わった後は質問タイムがあるのですが、スピーカー2名がソファに座って質問を受けるという変わった趣向でした。
+キーノートスピーカー同士の対話などもあるので、これはこれで面白いなと思いました。
+
+.. figure:: /images/id/keynote3.jpg
+   :width: 300
+
+   キーノートスピーカーへの質問タイム
+
+Lunch
+=====
+* Josefとかと食べた。Josefは台湾でのLTがはじめてだったらしい
+* 今回は発表者じゃなくて参加者
+
+rest in peace REST, The rise of GrpahQL
+=======================================
+* speaker: Abhishek Mishra
+* PyCon Indiaの人っぽい
+* はじめてのPyCon Indonesia
+* Abhishek
+* REST
+  * ステートナシのアーキテクチャースタイル
+  * リソースをURIで取得
+  * JSONを取得
+  * GET/POST/PUT/DELETE
+* RESTはリソースを返すので
+  * 複数のエンドポイントがある
+* BFF: Backend for Frontends
+* RESTのよくないところ
+  * Over/Under-fetching
+  * エンドポイントがたくさん
+  * Queryの複雑化(N+1)
+  * 型がない
+* 解決策
+  * json:api, OData, FALCOR?, GraphQL
+* サンドイッチの注文を例にRESTとGraphQLの違い(わかりやすい
+  * RESTだと全部入りがきて不要な食材を抜く。GraphQLは注文時にほしい食材を言う
+* GraphQL
+  * Single request, endpoint
+  * Specification
+  * More contron over data
+  * Relational queries
+  * 強い型
+* Schemaが一番大事だよ
+* デモでGraphQLで問い合わせて返すところを見せた with Graphene
+* GraphQLの経験が15年以上必要w
+
+自分の発表
+==========
+* スライド: https://gitpitch.com/takanory/slides?p=20191123pyconid#/
+* そこそこウケかな。ビール飲みたいのところは「インドネシアの人は飲まないの知ってるので、あなたはお茶を飲んで私はビールを飲みます」みたいなこと言ったらウケてた。
+* Slack(80%)、JIRA(90%)を知らない人が多かった。こういうものだよって他の例を挙げたけど伝わったのかは不明
+* 質疑応答
+  * 誰が実行できるかの権限設定とかあるの?(聞き取れなくてIskandarが日本語でフォローしてくれた
+    * Slackbotとしてはないので、例えばgadminコマンドだと私のGoogleアカウントの権限でなんでもできちゃう。それだと危険なので、gadminコマンドでは「SlackのAdminか」をプログラムでチェックしている
+  * サーバーはどこで動かすのか?ローカルでもよいのか?    
+    * Incoming WebhookもSlackbotも開発時に自分のPC上で開発して動かすことが可能。PyCon JPではWebサーバーを持っているのでそこでbotも動かしている。サーバーがない場合はEC2とかHerokuとかで動かすことになると思う。
+  * ピザを注文するときに、ピザ→サイズは何?→サイズ→トッピングは?みたいなBotを作ることはできるか?
+    * Slackbotのやりとりは状態を持っていないので、基本的には `$pizza サイズ 種類 住所` みたいなコマンドを作るしかない。Slack自体はボタンを表示して複数のやり取りをするような機能はあるので、その機能を使うと良さそう。Slack社が提供するライブラリだと対応しているかも?
+
+Getting Fast Feedback While Coding Python
+=========================================
+* Hans Sebastian
+* 7年アメリカで働いて最近3年はインドネシアで働いている
+* QAエンジニア?
+* バックエンドってなにがある?みたいにして、いろんな人から聞いてまとめていくスタイル
+* 実際にテストコードを書いていく感じ
+
+Lightning Talks
+===============
+* Visualizing High-Dimensional Data
+  * PCAで2時苦にする→でもいまいち
+  * t-SNE: 遅いらしい
+  * UMAP
+  * Fashion MNISTでやってみる→UMAPよさそう?
+  * 名前とニュースの分類はそこまでうまくいかない
+* BPS Surabayaからデータを抜き出す
+  * 場所ごとの人口?
+  * Foliumで可視化
+* How easy programming to kids: Dima
+  * Blocks Programmingがなぜいいのか?
+  * AsomeBotってのがあるらしい
+  * http://asomeit.com/product/
+  * Demoでうまく表示できない。操作している画面をカメラで撮って写すという荒技ww
+* Python is all You need for Speech Recognition
+  * librosa, Kera, TensorFlow, PyTorch
+  * https://librosa.github.io/librosa/
+  * インドネシア語のデータセットもあるよとのこと
+* pandas
+  * pandasの基本的な機能の紹介
+  * 他の可視化ライブラリと連携できるよ
+  * いろんなファイル形式を読み書きできるよ
+* 5 minutes style transfer
+  * input image + style image = generated image
+  * transfer learning: VGG
+  * 時間切れで途中で終わった
+* Smart Ecosystem with Mozilla IoT: Rizky
+  * Alexaとかあるけど音声盗んでるよね的な
+  * iot.mozilla.org
+* Python dan Hardware
+* Call and Responceみたいなの気になる
+
+Closing
+=======
+* Doni
+* 500+
+* 2年前は学生が80%だったけど、60%になった
+* Male 80%
+* 85 Speakers Submission
+* 2020の場所はBandungが人気らしい
+* bit.ly/pyconid2019→インドネシア語だったから読めないww
+* なんかdoniに渡してた
+
+Party
+=====
+* おしゃれな場所
+* ゴルフ場のレストランだけど、外なので気持ちいい
+* 2種類のスープの鍋
+* バンド演奏していたら女性オーガナイザーが一緒に歌っていた。PyConの伝統?
+* 日本で働きたい学生とかもいた。
+* アニメの話をふられても、最近アニメとか見てないんですよね...ごめんね
