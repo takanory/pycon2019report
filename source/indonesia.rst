@@ -193,32 +193,17 @@ rest in peace REST, The rise of GrpahQL
 
 内容はREST APIとGraphQLを比較したもので、前半はRESTの課題と後半はGraphQLの概要を説明するというものでした。
 
-* REST
-  * ステートナシのアーキテクチャースタイル
-  * リソースをURIで取得
-  * JSONを取得
-  * GET/POST/PUT/DELETE
-* RESTはリソースを返すので
-  * 複数のエンドポイントがある
-* BFF: Backend for Frontends
-* RESTのよくないところ
-  * Over/Under-fetching
-  * エンドポイントがたくさん
-  * Queryの複雑化(N+1)
-  * 型がない
-* 解決策
-  * json:api, OData, FALCOR?, GraphQL
-* サンドイッチの注文を例にRESTとGraphQLの違い(わかりやすい
-  * RESTだと全部入りがきて不要な食材を抜く。GraphQLは注文時にほしい食材を言う
-* GraphQL
-  * Single request, endpoint
-  * Specification
-  * More contron over data
-  * Relational queries
-  * 強い型
-* Schemaが一番大事だよ
-* デモでGraphQLで問い合わせて返すところを見せた with Graphene
-* GraphQLの経験が15年以上必要w
+RESTのよくない点としてOver/Under-fetching、エンドポイントが増えること、Queryの複雑化(N+1)、データの型がないことがあげられていました。
+その解決策として `json:api <https://jsonapi.org/>`_ 、 `OData <https://www.odata.org/>`_ 、 `FALCOR <https://netflix.github.io/falcor/>`_ 、 `GraphQL <https://graphql.org/>`_ があげられ、ここではGraphQLをおすすめとして説明がされて行きました。
+
+このあとにレストランにAPIでサンドイッチを注文する例がわかりやすくて面白いなと思いました。
+REST APIでサンドイッチを注文すると全部入りのサンドイッチが返されるので、不要なレタスは自分で抜く必要があります。
+GraphQLの場合は注文時に「パンとサラミとトマトのサンドイッチ」と注文するので、必要な具材だけが入ったサンドイッチが返されるといった具合です。
+GraphQLの特徴として1つのリクエスト、1つのエンドポイント、仕様があること、強い型チェックがあることなどが上げられていました。
+また、PythonでGraphQLを使用する場合はGrapheneというライブラリがおすすめされており、コード例が提示され、実際にデモで動作を見せていました。
+
+GraphQLは興味があり、概要がコンパクトにまとまっているトークだなと感じました。
+個人的には、実際にやってみてここがつらかったみたいな話がもうちょっと聞きたかったなと思いました。
 
 自分の発表
 ==========
@@ -246,14 +231,6 @@ Slackは80%、JIRAは90%の人が知らないそうで、他のツール(Telegra
 * ピザを注文するときに、ピザ注文→サイズは何?→トッピングは何?みたいな対話をするようなBotを作ることは可能か?
 
   * Slackbotのやりとりは状態を持っていないので、基本的には `$pizza サイズ 種類 住所` のようなコマンドを作るしかありません。SlackのAPI自体はボタンを表示して複数のやり取りを行う機能はあるので、その機能を使うと良いと思います。Slack社が提供するPythonのライブラリだと対応しているかも知れません?
-
-Getting Fast Feedback While Coding Python
-=========================================
-* Hans Sebastian
-* 7年アメリカで働いて最近3年はインドネシアで働いている
-* QAエンジニア?
-* バックエンドってなにがある?みたいにして、いろんな人から聞いてまとめていくスタイル
-* 実際にテストコードを書いていく感じ
 
 Lightning Talks
 ===============
