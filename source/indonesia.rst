@@ -245,54 +245,91 @@ Slackは80%、JIRAは90%の人が知らないそうで、他のツール(Telegra
 
 Lightning Talks
 ===============
+イベントの最後はライトニングトークです。いろいろなトークがありました。
+
+.. figure:: /images/id/lt1.jpg
+   :width: 300
+
+   ライトニングトーク
+
 * Visualizing High-Dimensional Data
-  * PCAで2時苦にする→でもいまいち
-  * t-SNE: 遅いらしい
-  * UMAP
-  * Fashion MNISTでやってみる→UMAPよさそう?
-  * 名前とニュースの分類はそこまでうまくいかない
-* BPS Surabayaからデータを抜き出す
-  * 場所ごとの人口?
-  * Foliumで可視化
-* How easy programming to kids: Dima
-  * Blocks Programmingがなぜいいのか?
-  * AsomeBotってのがあるらしい
-  * http://asomeit.com/product/
-  * Demoでうまく表示できない。操作している画面をカメラで撮って写すという荒技ww
+
+  * 多次元のデータをどのように2次元で可視化するかというトークです。PCAだと全然いい感じにならないのでt-SNE、UMAPなどで表示した例で比較していました。
+* BPS Surabaya
+
+  * BPS Surabayaから地域ごとの人口(?)のデータを取得し、Foliumを使用して地図上に可視化する発表でした。
+* Programming for Kids as Easy as Building Blocks
+
+  * 子ども向けのブロックを使ったプログラミング環境として、 `AsomeBot <http://asomeit.com/product/>`_ の紹介をしていました。DemoでPCからうまく表示できず、PCの画面をビデオカメラで撮影してそれを投影するというローテクを使っていたのが印象的でした。
+
 * Python is all You need for Speech Recognition
-  * librosa, Kera, TensorFlow, PyTorch
-  * https://librosa.github.io/librosa/
-  * インドネシア語のデータセットもあるよとのこと
+
+  * `librosa <https://librosa.github.io/librosa/>`_ 、Keras、TensorFlow、PyTorchを使用して音声認識をしたことについて発表していました。インドネシア語のデータセットもあるそうです。
+
 * pandas
-  * pandasの基本的な機能の紹介
-  * 他の可視化ライブラリと連携できるよ
-  * いろんなファイル形式を読み書きできるよ
+
+  * pandasの基本的な機能の紹介でした。他の可視化ライブラリと連携できることや、いろんな形式のファイルを読み書きできることが説明していました。
 * 5 minutes style transfer
-  * input image + style image = generated image
-  * transfer learning: VGG
-  * 時間切れで途中で終わった
-* Smart Ecosystem with Mozilla IoT: Rizky
-  * Alexaとかあるけど音声盗んでるよね的な
-  * iot.mozilla.org
-* Python dan Hardware
-* Call and Responceみたいなの気になる
 
-Closing
-=======
-* Doni
-* 500+
-* 2年前は学生が80%だったけど、60%になった
-* Male 80%
-* 85 Speakers Submission
-* 2020の場所はBandungが人気らしい
-* bit.ly/pyconid2019→インドネシア語だったから読めないww
-* なんかdoniに渡してた
+  * 画像のスタイルをAIで学習し、普通の写真をゴッホ風にするみたいな話でした。VGGを使用しているそうです(時間切れで途中で発表が終わりました)。
 
-Party
-=====
-* おしゃれな場所
-* ゴルフ場のレストランだけど、外なので気持ちいい
-* 2種類のスープの鍋
-* バンド演奏していたら女性オーガナイザーが一緒に歌っていた。PyConの伝統?
-* 日本で働きたい学生とかもいた。
-* アニメの話をふられても、最近アニメとか見てないんですよね...ごめんね
+LTの数人のスピーカーが何かを言うと会場のみんなが返すという、コールアンドレスポンスみたいなことがありました。
+それがなんなのかを聞いてみると、イスラム圏では共通の挨拶だということを教えてくれました。
+ぜひイスラム圏でプレゼンする機会がある人は、試してみてください。
+
+* 参考: `全世界のイスラム圏で使える、便利なあいさつの言葉「アッサラーム・アレイコム」を覚えておこう <https://www.ab-road.net/asia/bangladesh/dhaka/guide/nation/06424.html>`_
+
+クロージング
+============
+クロージングはChairのDoni氏により行われました。
+参加者は500人超、割合は学生が60%で一般が40%だそうです(学生多い!)。
+2年前は学生は80%だったそうで、一般の比率が上がってきているようです。
+男性が80%、85のトークの申し込みがあったそうです。
+
+また、2020の開催場所としてジャカルタ、バンドン、ジョグジャカルタが候補だそうですが、会場ではバンドン(Bandung)が人気のようでした。
+
+.. figure:: /images/id/pyconid2020.jpg
+   :width: 300
+
+   PyCon Indonesia 2020の場所は?
+
+パーティー
+==========
+終了後はスタッフ、スピーカーでバスで移動して打ち上げパーティーです。
+会場はゴルフ場の併設のレストランで、外にテーブルが用意されており素敵なロケーションで、風も気持ちよかったです。
+
+.. figure:: /images/id/party.jpg
+   :width: 300
+
+   パーティーの様子
+
+バンドの演奏を聴きながら2色のスープの鍋を食べていたんですが、後半になってくると女性オーガナイザーのFarah Clara(`@sosispanggang <https://twitter.com/sosispanggang>`_)が歌っていました。
+女性オーガナイザーが歌うのはPyConの伝統なんですかね(タイに続いて2回目)?
+
+* https://twitter.com/takanory/status/1198219912788840448
+
+いろんな人と話をしました。
+最後に記念写真をとってお開きです。
+
+.. figure:: /images/id/party2.jpg
+   :width: 300
+
+   最後に記念写真
+
+おわりに
+========
+これで2月からはじまった、私のPyCon Tour 2019が終わりました。
+さまざまな国でPythonに興味がある、Pythonコミュニティを運営している人たちと知り合うことができました。
+1年間で9カ所のPyConに参加することはとてもハードでしたが、各国でもてなしてもらったり、いろいろと得がたい経験ができたと思います。
+
+私のレポートを読んで、海外PyConなどのカンファレンスに参加するのが楽しそうだなと思った人がいたらうれしいです。
+ぜひ機会があったら勇気を出して参加してみてください。
+
+海外PyConで出会った人たちと、またいつかどこかで再会できるとうれしいなと思っています。
+その場所が日本の場合はホストとしてもてなしたいと思います。
+See you at PyCon somewhere!
+
+.. figure:: /images/id/groupphoto.jpg
+   :width: 300
+
+   PyCon Indonesiaの集合写真
